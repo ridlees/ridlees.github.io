@@ -2,6 +2,7 @@ title: Sketchbook
 author:
   name: ridlees
 paginate: 5
+paginate_path: "/blog/page:num/"
 description: > # this means to ignore newlines until "show_excerpts:"
  Mostly Martin's sketchbook - or zettelkasten but for shitposting.
 

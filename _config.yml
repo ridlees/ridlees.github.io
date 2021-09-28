@@ -1,8 +1,8 @@
-title: A random page in internet
+title: Sketchbook
 author:
   name: ridlees
 description: > # this means to ignore newlines until "show_excerpts:"
- Random place in the internet doing random things.
+ Mostly Martin's sketchbook - or zettelkasten but for shitposting.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -14,7 +14,7 @@ minima:
   # generate social links in footer
   social_links:
     twitter: kapesniP
-    github:  jekyll
+    github:  ridlees
 theme: minima
 
 plugins:

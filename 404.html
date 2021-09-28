@@ -14,13 +14,51 @@ layout: default
     line-height: 1;
     letter-spacing: -1px;
   }
+  #hovnosracka{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
 </style>
+<script>
+
+window.onload = (event) => {
+  setTotalitarianImage();
+};
+
+
+
+function setTotalitarianImage(){
+
+url = "https://source.unsplash.com/1600x900/?socialism,fascism";
+
+fetch(url)
+.then(function(response){
+  console.log(response.url)
+  return response.url;
+})
+.then( (data) => {
+  display_image(data);
+  console.log
+})
+.catch(function(error){
+  console.log("Error: " + error);
+});
+
+function display_image(imageUrl){
+document.getElementById("hovnosracka").src = imageUrl;
+}
+
+}
+
+</script>
 
 <div class="container">
   <h1>404</h1>
 
   <p><strong> :) </strong></p>
   <p>Really sorry, I don't have the page</p>
-  <img source="https://source.unsplash.com/1600x900/?socialism,fascism" alt ="Fakt jsem se snažil"> 
 
 </div>
+<img id="hovnosracka" source="" alt ="You don't see this" width="500" height="600"> 

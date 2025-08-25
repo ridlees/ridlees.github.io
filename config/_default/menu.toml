@@ -1,4 +1,3 @@
-# Configure main menu and social menu
 #[[main]]
 #identifier = "home"
 #name = "Home"
@@ -10,7 +9,7 @@
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/ridlees"
 
 [social.params]
 icon = "brand-github"
@@ -18,7 +17,15 @@ icon = "brand-github"
 [[social]]
 identifier = "twitter"
 name = "Twitter"
-url = "https://twitter.com"
+url = "https://twitter.com/MartinKultra"
 
 [social.params]
 icon = "brand-twitter"
+
+[[social]]
+Identifier = "rss"
+name = "RSS"
+url = "/index.xml"
+
+[social.params]
+icon = "rss"

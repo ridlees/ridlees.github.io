@@ -1,4 +1,4 @@
----title: Září 2025
+---title: Říjen 2025
 description: Zápisek za měsíc 
 Stackslug: rijen2025
 date: 2025-11-02 00:00:00+0000

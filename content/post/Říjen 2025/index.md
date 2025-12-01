@@ -14,7 +14,7 @@ Napsal jsem konečně update toho streamlit UI. Má teď 3 datové zdroje (plán
 
 ---------------
 
-Měsíc říjen by se měl přejmenovat na měsíc textových editorů. První je Mumínkovský editor, jednoduchá obrazovka z TK s textovým polem a na pozadí je ukradený obrázek mumínka. ![Mumínkovský editor v zeleném provedení](moomin.png "Mumínek"). Dal jsem si trochu práce s generováním pdf z md, přidal jsem tam TOC (obsah) a Footnotes (Poznámky pod čarou). Už teoreticky kód můžu dát ven, což udělám v následujících dnech.
+Měsíc říjen by se měl přejmenovat na měsíc textových editorů. První je Mumínkovský editor, jednoduchá obrazovka z TK s textovým polem a na pozadí je ukradený obrázek mumínka. ![Mumínkovský editor v zeleném provedení](moomin.png "Mumínek") Dal jsem si trochu práce s generováním pdf z md, přidal jsem tam TOC (obsah) a Footnotes (Poznámky pod čarou). Už teoreticky kód můžu dát ven, což udělám v následujících dnech.
 
 ---------------
 

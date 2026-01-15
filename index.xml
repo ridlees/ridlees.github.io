@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Martinův koutek</title><link>https://ridlees.github.io/</link><description>Recent content on Martinův koutek</description><generator>Hugo -- gohugo.io</generator><language>cz</language><lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ridlees.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Knihovny v Praze</title><link>https://ridlees.github.io/p/knihovny-v-praze/</link><pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate><guid>https://ridlees.github.io/p/knihovny-v-praze/</guid><description>&lt;p&gt;Ahoj,&lt;/p&gt;
+&lt;p&gt;nějakou zvláštní náhodou jsem si dal ambiciózní úkol na tento rok - Navštívit, co nejvíce knihoven v Praze. Tohle je první příspěvek v sérii Library Review, kde postupně projdu, co nejvíce institucemi. Ideál je, že o každé napišu nějaký krátký text a postupně si tak projdeme celou Prahu.&lt;/p&gt;
+&lt;p&gt;Jak ale získat knihovny? Národní knihovna má databalíček (ADR - Centrální adresář knihoven a informačních institucí v ČR). Ten je přístupný v &lt;a class="link" href="https://www.nkp.cz/o-knihovne/odborne-cinnosti/otevrena-data" target="_blank" rel="noopener"
+&gt;otevřených datech&lt;/a&gt;. To jsem samozřejmě nepoužil, ja si to poctivě nascrapoval pomocí tohodle kódu:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;span class="lnt"&gt;18
+&lt;/span&gt;&lt;span class="lnt"&gt;19
+&lt;/span&gt;&lt;span class="lnt"&gt;20
+&lt;/span&gt;&lt;span class="lnt"&gt;21
+&lt;/span&gt;&lt;span class="lnt"&gt;22
+&lt;/span&gt;&lt;span class="lnt"&gt;23
+&lt;/span&gt;&lt;span class="lnt"&gt;24
+&lt;/span&gt;&lt;span class="lnt"&gt;25
+&lt;/span&gt;&lt;span class="lnt"&gt;26
+&lt;/span&gt;&lt;span class="lnt"&gt;27
+&lt;/span&gt;&lt;span class="lnt"&gt;28
+&lt;/span&gt;&lt;span class="lnt"&gt;29
+&lt;/span&gt;&lt;span class="lnt"&gt;30
+&lt;/span&gt;&lt;span class="lnt"&gt;31
+&lt;/span&gt;&lt;span class="lnt"&gt;32
+&lt;/span&gt;&lt;span class="lnt"&gt;33
+&lt;/span&gt;&lt;span class="lnt"&gt;34
+&lt;/span&gt;&lt;span class="lnt"&gt;35
+&lt;/span&gt;&lt;span class="lnt"&gt;36
+&lt;/span&gt;&lt;span class="lnt"&gt;37
+&lt;/span&gt;&lt;span class="lnt"&gt;38
+&lt;/span&gt;&lt;span class="lnt"&gt;39
+&lt;/span&gt;&lt;span class="lnt"&gt;40
+&lt;/span&gt;&lt;span class="lnt"&gt;41
+&lt;/span&gt;&lt;span class="lnt"&gt;42
+&lt;/span&gt;&lt;span class="lnt"&gt;43
+&lt;/span&gt;&lt;span class="lnt"&gt;44
+&lt;/span&gt;&lt;span class="lnt"&gt;45
+&lt;/span&gt;&lt;span class="lnt"&gt;46
+&lt;/span&gt;&lt;span class="lnt"&gt;47
+&lt;/span&gt;&lt;span class="lnt"&gt;48
+&lt;/span&gt;&lt;span class="lnt"&gt;49
+&lt;/span&gt;&lt;span class="lnt"&gt;50
+&lt;/span&gt;&lt;span class="lnt"&gt;51
+&lt;/span&gt;&lt;span class="lnt"&gt;52
+&lt;/span&gt;&lt;span class="lnt"&gt;53
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;import asyncio
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;from playwright.async_api import async_playwright
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;async def main():
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; with open(&amp;#34;libraries.txt&amp;#34;, &amp;#34;a&amp;#34;, encoding=&amp;#34;utf-8&amp;#34;) as file:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; try:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; async with async_playwright() as pw:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; browser = await pw.chromium.launch(headless=False)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; context = await browser.new_context(
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; user_agent=&amp;#34;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; )
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; page = await context.new_page()
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; for i in range(1, 1031):
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; print(f&amp;#34;Processing {i}&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; set_entry = f&amp;#34;{i:06d}&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; url = f&amp;#34;https://aleph.nkp.cz/F/2KUPKEFI2YJBY3KA4TLPB1H8QJQ5NQE59481CD8FUYPKM1SV7U-01633?func=full-set-set&amp;amp;set_number=189908&amp;amp;set_entry={set_entry}&amp;amp;format=999&amp;#34; # Tahle URL po nějaké době přestane fungovat (viz ten &amp;#34;token&amp;#34; mezi /F/ a ?), takže je potřeba ji znovu navštívit a zkopírovat. Když by to spadlo, tak kód appenduje, takže je možný prostě na změnit range v tom for i in range
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; await page.goto(url, timeout=120_000)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; await page.wait_for_timeout(2000)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; table_rows = await page.query_selector_all(&amp;#39;//td[@class=&amp;#34;td1&amp;#34;]&amp;#39;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; closed = await table_rows[1].inner_text()
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; if &amp;#34;ZRUŠENA&amp;#34; in closed or &amp;#34;ZRUŠENÁ&amp;#34; in closed:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; continue
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; name_tr = await page.query_selector(&amp;#39;//tr[@id=&amp;#34;Název instituce&amp;#34;]&amp;#39;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; name = &amp;#34;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; if name_tr:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; tds = await name_tr.query_selector_all(&amp;#34;td&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; if len(tds) &amp;gt; 1:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; name = (await tds[1].inner_text()).strip()
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; address_tr = await page.query_selector(&amp;#39;//tr[@id=&amp;#34;Adresa&amp;#34;]&amp;#39;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; address = &amp;#34;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; if address_tr:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; tds = await address_tr.query_selector_all(&amp;#34;td&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; if len(tds) &amp;gt; 1:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; address = (await tds[1].inner_text()).strip()
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; print(f&amp;#34;{name}: {address}&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; file.write(f&amp;#34;{name}: {address}\n&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; file.flush()
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; await browser.close()
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; except Exception as e:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; print(&amp;#34;Error:&amp;#34;, e)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;if __name__ == &amp;#39;__main__&amp;#39;:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; asyncio.run(main())
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;To mi udělalo soubor, který jsem pomocí dalšího kódu změnil v následující mapku:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;span class="lnt"&gt;18
+&lt;/span&gt;&lt;span class="lnt"&gt;19
+&lt;/span&gt;&lt;span class="lnt"&gt;20
+&lt;/span&gt;&lt;span class="lnt"&gt;21
+&lt;/span&gt;&lt;span class="lnt"&gt;22
+&lt;/span&gt;&lt;span class="lnt"&gt;23
+&lt;/span&gt;&lt;span class="lnt"&gt;24
+&lt;/span&gt;&lt;span class="lnt"&gt;25
+&lt;/span&gt;&lt;span class="lnt"&gt;26
+&lt;/span&gt;&lt;span class="lnt"&gt;27
+&lt;/span&gt;&lt;span class="lnt"&gt;28
+&lt;/span&gt;&lt;span class="lnt"&gt;29
+&lt;/span&gt;&lt;span class="lnt"&gt;30
+&lt;/span&gt;&lt;span class="lnt"&gt;31
+&lt;/span&gt;&lt;span class="lnt"&gt;32
+&lt;/span&gt;&lt;span class="lnt"&gt;33
+&lt;/span&gt;&lt;span class="lnt"&gt;34
+&lt;/span&gt;&lt;span class="lnt"&gt;35
+&lt;/span&gt;&lt;span class="lnt"&gt;36
+&lt;/span&gt;&lt;span class="lnt"&gt;37
+&lt;/span&gt;&lt;span class="lnt"&gt;38
+&lt;/span&gt;&lt;span class="lnt"&gt;39
+&lt;/span&gt;&lt;span class="lnt"&gt;40
+&lt;/span&gt;&lt;span class="lnt"&gt;41
+&lt;/span&gt;&lt;span class="lnt"&gt;42
+&lt;/span&gt;&lt;span class="lnt"&gt;43
+&lt;/span&gt;&lt;span class="lnt"&gt;44
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;import&lt;/span&gt; &lt;span class="n"&gt;folium&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;import&lt;/span&gt; &lt;span class="n"&gt;re&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;dms_to_decimal&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;direction&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;dec&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="ne"&gt;float&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="ne"&gt;float&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="mi"&gt;60&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="ne"&gt;float&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="mi"&gt;3600&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;direction&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;S&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;W&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;dec&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;dec&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;dec&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;pattern&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;re&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;compile&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="sa"&gt;r&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;(\d+)°(\d+)’([\d.]+)&amp;#34;([NS]),\s*(\d+)°(\d+)’([\d.]+)&amp;#34;([EW])&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;folium&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Map&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;location&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mf"&gt;50.08&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;14.42&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;zoom_start&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;marker_count&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;current_name&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;with&lt;/span&gt; &lt;span class="n"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;links.txt&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;encoding&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;as&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strip&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;continue&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;:&amp;#34;&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;GPS&amp;#34;&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;current_name&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;split&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;:&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strip&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;continue&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;GPS&amp;#34;&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;current_name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;match&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pattern&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;search&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;match&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;lat&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;dms_to_decimal&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;match&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;group&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;match&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;group&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;match&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;group&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;match&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;group&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;lon&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;dms_to_decimal&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;match&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;group&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;match&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;group&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;match&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;group&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;match&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;group&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;folium&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Marker&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;location&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;lat&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lon&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;tooltip&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;current_name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_to&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;marker_count&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;current_name&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;marker_count&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;save&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;map.html&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Používám k tomu folium, který jsem náhodou našel a od tý doby ho miluju. Vytváření map v pythonu nebylo nikdy jednodušší (než najdu ještě něco jednoduššího)&lt;/p&gt;
+&lt;p&gt;Viz mapka!!!&lt;/p&gt;
+&lt;iframe
+src="https://ridlees.github.io/leaflet-map/map.html"
+width="70%"
+height="600"
+style="border:0;"
+loading="lazy"&gt;
+&lt;/iframe&gt;
+&lt;p&gt;Teď už je postupně jen prochodit. Určitě některý budou zavřený (třeba archiv a knihovna Poštovního muzea, které je teď nově pod Technickým muzeem, tak je do skoro dubna zavřeno.)&lt;/p&gt;
+&lt;p&gt;(Jurnal entry za listopad až prosinec dodám, co nejdříve. V listopadu jsem skoro vůbec neprogramoval, v prosinci maličko. Tak nebylo moc o čem psát. Ale o tom později.)&lt;/p&gt;</description></item><item><title>Advent of writing I</title><link>https://ridlees.github.io/p/advent-of-writing-i/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://ridlees.github.io/p/advent-of-writing-i/</guid><description>&lt;p&gt;Přidal jsem se k události &lt;a class="link" href="https://adventofwriting.lovable.app" target="_blank" rel="noopener"
+&gt;Advent of Writing&lt;/a&gt;, což znamená 24 příspěvků na tento blog. Můžete se kouknout dopředu, co asi budu psát a třeba mi napsat na @MartinKultra, co by Vás zajímalo. Co by tebe zajímalo.&lt;/p&gt;
+&lt;p&gt;(Edit 6. 1. Bohužel kvůli psaní diplomky jsem nestihl se tomuto věnovat. Doženu to někdy v Březnu.)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id="úvod-do-politické-teorie"&gt;Úvod do politické teorie
+&lt;/h1&gt;&lt;p&gt;Nebudu pokračovat v klasickém„strašidlo chodí“ začátku. Protože můj příběh je o tygrovi, a tuto metaforu budu mlátit až do její úplné anihilace. Ale znáš to, pozice úvodu našeho tygra je v džungli pojmů. Pokusím se tento krátký úvod brát tak, aby se ti z něj nezamotala hlava. To a nebo nic, víc nechci.&lt;/p&gt;
+&lt;p&gt;Náš tygr začíná jako většina západního myšlení v Řecku. V menších městech (obcích - polis) se lidé organizovali různými způsoby. Je nutné si uvědomit, jací lidé jsou ti, kteří mohou politicky jednat - bohatší muži, občané. A pokud jste takový muž a nejednat, tak pro vás antická řečtina měla krásné slovo - idot. Ale jak říkám, lidé se nějak organizovali. Je to právě Aristoteles, který píše o různých Ústavách, jimž jsou myšlena různá společenské uspořádání. Chápal ty, v nichž vládne zákon jako pozitivní (Monarchie, Aristokracie, politea) a ty, v nichž není vláda zákona (Tyranie, Oligarchie, Demokracie). Povšimněte si, že říkám tyto vlády v pořadí vládnoucích lidi (monarchie 1, Aristokracie trocha, politea všichni). Aristoteles totiž mluví o klíčové rovině pro lidského tvora a tou je svoboda. Tu definuje následovně:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Každý má právo se podílet na vládnutí a tohoto práva nabývá&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Každý žije tak jak má.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Aristoteles ale nebyl jediný Řek, co promýšlí organizaci polis. Před ním je to jeho učitel Platón, obzvláště v πολιτεία (Politea, překládáno jako Ústava, anglicky najdete jako The republic) řadí určitou utopii, kde jednotlivé kasty lidí (spojené s vzácnými kovy - zlatí lidé vládnou) žijí v harmonii tak, aby byly vyrovnány blaha jednotlivce a celku. Ony tři, o kterých Platón mluví, žijí v jakési harmonii postavené na, řeknu-li to zle, sterilitě.&lt;/p&gt;
+&lt;p&gt;Je nutno si totiž představit, že řecká ústava (Politea) fungovala (mluvíme o době přibližně 5. století před Kristem). Hlavním orgánem bylo Shromáždění (ἐκκλησία), kde všichni majetní muži přímo rokovali o fungování Athén. Svolávalo se každý 9 dní a účast byla více méně povinná, ne oficiálně, ale sociálním tlakem (nechtěl si být idiot). Předsedající (prytanové) byli vybíráni losem (stejně tak se losovali i další úřady, nicméně Athény znali i volby tak, jak je máme s demokracií dnes vžité - volili se pozice požadující nějakou schopnost, zdatnost, ctnost - tedy například generálové) a představovali před každým rokováním program. Ten bylo nutno schválit zvednutím ruky a spočítat. Kleisthenés taktéž po svrhnutí tyrana překreslil politickou mapu - místo tradičních tříd a šlechticko-oligarchickým kartelů rozkreslil Athény na trittys, což bylo uskupení 3 regionů (proto Trittys) a které určovalo, kam příslušný muž patřil. Dále Kleisthenés vytvořil Bule, vládu, do které se pravidelně losovalo 50 zastupitelů z jednotlivých trittys. Další losovanou organizací byl soud dikastérion.&lt;/p&gt;
+&lt;p&gt;Aristoteles však nechápal státní uspořádání jako stále - je zde koncepce smíšené ústavy, což v podstatě znamená, že je nutné vyvážit touhy v obci. Takžéž to zde konkrétně znamenalo cyklus -&amp;gt; monarchie -&amp;gt; tyranie -&amp;gt; aristokracie -&amp;gt; oligarchie -&amp;gt; politea -&amp;gt; demokracie.&lt;/p&gt;
+&lt;p&gt;Většinou se pak v západním myšlení skáče do Itálie, konkrétně Římské republiky, kam se taktéž donesla teorie smíšené ústavy. Dle Machiavelliho totiž v obci stály jednotlivé třídy proti sobě (a právě z jejich konfliktu vznikala svoboda). Tento konflikt je nevyrovnaný (bohatí a mocní mají lepší pozici než chudí), a proto Římská republika implementovala Tribuny lidu, kteří hájili dopady práva na římany. V podstatě si tak můžeme představovat jejich dobu jako naší (častá chyba, ale dělám ji z nutnosti rychlého přehledu), ale ombudsmani měli větší práva a vláda se jich obávala. A aby to nebylo tak růžové, tito ombudsmani měli právo trestu smrti a byli nedotknutelní (Plebové - chudí - slibovali popravu těm, který by spáchali ujmu na Tribunu.) Jejich klíčová pravomoc ale byla právem zakročení (ius intercessionis), které tribunům poskytovalo možnost vetovat jakékoli rozhodnutí ostatních úředníků, včetně jiného tribuna lidu, či usnesení senátu (veto znamená v latině „zakazuji“). Patriciové (bohatí) tak nemohli lid dominovat.&lt;/p&gt;
+&lt;p&gt;Další častou zastávkou jsou italská města za středověku - často renesanční Florencie. I v ní instituce signorina, vládnoucího“tyrana“, který byl volen radou, do které se často losovalo složitým systémem. Nicméně, středověká Itálie byla komplexním kolbištěm cechů, bohatých měšťanů, církve, vládců, žoldáků. Z této doby se vyplatí číst Machiavelliho (konkrétně Rozpravy a Prince, doporučuji překlad doktora Bíby a i estetické čtení vladaře jako doplňěk) V rychlosti popíšu, jak on vnímal obec. V ní jsou dvě tužby, ale i štáby“Umori“ - bohatí, co chtějí vládnout, a chudí, co nechtějí být ovládáni. Ty spolu zápasí a je to právě vladař, kdo je vyvažuje. Lid i oligarchové se musí učit od druhého (a vladař nakonec vždy má být na straně lidu, protože je jich víc, a jak říká jeden můj oblíbený teoretik - demokracie je flexení sil před bitvou). Taktéž dle Machiavelliho lid má tvořit milice (zajímavý argument, který najdeme i v Otcích zakladatelských v USA), a to právě proto, aby se mohl bránit zvůli. Často toto pojetí chápeme jako takzvaný republikanismus (neplést s politickou stranou).&lt;/p&gt;
+&lt;p&gt;Poté je zajímavým zastavením republika Anglie, po vzpouře. Tato zkušenost například donutila Hobbese psát o Leviatanovi a chválit určitou formu absolutní monarchie. Nicméně, pro nás je zajímavé tuto tradici sledovat, protože později teoretici v 20. století na ni navazují.&lt;/p&gt;
+&lt;p&gt;S příchodem VFR (samozřejmě znamená Velká francouzská revoluce) se Evropou začíná šířit liberalismus. Tento tygr radikálně překresluje požadavky, je„měšťanským povstáním“ a otvírá otázku„rovnosti, svobody a bratrství”, což pro některé současníků jsou stále nenaplněné přísliby. Vzniká konzervativní protireakce (Burke, třeba). A Evropa se otvírá do dlouhého sporu.&lt;/p&gt;
+&lt;p&gt;Republikanismus v této době nemizí, orientuje se na mocenskou asymetrii a zůstává v dělnickém a ženském hnutí. Ale světem dominuje liberalismus. Revoluční rok 1848 probouzí různé, často nacionalistické sily v imperii starého kontinentu a vznikají první volby. A s nimi i otázka, kdo může volit (ti, co platí daně? ženy? dělnici? mladí?)&lt;/p&gt;
+&lt;p&gt;A kreslí se nám zde směry současné debaty - místo losování a přímosti máme volby a zastupitelstvo. Tygr je neklidný.&lt;/p&gt;
+&lt;p&gt;Otvírá se otázka, co je to svoboda. Otvírá se otázka, co je můj majetek. A otvírá se otázka, jak se organizovat. A s tím vzniká i politická teorie ve své plnosti.&lt;/p&gt;
+&lt;p&gt;Ale o tom někdy příště, někdy více.&lt;/p&gt;</description></item><item><title>Říjen 2025</title><link>https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/</link><pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate><guid>https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/</guid><description>&lt;h2 id="měsíc-někdy-uteče-a-ani-nevíš-jak"&gt;Měsíc někdy uteče a ani nevíš jak.
+&lt;/h2&gt;&lt;p&gt;Napsal jsem konečně update toho streamlit UI. Má teď 3 datové zdroje (plán je ještě přidat bezrealitky), a poctivě sbírá data. Mám tam možná chybu v kódu, kterou snad brzy opravím (jedna hodnota se mi nemění tak, jak bych chtěl, kvůli špatnému IF/ELSE). Blížíme se tomu, že by ta data mohla být využitelná, neboť v scrapování s-realit mám už 26 166 položek. Kdyby se někomu z vás hodily, dejte vědět, rád se o ně podělím&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Měsíc říjen by se měl přejmenovat na měsíc textových editorů. První je Mumínkovský editor, jednoduchá obrazovka z TK s textovým polem a na pozadí je ukradený obrázek mumínka. &lt;img src="https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/moomin.png"
+width="1602"
+height="1250"
+srcset="https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/moomin_hu_d17a1724c06b1aab.png 480w, https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/moomin_hu_cfe1329b0c1ac3e6.png 1024w"
+loading="lazy"
+alt="Mumínkovský editor v zeleném provedení"
+class="gallery-image"
+data-flex-grow="128"
+data-flex-basis="307px"
+&gt; Dal jsem si trochu práce s generováním pdf z md, přidal jsem tam TOC (obsah) a Footnotes (Poznámky pod čarou). Už teoreticky kód můžu dát ven, což udělám v následujících dnech.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Druhý textový editor co jsem udělal je MVP překladatelského editoru, který má dvě textová okna vedle sebe. Jediná silná fuknce je, že při držení ctr se scrolluje v obou oknech najednou. Přidám tam ještě:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tlačítko pro import textu&lt;/li&gt;
+&lt;li&gt;Tlačítko pro uložení textu&lt;/li&gt;
+&lt;li&gt;Tlačítko pro překlad skrz Deepl&lt;/li&gt;
+&lt;li&gt;klavesovou zkratku pro přepínání mezi okny.&lt;/li&gt;
+&lt;li&gt;možná podpora formátu Word.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Zde jak to vypadá &lt;img src="https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/translator.png"
+width="2940"
+height="1838"
+srcset="https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/translator_hu_ba5d2fdbb6687e16.png 480w, https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/translator_hu_5bf75f437a52ffed.png 1024w"
+loading="lazy"
+alt="Jednoduchý editor dvou textů najednou"
+class="gallery-image"
+data-flex-grow="159"
+data-flex-basis="383px"
+&gt; Trochu doufám, že to otestuji na nějakých překladatelých (min pro mé překlady v ICT union se to bude hodit)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Udělal jsem scrapper pro petice.com. Ještě nefunguje na 100 %, ale funguje docela dobře - stáhl jsem si dva datasety: 1) seznam signatářů přejmenování ulice Ruská na Dany Drábové a 2) petice žádající ministerské křeslo pro Filipa Turka. Z komentářů k těmto peticím jde získat nějaké argumenty těchto stran v konfliktech. Přijde mi to jako docela dobrý datový zdroj, min pro nějakou politologickou práci by se to mohlo hodit. Dostupný na mém githubu jako python script.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Byl jsem na jednom koncertě Redzeda v Lucerně music baru. Jinak píšu diplomku, poslouchám 6&amp;amp;2 a jeho rap, Nikdy se nevyseru na bráchu a stýkám se s přáteli.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;But preemptive surrender is no sign of wisdom. Any reality made by human beings can be
+remade by them. The price of this power is mutual obligation: we can never let ourselves oﬀ
+the hook. The things we can accomplish together are, by definition, within our sphere of
+control, even if we have to act through structures that are bigger than any of us alone to
+achieve them. As grating as it may be to admit, it turns out that some of those hoary positive-
+thinking cliches the philosophers rail against are true, as long as we stick to the first-person
+plural. We are responsible for how our lives unfold; we can do things that seem impossible.
+But for those of us living in the heart of the American empire, with our duly elected
+president marching our society gleefully into hell, this news is far from reassuring. What we
+do with our lives does matter — as much as anything possibly could. That should keep us up
+at night.
+&lt;a class="link" href="https://www.thedriftmag.com/how-i-learned-to-stop-worrying-and-love-my-shitty-life/" target="_blank" rel="noopener"
+&gt;ERIK BAKER&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description></item><item><title>Září 2025</title><link>https://ridlees.github.io/p/z%C3%A1%C5%99%C3%AD-2025/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://ridlees.github.io/p/z%C3%A1%C5%99%C3%AD-2025/</guid><description>&lt;p&gt;První řádky tohoto zápisu píšu v tramvaji číslo 10. Je v něčem strašně zvláštní pracovat v tramvaji, ale zároveň i to je vlak. Tenhle měsíc jsem dvakrát jel vlakem - do České Třebové a pak samozřejmě zpátky. Bylo to mé první zastavení v Pardubickém kraji, už mi zbývá přespat jen v Libereckém, Zlínském (v kterém jsem nikdy nebyl) a v Olomouckém.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;První programovací jednohubka byla jednoduché využití Google TTS (text to speech) pro můj Kramerius stahovač. V malém skriptu TTS (který přijímá právě jeden systémový argument - odkaz na soubor v txt) se ukrývá jednoduchý kód, a vychází z něj né úplně nejpříjemnější audio kniha. Původně jsem to dělal pro online hackathon (napsat ten skript bylo na 5 minut), kdy jsem chtěl udělat celou službu - dej odkaz knihy, dostaň audionahrávku, což je třeba zajímavé pro pohádky a nevidomé. Ale nevymyslel jsem jak udělat UI, v kterém se nevidomý vyzná, takže jsem to dal k ledu.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Druhá programovaná věc je další scrapper nájemních dat. Již je získávám ze 3 zdrojů (do budoucna chci pokrýt, co nejvíce to půjde). Bude se to zobrazovat v tom UI napsáném v Streamlit, ale ještě jsem pro to neudělal chlívečky. To UI budu muset trochu překopat, protože načítání hlavní databáze je pomalé (2 vteřiny), tak to trochu upravím, aby to bylo lehčí. Kdy na to najdu čas, ještě nevím.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Rozepsal jsem jednoduchý UI nad one-way (jednosměrným) SMS senderem od Twilia (chtěl bych nějakého jejich konkurenta, pro jednoho jsem pracoval, ale nemají tak dobrý pricing a já nejsem nejbohatší čávo v téhle tramvaji). Je to jednoduchý input, kam dáte zprávu a ono to pošle předem definovanému listu (odsuď to už nepíšu v tramvaji) příjemců. (Tuto pasáž píši v Tečce) UI se zdá, že funguje, ještě musím otestovat Twilio a obalit to keycloackem.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Čtu &lt;a class="link" href="https://www.versobooks.com/products/2839-own-this?srsltid=AfmBOoqOWTLX4zhec-Z3BaPJcygDUaoZFFyP0nGgVrNEzmJyV08-37zT" target="_blank" rel="noopener"
+&gt;Own this!&lt;/a&gt; O družstevnictví a odborech, do toho se mi míchají texty 37signals, přemýšlím tak o platformách sdružující malé podniky a pro ně poskytování software, ale i o družstvech v péči (družstevní psychoterapeutství??), což jsou všechno způsoby jak udržet peníze v lokální komunitě. Vzpomínám na takový ten obrázek na Facebooku, kde byla vývěsní cedule, co říkala, že nákupem zde přispíváte malé holčičce na kroužky. (Na pozadí v Tečce hraje španělský politický rap, ale nedokážu poznat jaký.) Jedna z mých diplomek se věnuje kutilství, což je produkce pro svou konzumaci. Ještě nevím jak to popíšu (bojím se, že budu hodně koukat prismatem DIY (Do it yourself), kdežto já potřebuju zkoumat DIT (do it together). Nedokážu říci moc o ekonomice, ale můžu říci to, že bych byl rád, kdyby byla víc lokální (Zrovna přišla pizza, co si tu nějací anglicky mluvící lidé objednali).&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;V příštím měsíci to vypadá, že se nerdsnipnu tiskárnou na účtenky, co mi bude tisknout úkoly z mého údolíčku - &lt;a class="link" href="https://www.laurieherault.com/articles/a-thermal-receipt-printer-cured-my-procrastination" target="_blank" rel="noopener"
+&gt;Idea vypůjčena odsud&lt;/a&gt;. Přemýšlím, kde bude databáze pro hostování těchto úkolů, kdysi jsem hodně používal trello, ale nechci za něj platit. Možná si pro to udělám GitHub repo a využiji jejich kanban, možná najdu nějakou kanban knihovnu a napíšu si jednoduchý web&amp;hellip; A pak jen narvání všech úkolů ze všech míst do tohoto systému.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Byl jsem právě jednou v kině a na jednom živém nahrávání podcastu (bylo strašně dlouhý). V kině mé zraky viděly &lt;a class="link" href="https://www.csfd.cz/film/35196-zit-svuj-zivot/prehled/" target="_blank" rel="noopener"
+&gt;Žít svůj život&lt;/a&gt; v Ponrepu. 11. kapitola byla velmi zajímavá, ale celý snímek se mi tuze líbil. &lt;a class="link" href="https://www.respekt.cz/podcast/kdyz-frankenstein-potka-babicku-a-superman-ferdu-mravence-co-patri-na-popkuluturni-kanon" target="_blank" rel="noopener"
+&gt;Podcast&lt;/a&gt; mě donutil přemýšlet nad kánonem svoji popkultury. Rozhodně by tam byl film Gladiátor, který jsem jako malý viděl furt dokola. Nebo Wasabi či Drž hubu (oboje z Francie). Filmy s Belmondem mi přijdou víc artové, i když nejsou. Ale mám je rád.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Pro politiky je přinejmenším snazší říct: „Pojďme se bavit o algoritmech,“ než přiznat: „Lidé nemají žádnou budoucnost.“ To první umožňuje strašit a regulovat, to druhé by vyžadovalo spravedlivou transformaci k udržitelnějšímu a žitelnějšímu systému na strukturální úrovni.
+&amp;ndash; &lt;a class="link" href="https://denikreferendum.cz/clanek/237955-za-agresi-muze-beznadej-nesocialni-site-rika-antropolozka-hermanova" target="_blank" rel="noopener"
+&gt;Marie Heřmanová&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</description></item><item><title>Jozin z bazin flow</title><link>https://ridlees.github.io/p/jozin-z-bazin-flow/</link><pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate><guid>https://ridlees.github.io/p/jozin-z-bazin-flow/</guid><description>&lt;p&gt;Dracula flows je fenomenální video. Jednoho večera (2025:09:08) jsme se rozhodli udělat českou verzi.&lt;/p&gt;
+&lt;p&gt;ZAZA TAK DOBRÁ, ŽE NAROVNALA ŠIKMÝ KOSTEL&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;HOŘÍ MÁ PANENKO&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;KOSTNÍ POZŮSTATKY SOUDNÍ ZNALEC NEDOKÁZAL IDENTIFIKOVAT&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;KLEPU NA DVEŘE JAK SVĚDCI JEHOVOVI&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;SVĚDÍ MNĚ TAM DOLE&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ZAZA TAK DOBRÁ ŽE LIBUŠUJU TUHLE ČUBKU - VIDIM JAK SE TO HVĚZD DOTÝKÁ&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;PÍCHÁM JI JAKO MISTRU HANUŠOVI OČI&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;BRKO TAK VELKÝ ŽE SEM SI HO SPLETL S ORLOJEM V BRNĚ&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;TAHLE ČEZETA POŠLE JEHOVISTU DO PEKLA&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;JAK BYCH MOHL BEJT HOMOFOB - MOJE ČUBKA VOLÍ STAN&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;MUSEL JSEM JIM TO UDĚLAT, SOUDKYNĚ BARBARO&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Zaza tak dobrá že mluvím jak Stanislav Lukeš&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;PO MATRU SE POHYBUJU JAK GOLEM Z ŽIDOVSKÉHO MĚSTA&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Matro mě nutí se klepat jak vemola bez alobalu&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;TŘI ROKY NATVRDO ZA NAPADENÍ PŘEMKA FOREJTA
+VYSTŘELIL JSEM HO Z TRENEK&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;FELÁCI MI ŘIKAJ ARON GUNSBERGER JAK SE FURT SNAŽÍM VŠECHNY VOJEBAT&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;KOUŘÍM HOVNO CO ZNIČILO MYŠPULINA. KOUCOUŘI BOHUŽEL NIC NEVYDRŽÍ&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;HOLKÁM Z FSV DĚLÁM NA PROSTĚRADLECH SLEPÉ SKRVNY
+TO JE ZA STRNADA&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;JAK VLEZU DO SKLEPA KRYSY UŽ JSOU TADY&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Búčo mě namastilo jak venušin pahorek&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;JSEM NEBEZPEČNEJ TERORISTA
+MAM DOMA KYTKU A V ZAHRADĚ DVĚ&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;kunda tvoji holky smrdi jak lostickej zazrak&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;MRDAL SEM DĚVKU DOKUD JEJÍ KUNDA NEZAČALA VYPADAT JAK TRDELNÍK&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;SKÉRO TVRDÝ JAK KOŘEN A JÁ SE MUSEL POCHCAT ABYCH PŘEŽIL&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ŘÍKEJ MI HAVEL JAK ZABÍJÍM SLOVÁKY V AUTECH&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;KEBAB Z HRADČANSKÝ A PREROLOVANEJ JOINT Z OMV MĚ DONUTILY KE ZBRKLÝM POHYBŮM ZA VOLANTEM&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ŘÍKEJ MI IP PAVLOVA JAK SLINTÁM NAD TOU KUNDOU&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;KDO JSOU KURVA VŮBEC OBROZENCI
+PLENOU JSEM SI TEDA NOS NEVYČISTIL&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ODVEDTĚ TUTO ŠTABAJZNU, JE STAVĚNÁ JAKO BARTOŠOVA HARMONIKA&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;KDYBYCH BYL HEREC A KONDOM, TAK JSEM IVAN TROJAN XL&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;KONVIČKA MĚL PRAVDU! ROMKY ŠUKAJ NEJLÍP&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ZABALIL JSEM SI JOINTA DO SVITKŮ Z RUDOLFOVY SBIRKY. UŽ CEJTÍM JAK SE MI MANDLE MĚNÍ VE ZLATO&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;SÁM JSEM TAK TROCHU ASTRONOM BEJBY
+PRASKNUL MI MOČÁK&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;MLUVÍM PLYNNĚ VOYNICHOVÝM RUKOPISEM. JSME OPRAVDU BLÍŽE NEŽ BY SIS MYSLELA&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;HRAJU SI S JEJÍMI DVORCI JAKO MENDEL S HRÁŠKEM. TAKY NĚCO ROSTE&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ČÍČA OD HOLKY ZE STAČILO TAK DOBRÁ, ŽE MI ZPŮSOBILA TŘI ZLOMENÉ KRČNÍ OBRATLE&lt;/p&gt;
+&lt;p&gt;JDU S HLAVOU VZTYČENOU&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;TWINK Z MLADÉHO ANO MÁ PO SSRI A VODŇANSKÉM KUŘETI PROBLÉMY S EJAKULACÍ&lt;/p&gt;
+&lt;p&gt;UŽ PROSIMTĚ BUREŠ?&lt;/p&gt;</description></item><item><title>Alternativní komputace</title><link>https://ridlees.github.io/p/alternativn%C3%AD-komputace/</link><pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate><guid>https://ridlees.github.io/p/alternativn%C3%AD-komputace/</guid><description>&lt;h1 id="alternativní-komputace"&gt;Alternativní komputace
+&lt;/h1&gt;&lt;p&gt;Klimatická krize nám překresluje všechny mapy současného poznání. Ve světe, kde se mění klima, se mění i naše chápání přírody (které od novověku oddělujeme od kultury), mění se naše zobrazování nás i našeho okolí. Haraway v Staying with trouble navrhuje, abychom se inspirovali v kompostování, jakožto intelektuální technice. Spřádá Ariadninu nit SF, která nás provede bludištěm krize, s níž se musíme naučit žít.&lt;/p&gt;
+&lt;p&gt;Likavčan v Úvodu do komparativní planetologie přebírá Kittlerovu myšlenku, že jsme nástroj komputace (kdybychom tuto představu více rozehráli, tak můžeme spekulovat o tom, že jsme byli vytvořeni pro potřebu kognitivních schopností vyššího řádu [nižší řád postupně převádíme na nástroje, externalizujeme jej]). Spojíme-li tyto dvě pozice, pak můžeme začít přemýšlet nad komputací v dobách krize - či chceme-li - Computing with the trouble.&lt;/p&gt;
+&lt;p&gt;Jak počítat potíže? Současný model stojící na Moorově zákoně, kdy se stále zvyšuje výkon, by mohl být napadnut. Je nesen totiž myšlenkou, že je možné neustále zdokonalovat technologii - koláč se prostě zvětšuje. Tomáš Sedláček toto pojmenovává možností, kde je růst nekonečný. Ve vizuální kultuře představ o technologiích budoucnosti můžeme vidět jakousi dichotomii - na jedné straně je cyberpunk s korporátními strukturami dominujícími urbanistickým betonovým krychlím v nichž se choulí stále chudší lidé. Na druhé straně je pak solarpunk, což je zelená imaginace, v níž rostliny obrůstají solární panely. V jednom obraze pro přírodu není místo, v druhém je svět s ní propojený.&lt;/p&gt;
+&lt;p&gt;Právě druhá představa nás může spojit s Haraway a kompostem. Apple, který se loni stal největším prodejcem telefonů na &lt;a class="link" href="https://cc.cz/nokia-pak-trinact-let-samsung-a-ted-iphone-apple-se-stal-poprve-nejvetsim-prodejcem-mobilu-na-svete/" target="_blank" rel="noopener"
+&gt;světě&lt;/a&gt; prodává ročně 234,6 milionu kusů. Odhadovaná doba používání iPhone je kolem 3.2 roku. V roce 2022 se produkovalo 62 million tun takzvaného e-waste. To jsou všechny ty staré iPhony, staré počítače, laptopy, mikrovlnky. E-waste poškozuje prostředí hlavně kvůli olovu, což dopadá více na &lt;a class="link" href="https://www.who.int/news-room/fact-sheets/detail/electronic-waste-%28e-waste%29" target="_blank" rel="noopener"
+&gt;děti a těhotné&lt;/a&gt;. Kola ekonomického systému volají po neustálém konzumu - telefony se musí vyměňovat, počítače taktéž. Nároky na komputaci rostou.&lt;/p&gt;
+&lt;p&gt;Výpočetní technika je v podobné situaci jako průmyslové zemědělství. Ždímání zdrojů sice přináší „džus“, ale zároveň ničí šlupku. Nicméně, v zemědělství je možná inspirace. Kolektiv lidí kolem &lt;a class="link" href="https://permacomputing.net" target="_blank" rel="noopener"
+&gt;permacomputingu&lt;/a&gt; hledá cesty, jak dělat informatiku udržitelně. To po nás žádá přemýšlet celý kyberprostor. Musíme kompostovat naše procesy. Jedním z principů, který můžeme využit v našich životech, je &lt;em&gt;Hope for the Best, Prepare for the Worst&lt;/em&gt;. V tomto duchu se následovnici permacomputingu připravují na limity plenaterity. Jejich planetologie není „tak defétistická“ jako Likavčan, který nám rádi si představit, že lid už dosáhl maxima. Druhá důležitá představa bojuje s e-wastem. Říkají: &lt;em&gt;„Care for All Hardware — Especially the Chips“&lt;/em&gt;, tedy vystoupení ze závodu o nejnovější stroj, ale práce s materiály vyrvanými z nitra Země. Takovým projektem může být třeba &lt;a class="link" href="https://compost.party" target="_blank" rel="noopener"
+&gt;compost.party&lt;/a&gt;, což je starý android telefon, který je poháněný solárním panelem a běží na něm klasický linuxový server. Může tak hostovat webové stránky, spouštět kód. Jasně, nenahradí pořádný server. Ale je to způsob, jak dát procesoru druhý [někdy i třetí] život. Podobně funguje třeba i &lt;a class="link" href="https://far.computer" target="_blank" rel="noopener"
+&gt;far computer&lt;/a&gt;. Pro lidi se starším telefonem je zde projekt &lt;a class="link" href="https://moddingfridays.bleu255.com/PostmarketOS_Installation" target="_blank" rel="noopener"
+&gt;POSTMARKETOS&lt;/a&gt;, což je operační systém snažící se prodloužit životnost starých telefonů. Oba tyto principy dělají z e-waste něco, co ještě nemusíme vyhodit - jsou to kutilské projekty, které nám mohou například připomínat zavolat babičce k narozeninám, hlídat spam, či pro pár našich přátel udržovat společnou komunikaci. K tomu poslednímu se hodí představy &lt;a class="link" href="https://runyourown.social" target="_blank" rel="noopener"
+&gt;Run your own social&lt;/a&gt;, které zmiňují otevřenou síť Mastodon, ale i jiné připojení na ActivityPub. Jasně, asi z telefonu neuděláme úplně sociální síť pro celou univerzitu, ale snad vidíte onen záblesk nadšení se ponořit do tohoto světa?&lt;/p&gt;
+&lt;p&gt;Než se úplně vypořádáme s hardwarem, tak je třeba vznést další pozici. Nat Begg píše na svém blogu (doporučuji číst) o tom, jak &lt;a class="link" href="https://wether.smol.pub/repairing-our-way-out-of-commodity-fetishism" target="_blank" rel="noopener"
+&gt;„můžeme opravit naší fascinaci zbožním fetišismem“&lt;/a&gt;. Právě v odmítnutí fascinací „moderním“ (Jak píše Latour v stejnojmenné knize, stejně jsme nikdy nebyli moderní) designem a dávání životu opravě můžeme překreslovat jakou roli má zboží v našich životech.&lt;/p&gt;
+&lt;p&gt;Podívejme se na internet samotný. Propojení proměnilo podstatu našich životů. Je však nutné být neustále připojený? Tuto otázku si položili v &lt;a class="link" href="https://solar.lowtechmagazine.com" target="_blank" rel="noopener"
+&gt;LOW←TECH MAGAZINE&lt;/a&gt;, který běží na starém laptopu připojeném na solární panel kdesi v Barceloně. Tím, že stránka funguje jen na baterce a solárním panelu, tak může být offline. Aby často nebyla, stránka zobrazuje předpověď počasí a stav baterky a chytře optimalizuje svojí velikost. Když už mluvíme o velikosti, je třeba zajímavé, že kdybychom změnšili velké množství webových stránek na 14 kB (kolik dat to bylo ještě před 40 lety!), tak bychom mohli mít nejenom ekologičtější, ale i responzivnější a stabilnější internet (protože webové stránky vždy nejprve natáhnou obsah prvních 14 kB a pak až zbytek [jedná se o obsah prvních TCP packetů]). Projekt &lt;a class="link" href="http://solarprotocol.net/sunthinking/index.html" target="_blank" rel="noopener"
+&gt;Solarprotocolu&lt;/a&gt; je umělecko-technologický projekt předělávajíce paradigma internetu na udržitelnější bázi. V této představě by celá síť byla poháněna hlavně solárními panely (takže by například internet měl otevírací hodiny - některé servery by prostě nemusely být dostupné). Zdá se to radikální - ale možná býti pomalý je to, co nás zachrání od problémů rychlé doby.&lt;/p&gt;
+&lt;p&gt;Kutilství je pro mě klíčové pro počítaní s potížemi. Jsou to právě kutilové, kteří zkoušejí nástroje malých škál, jsou to kutilové, co hostují obsah, jsou to kutilové, s nimiž můžeme objevovat alternativy k mainstreamu. Tím nechci říci, že z velkých korporátů nemůže přijít udržitelná technologie. Spíš že změna přístupu blíž ke kompostování je právě v hlavách těch, co si hrají. Co tvoří pro svou potřebu. A co toto sdílí. Ale o tom více v mé diplomce.&lt;/p&gt;</description></item><item><title>Srpen 2025</title><link>https://ridlees.github.io/p/srpen-2025/</link><pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate><guid>https://ridlees.github.io/p/srpen-2025/</guid><description>&lt;p&gt;První zápis mého deníku - mělo to přijít mnohem dřívěji.&lt;/p&gt;
+&lt;p&gt;Napsal jsem downloader z &lt;a class="link" href="https://github.com/ridlees/Kramerius-text-scrapper" target="_blank" rel="noopener"
+&gt;Krameria&lt;/a&gt;. Původně to začalo jako jednovečerní projekt, kdy jsem prokrastinoval od psaní seminárky, co měla kritizovat moji bakalářku (do čehož jsem se nemohl donutit strašně dlouho, mívám silný strach, že nepíšu smysluplné věci, což tam zdůrazňuji). První verze byla playwright skript, co klikal na tlačítko. Až den potom mě napadlo kouknout se do network tabu a vidět na jakej endpoint je request. Pak jen zjištění, že to nemá origin (či jak se to jmenuje, že to prostě můžu volat odkudkoliv a máme to). Moje selhání v projektu pro Akademii věd se projevilo tím, že jsem měl napsaný kód, co mi vrací PID stránek (ID identifikátory) pro ROOT PID (identifikátor publikace). Takže jsem to jen spojil dohromady. Funguje to docela v pohodě, tak v klidu stahujme. Třeba z toho vznikne zajímavá datařina. Já bych chtěl udělat databázi kuchařek první republiky a mapovat jak se chápalo jídlo, zatím vím, že &lt;strong&gt;sekaná se jedla spíše se zelím&lt;/strong&gt;. S jejich doporučeními na jednotlivé dny, s cenami (porovnat ceny dnes a tehdy).&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Pro INN jsem opravil můj scrapper S-realit, o němž stále nemám jistotu, že plně funguje. Trochu mám strach, že nesbírá všechny data (kdyby mi někdo chtěl udělat code review, ocením). Každopádně, Vojta mi ukázal Streamlit, jehož jsem se stal milovníkem. Tak jsem v tom napsal malou appku v čistým Pythonu, co ty data jednoduše zobrazuje (protože nutit lidi z INNu ať si furt stahují csv, to analyzují v Excelu&amp;hellip; nesmysl). 65 LOC a máte docela přehledné UI. Jediné, čeho se bojím je škálování, protože při každém kliku se celá obrazovka refreshuje, což znamená, že se spustí celý kód znova. Dá se s tím bojovat cachováním, ale už teď tam narážím na problémy, které musím vyřešit při nasazení na real železe. (Edit: Přidal jsem i view mapy nad dalším datovým zdrojem).&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Byl jsem na dvou filmech. Na Supermanovi mě nejvíce potěšila &lt;a class="link" href="https://www.youtube.com/watch?v=4lYIhKhgIuY" target="_blank" rel="noopener"
+&gt;písnička&lt;/a&gt;, jinak film nebyl úplně tragický (I když Markéta nesouhlasila), ale bylo tam spoustu pokusů o vtip, co už mi jiskru v očích neudělají. Škoda. Druhý byl Bláznivá střela, a to jsem se chechtal jak hejkal. Parodie jsou velká část mého dospívání a zde se potkalo to dobré s tím špatným v takovém mixu, že výsledný beton udrží celý film. Jen skutečnost, že to je parodie na Kingsmen mě bavila ještě den potom.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If we think about technology as an existential task, it cannot be assessed within any simple moralism. The concept of existential technologies that this essay proposes would operate across vast temporal scales and elude familiar ethical categories. Rather than moving us toward a better world in any straightforward sense, they would generate alienating or turbulent changes at the limits of our comprehension. With its sustained interest in evolutionary theory and long-term prognostication and its clear-eyed understanding of agency and control sharpened by the brutal twentieth-century history of Eastern Europe, Summa Technologiae becomes a compelling lens for thinking through this idea&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;mdash; &lt;a class="link" href="https://existentialtech.antikythera.org" target="_blank" rel="noopener"
+&gt;Existential Technologies by Bogna Konior with Noviki Studio, DOI 10.1162/ANTI.5CZV&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Našel jsem starou vizualizaci, co jsem neklikal v flourish, která mapuje jak se vyvíjela místa na táborské radnici. To byly časy, kdy jsem přemýšlel jak vizualizovat politická data a cpal to do každého předmětu, jak mi to chybí!&lt;/p&gt;
+&lt;div class="flourish-embed flourish-parliament" data-src="visualisation/1761986"&gt;&lt;script src="https://public.flourish.studio/resources/embed.js"&gt;&lt;/script&gt;&lt;noscript&gt;&lt;img src="https://public.flourish.studio/visualisation/1761986/thumbnail" width="100%" alt="parliament visualization" /&gt;&lt;/noscript&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;Poslední programovací projekt byl nástin &lt;a class="link" href="https://github.com/ridlees/email-courses" target="_blank" rel="noopener"
+&gt;emailového kurzu&lt;/a&gt;, což je jednoduchý skript, co posílá v pravidelných vlnách emaily s definovanými kroky (jeden týden pošle 1., druhý týden pošle 2.) V budoucnu udělám kurz o něčem z mých studií, zadarmo, samozřejmě. Zatím přemýšlím nad úvodem do republikanismu či něčem z nových medií (například malý kurz o mediální archeologii).&lt;/p&gt;</description></item><item><title>Archives</title><link>https://ridlees.github.io/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://ridlees.github.io/archives/</guid><description/></item><item><title>Links</title><link>https://ridlees.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ridlees.github.io/links/</guid><description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
+&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;links&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;GitHub&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;description&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;website&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;https://github.com&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;image&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;TypeScript&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;description&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;website&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;https://www.typescriptlang.org&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;image&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;ts-logo-128.jpg&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;</description></item><item><title>Search</title><link>https://ridlees.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ridlees.github.io/search/</guid><description/></item></channel></rss>

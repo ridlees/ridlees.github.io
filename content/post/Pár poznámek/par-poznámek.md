@@ -1,8 +1,8 @@
 ---
 title: Par-poznámek
-description: Esej o tom, jak by mohly vypadat počítače 
-Stackslug: alternativni-komputace
-date: 2025-09-05 00:00:00+0000
+description: Esej o anarcho-republikanismu
+Stackslug: par-poznamek
+date: 2026-03-15 00:00:00+0000
 tags:
     - Essay
 weight: 1

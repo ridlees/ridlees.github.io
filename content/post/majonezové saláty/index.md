@@ -8,6 +8,8 @@ tags:
 weight: 1
 ---
 
+## Majonezové saláty
+
 Před dvěma týdny jsem si v pracovní kantýně dal něco, co se jmenovalo Rumcajzův salát. Kombinace točeňáku, majonézy a tuším, že papriky mě mírně překvapila. Znal jsem do této doby totiž jen bramborový salát, případně vlaššák či pochoutkáč (a kdybyste mi dali revolver k hlavě, tak booom, rozdil nepoznám).
 
 A tak vcelku logicky vznikla otázka – Jaké druhy majonézaových salátů známe a jakto, že slovem salát myslíme majonézaovou, s prominutím, kejdu? Pojďme si nejprve namazat krajíc.
@@ -137,4 +139,91 @@ Co se samotné spotřeby majonézy týká, tak ta je agregována pod tuky a olej
 V době psaní tohoto článku stále čekám na odpověď Zemědělské inspekce o jejich čiselník. Bude doplněn jakmile se dozvím, co mi kdo další řekne.
 
 Fíííha, to bylo majonézy. A teď jdu dojíst ten krajíc nahoře. Dobrou chuť!
+
+
+---------------
+
+## 1. Postskript k majonézovým salátum
+
+O pár dní později, přibližně o týden, zasedám v gruzínské kavárně *matoka k svému laptopu a píšu následující řádky. Pokusil jsem se spojit s obchodními řetězci ohledně majonezových salátů. První mi odpověděl Lidl, který má v nabídce následující saláty obsahující majonézu.
+
+* Norský salát s krabí příchutí
+* Pařížský
+* Vlašský (150 i 400g)
+* Pochoutkový (150 i 400g)
+* Pařížský salát pikantní
+* Pochoutkový feferonový salát
+* Řáholecký
+* Mexický
+* Camembert
+
+Druhé mi odpovědělo Tesco. To má v nabídce následující pokrmy:
+
+* Pařížský (pochoutkový i klasický)
+* Vlašský
+* Pochoutkový
+* Rybí salát v majonéze
+* Matjesový salát
+* Hermelínový a tvarůžkový salát
+* Salát À la krab
+* Neapolský, Hanácký či Ďábelský pikantní salát
+* Loupežnický, Feferonový nebo Camping salát
+* Bramborový salát s majonézou
+Součástí nabídky jsou rovněž nemajonézové a odlehčené varianty např. se zálivkou na bázi jogurtu, které doplňují celkový sortiment.
+ 
+V chlazeném regále pak zákazníci najdou široké portfolio balených salátů různých gramáží, včetně:
+* Vlašského, Pařížského a Pochoutkového salátu
+* Ryzích klasik jako je Ďábelský či Švejkův salát
+* Pikantních variant včetně Rumcajse, Loupežnického nebo Mexického salátu
+* Rybích a sleďových salátů (v majonéze i s jogurtem)
+* Bramborového a vaječného salátu
+
+Ostatní řetěce ještě neodpověděly. 
+
+Kdo ale odpověděli a posunuli mě v mém zkoumání je Zemědělská a potravinová inspekce. Ta mi řekla, že *„československé státní normy“ (ČSN), které dříve striktně určovaly receptury (např. legendární vlašák), byly v této závazné podobě zrušeny k **31. 12. 1993.*** Od té doby stát neurčuje, co má být v kterém salátu uvedeno. Vydal jsem se tedy podívat po normě, což by měla mít k dispozici česká agentura pro standartizaci (od roku 2018 daný úřad pro technické normy, předtím to byl Úřad pro technickou normalizaci, metrologii a státní zkušebnictví od roku 2009, a předtím český normalizační úřad od roku 97. Před nimi je vydálo ministerstvo průmyslu a obchodu, dnes ministerstvo hospodářství). Mělo by se jednat o normu **Majonézy a krémy. Majonézy. Společná ustanovení**, tedy **ČSN 58 7010**, která bohužel nemá k dispozici pdf. Rovnou jsem o něj požádal a přidám informace v dalším postskriptu (snad i s větší nabídkou prodejen).
+
+Druhá klíčová informace od *Inspekce* je v tom, že sice nemáme ČSN, ale máme cechovní normy potravinářské komory!!! (Vykřičniky značí nadšení s kterým tuto fádní informaci sdílím, protože jsem neměl o cechováních normách ani páru). Ty jsou na stránce [cechovní normy](https://www.cechovninormy.cz). Nás zajímají konkrétní [cechovní normy pro výrobky](https://www.cechovninormy.cz/index.php/cechovni-normy/prehled) a po vyhledání salátu se dostáváme k 14 záznamům a samotné majonéze pro saláty. 
+
+Jedná se o:
+
+* [Zelný salát (jedná se o Coleslaw)](https://www.cechovninormy.cz/index.php/cechovni-normy/salat-coleslaw-s-cervenym-zelim)
+* [Rybí salát s jogurtem](https://www.cechovninormy.cz/index.php/cechovni-normy/265-rybi-salat-s-jogurtem)
+* [Loupežnický salát](https://www.cechovninormy.cz/index.php/cechovni-normy/244-loupeznicky-salat)
+* [Mexický salát](https://www.cechovninormy.cz/index.php/cechovni-normy/214-mexicky-salat)
+* [Holandský salát](https://www.cechovninormy.cz/index.php/cechovni-normy/213-holandsky-salat)
+* [Salát se sýrem s bílou plísní na povrchu](https://www.cechovninormy.cz/index.php/cechovni-normy/212-salat-se-syrem-s-bilou-plisni-na-povrchu)
+* [Ďábelský salát](https://www.cechovninormy.cz/index.php/cechovni-normy/142-dabelsky-salat)
+* [Vlašský salát](https://www.cechovninormy.cz/index.php/cechovni-normy/41-vlassky-salat)
+* [Vaječný salát](https://www.cechovninormy.cz/index.php/cechovni-normy/40-vajecny-salat)
+* [Rybí salát](https://www.cechovninormy.cz/index.php/cechovni-normy/35-rybi-salat)
+* [Pochoutkový salát](https://www.cechovninormy.cz/index.php/cechovni-normy/33-pochoutkovy-salat)
+* [Pařížský salát](https://www.cechovninormy.cz/index.php/cechovni-normy/32-parizsky-salat)
+* [Camping salát](https://www.cechovninormy.cz/index.php/cechovni-normy/4-camping-salat)
+* [Bramborový salát](https://www.cechovninormy.cz/index.php/cechovni-normy/2-bramborovy-salat)
+
+Pro zajímavost uvádím i odkaz na samotnou [majonézu](https://www.cechovninormy.cz/index.php/cechovni-normy/23-majoneza-salatova-pro-lahudkarske-vyrobky).
+
+A pro druhou zajímavost, bramborový salát dle cechovních norem se skládá z:
+
+Povinné složky
+
+* vařené brambory nejméně 55 %,
+* zelenina celkem (okurky, cibule, mrkev, hrášek, celer) nejméně 20 %,
+* majonéza podle ČCN Salátová majonéza nejméně 18 %
+
+Přípustné složky
+
+* jedlá sůl,
+* cukr,
+* kvasný lihový ocet,
+* pepř černý mletý,
+* plnotučná hořčice podle ČCN,
+* konzervační látky pouze pro výrobky s prodlouženou trvanlivostí – dle platné legislativy
+
+O točeňáku, který jsme často do salátu dávali, zde není ani zmíňka! A ani o vejcích, které někteří lidé dávají dovnitř.
+
+Podívame-li se na graf, kdy se jednotlivé normy ustanovily, tak vidíme, že nejvíce jich bylo ustanoveno v roce 2015, poslední pak rok 2021.
+![](chart.png)
+
+Cechovní normy taktéž označují i výrobky, které je splňují, což je pro naše účely 11 produktů. 5 jich má jihomoravská společnost DELIMAX a.s., 6 moravskoslezská GASTRO-MENU EXPRESS a.s..  Jedná se o: [Rybí salát s majonézou - GRAN MARE z 4.12.2019](https://www.cechovninormy.cz/index.php/vyrobky/1118-rybi-salat-s-majonezou-gran-mare), [Šunkové závitky s pařížským salátem v aspiku - KARLOVA KORUNA z 16.4.2020](https://www.cechovninormy.cz/index.php/vyrobky/1262-sunkove-zavitky-s-parizskym-salatem-v-aspiku-karlova-koruna), [Mexický salát – Chef select z 21.4.2020](https://www.cechovninormy.cz/index.php/vyrobky/1263-mexicky-salat-chef-select), [Mexický salát – Chef select 400 g z 21.4.2020](https://www.cechovninormy.cz/index.php/vyrobky/1265-mexicky-salat-chef-select-400-g). [Rybí salát v majonéze z 10.6.2022](https://www.cechovninormy.cz/index.php/vyrobky/3103-rybi-salat-v-majoneze) pro DELIMAX. A [Camping salát Karlova Koruna z 2.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4698-camping-salat-karlova-koruna), [Mexický salát Karlova Koruna z 2.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4699-mexicky-salat-karlova-koruna), [Bramborový salát (K-Jarmark) (CZE) z 2.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4700-bramborovy-salat-k-jarmark-cze), [Vlašský salát (K-Jarmark) (CZE) z 2.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4701-vlassky-salat-k-jarmark-cze), [Pařížský salát (K-Jarmark) 150 g (CZE) z 5.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4706-parizsky-salat-k-jarmark-150-g-cze) a [Vlašský salát Karlova Koruna z 5.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4707-vlassky-salat-karlova-koruna).
 

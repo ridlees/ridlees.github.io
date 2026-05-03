@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Journal Entry on Martinův koutek</title><link>https://ridlees.github.io/tags/journal-entry/</link><description>Recent content in Journal Entry on Martinův koutek</description><generator>Hugo -- gohugo.io</generator><language>cz</language><lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ridlees.github.io/tags/journal-entry/index.xml" rel="self" type="application/rss+xml"/><item><title>Říjen 2025</title><link>https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/</link><pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate><guid>https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/</guid><description>&lt;h2 id="měsíc-někdy-uteče-a-ani-nevíš-jak"&gt;Měsíc někdy uteče a ani nevíš jak.
+&lt;/h2&gt;&lt;p&gt;Napsal jsem konečně update toho streamlit UI. Má teď 3 datové zdroje (plán je ještě přidat bezrealitky), a poctivě sbírá data. Mám tam možná chybu v kódu, kterou snad brzy opravím (jedna hodnota se mi nemění tak, jak bych chtěl, kvůli špatnému IF/ELSE). Blížíme se tomu, že by ta data mohla být využitelná, neboť v scrapování s-realit mám už 26 166 položek. Kdyby se někomu z vás hodily, dejte vědět, rád se o ně podělím&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Měsíc říjen by se měl přejmenovat na měsíc textových editorů. První je Mumínkovský editor, jednoduchá obrazovka z TK s textovým polem a na pozadí je ukradený obrázek mumínka. &lt;img src="https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/moomin.png"
+width="1602"
+height="1250"
+srcset="https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/moomin_hu_d17a1724c06b1aab.png 480w, https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/moomin_hu_cfe1329b0c1ac3e6.png 1024w"
+loading="lazy"
+alt="Mumínkovský editor v zeleném provedení"
+class="gallery-image"
+data-flex-grow="128"
+data-flex-basis="307px"
+&gt; Dal jsem si trochu práce s generováním pdf z md, přidal jsem tam TOC (obsah) a Footnotes (Poznámky pod čarou). Už teoreticky kód můžu dát ven, což udělám v následujících dnech.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Druhý textový editor co jsem udělal je MVP překladatelského editoru, který má dvě textová okna vedle sebe. Jediná silná fuknce je, že při držení ctr se scrolluje v obou oknech najednou. Přidám tam ještě:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tlačítko pro import textu&lt;/li&gt;
+&lt;li&gt;Tlačítko pro uložení textu&lt;/li&gt;
+&lt;li&gt;Tlačítko pro překlad skrz Deepl&lt;/li&gt;
+&lt;li&gt;klavesovou zkratku pro přepínání mezi okny.&lt;/li&gt;
+&lt;li&gt;možná podpora formátu Word.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Zde jak to vypadá &lt;img src="https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/translator.png"
+width="2940"
+height="1838"
+srcset="https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/translator_hu_ba5d2fdbb6687e16.png 480w, https://ridlees.github.io/p/%C5%99%C3%ADjen-2025/translator_hu_5bf75f437a52ffed.png 1024w"
+loading="lazy"
+alt="Jednoduchý editor dvou textů najednou"
+class="gallery-image"
+data-flex-grow="159"
+data-flex-basis="383px"
+&gt; Trochu doufám, že to otestuji na nějakých překladatelých (min pro mé překlady v ICT union se to bude hodit)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Udělal jsem scrapper pro petice.com. Ještě nefunguje na 100 %, ale funguje docela dobře - stáhl jsem si dva datasety: 1) seznam signatářů přejmenování ulice Ruská na Dany Drábové a 2) petice žádající ministerské křeslo pro Filipa Turka. Z komentářů k těmto peticím jde získat nějaké argumenty těchto stran v konfliktech. Přijde mi to jako docela dobrý datový zdroj, min pro nějakou politologickou práci by se to mohlo hodit. Dostupný na mém githubu jako python script.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Byl jsem na jednom koncertě Redzeda v Lucerně music baru. Jinak píšu diplomku, poslouchám 6&amp;amp;2 a jeho rap, Nikdy se nevyseru na bráchu a stýkám se s přáteli.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;But preemptive surrender is no sign of wisdom. Any reality made by human beings can be
+remade by them. The price of this power is mutual obligation: we can never let ourselves oﬀ
+the hook. The things we can accomplish together are, by definition, within our sphere of
+control, even if we have to act through structures that are bigger than any of us alone to
+achieve them. As grating as it may be to admit, it turns out that some of those hoary positive-
+thinking cliches the philosophers rail against are true, as long as we stick to the first-person
+plural. We are responsible for how our lives unfold; we can do things that seem impossible.
+But for those of us living in the heart of the American empire, with our duly elected
+president marching our society gleefully into hell, this news is far from reassuring. What we
+do with our lives does matter — as much as anything possibly could. That should keep us up
+at night.
+&lt;a class="link" href="https://www.thedriftmag.com/how-i-learned-to-stop-worrying-and-love-my-shitty-life/" target="_blank" rel="noopener"
+&gt;ERIK BAKER&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description></item><item><title>Září 2025</title><link>https://ridlees.github.io/p/z%C3%A1%C5%99%C3%AD-2025/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://ridlees.github.io/p/z%C3%A1%C5%99%C3%AD-2025/</guid><description>&lt;p&gt;První řádky tohoto zápisu píšu v tramvaji číslo 10. Je v něčem strašně zvláštní pracovat v tramvaji, ale zároveň i to je vlak. Tenhle měsíc jsem dvakrát jel vlakem - do České Třebové a pak samozřejmě zpátky. Bylo to mé první zastavení v Pardubickém kraji, už mi zbývá přespat jen v Libereckém, Zlínském (v kterém jsem nikdy nebyl) a v Olomouckém.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;První programovací jednohubka byla jednoduché využití Google TTS (text to speech) pro můj Kramerius stahovač. V malém skriptu TTS (který přijímá právě jeden systémový argument - odkaz na soubor v txt) se ukrývá jednoduchý kód, a vychází z něj né úplně nejpříjemnější audio kniha. Původně jsem to dělal pro online hackathon (napsat ten skript bylo na 5 minut), kdy jsem chtěl udělat celou službu - dej odkaz knihy, dostaň audionahrávku, což je třeba zajímavé pro pohádky a nevidomé. Ale nevymyslel jsem jak udělat UI, v kterém se nevidomý vyzná, takže jsem to dal k ledu.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Druhá programovaná věc je další scrapper nájemních dat. Již je získávám ze 3 zdrojů (do budoucna chci pokrýt, co nejvíce to půjde). Bude se to zobrazovat v tom UI napsáném v Streamlit, ale ještě jsem pro to neudělal chlívečky. To UI budu muset trochu překopat, protože načítání hlavní databáze je pomalé (2 vteřiny), tak to trochu upravím, aby to bylo lehčí. Kdy na to najdu čas, ještě nevím.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Rozepsal jsem jednoduchý UI nad one-way (jednosměrným) SMS senderem od Twilia (chtěl bych nějakého jejich konkurenta, pro jednoho jsem pracoval, ale nemají tak dobrý pricing a já nejsem nejbohatší čávo v téhle tramvaji). Je to jednoduchý input, kam dáte zprávu a ono to pošle předem definovanému listu (odsuď to už nepíšu v tramvaji) příjemců. (Tuto pasáž píši v Tečce) UI se zdá, že funguje, ještě musím otestovat Twilio a obalit to keycloackem.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Čtu &lt;a class="link" href="https://www.versobooks.com/products/2839-own-this?srsltid=AfmBOoqOWTLX4zhec-Z3BaPJcygDUaoZFFyP0nGgVrNEzmJyV08-37zT" target="_blank" rel="noopener"
+&gt;Own this!&lt;/a&gt; O družstevnictví a odborech, do toho se mi míchají texty 37signals, přemýšlím tak o platformách sdružující malé podniky a pro ně poskytování software, ale i o družstvech v péči (družstevní psychoterapeutství??), což jsou všechno způsoby jak udržet peníze v lokální komunitě. Vzpomínám na takový ten obrázek na Facebooku, kde byla vývěsní cedule, co říkala, že nákupem zde přispíváte malé holčičce na kroužky. (Na pozadí v Tečce hraje španělský politický rap, ale nedokážu poznat jaký.) Jedna z mých diplomek se věnuje kutilství, což je produkce pro svou konzumaci. Ještě nevím jak to popíšu (bojím se, že budu hodně koukat prismatem DIY (Do it yourself), kdežto já potřebuju zkoumat DIT (do it together). Nedokážu říci moc o ekonomice, ale můžu říci to, že bych byl rád, kdyby byla víc lokální (Zrovna přišla pizza, co si tu nějací anglicky mluvící lidé objednali).&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;V příštím měsíci to vypadá, že se nerdsnipnu tiskárnou na účtenky, co mi bude tisknout úkoly z mého údolíčku - &lt;a class="link" href="https://www.laurieherault.com/articles/a-thermal-receipt-printer-cured-my-procrastination" target="_blank" rel="noopener"
+&gt;Idea vypůjčena odsud&lt;/a&gt;. Přemýšlím, kde bude databáze pro hostování těchto úkolů, kdysi jsem hodně používal trello, ale nechci za něj platit. Možná si pro to udělám GitHub repo a využiji jejich kanban, možná najdu nějakou kanban knihovnu a napíšu si jednoduchý web&amp;hellip; A pak jen narvání všech úkolů ze všech míst do tohoto systému.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Byl jsem právě jednou v kině a na jednom živém nahrávání podcastu (bylo strašně dlouhý). V kině mé zraky viděly &lt;a class="link" href="https://www.csfd.cz/film/35196-zit-svuj-zivot/prehled/" target="_blank" rel="noopener"
+&gt;Žít svůj život&lt;/a&gt; v Ponrepu. 11. kapitola byla velmi zajímavá, ale celý snímek se mi tuze líbil. &lt;a class="link" href="https://www.respekt.cz/podcast/kdyz-frankenstein-potka-babicku-a-superman-ferdu-mravence-co-patri-na-popkuluturni-kanon" target="_blank" rel="noopener"
+&gt;Podcast&lt;/a&gt; mě donutil přemýšlet nad kánonem svoji popkultury. Rozhodně by tam byl film Gladiátor, který jsem jako malý viděl furt dokola. Nebo Wasabi či Drž hubu (oboje z Francie). Filmy s Belmondem mi přijdou víc artové, i když nejsou. Ale mám je rád.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Pro politiky je přinejmenším snazší říct: „Pojďme se bavit o algoritmech,“ než přiznat: „Lidé nemají žádnou budoucnost.“ To první umožňuje strašit a regulovat, to druhé by vyžadovalo spravedlivou transformaci k udržitelnějšímu a žitelnějšímu systému na strukturální úrovni.
+&amp;ndash; &lt;a class="link" href="https://denikreferendum.cz/clanek/237955-za-agresi-muze-beznadej-nesocialni-site-rika-antropolozka-hermanova" target="_blank" rel="noopener"
+&gt;Marie Heřmanová&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</description></item><item><title>Srpen 2025</title><link>https://ridlees.github.io/p/srpen-2025/</link><pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate><guid>https://ridlees.github.io/p/srpen-2025/</guid><description>&lt;p&gt;První zápis mého deníku - mělo to přijít mnohem dřívěji.&lt;/p&gt;
+&lt;p&gt;Napsal jsem downloader z &lt;a class="link" href="https://github.com/ridlees/Kramerius-text-scrapper" target="_blank" rel="noopener"
+&gt;Krameria&lt;/a&gt;. Původně to začalo jako jednovečerní projekt, kdy jsem prokrastinoval od psaní seminárky, co měla kritizovat moji bakalářku (do čehož jsem se nemohl donutit strašně dlouho, mívám silný strach, že nepíšu smysluplné věci, což tam zdůrazňuji). První verze byla playwright skript, co klikal na tlačítko. Až den potom mě napadlo kouknout se do network tabu a vidět na jakej endpoint je request. Pak jen zjištění, že to nemá origin (či jak se to jmenuje, že to prostě můžu volat odkudkoliv a máme to). Moje selhání v projektu pro Akademii věd se projevilo tím, že jsem měl napsaný kód, co mi vrací PID stránek (ID identifikátory) pro ROOT PID (identifikátor publikace). Takže jsem to jen spojil dohromady. Funguje to docela v pohodě, tak v klidu stahujme. Třeba z toho vznikne zajímavá datařina. Já bych chtěl udělat databázi kuchařek první republiky a mapovat jak se chápalo jídlo, zatím vím, že &lt;strong&gt;sekaná se jedla spíše se zelím&lt;/strong&gt;. S jejich doporučeními na jednotlivé dny, s cenami (porovnat ceny dnes a tehdy).&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Pro INN jsem opravil můj scrapper S-realit, o němž stále nemám jistotu, že plně funguje. Trochu mám strach, že nesbírá všechny data (kdyby mi někdo chtěl udělat code review, ocením). Každopádně, Vojta mi ukázal Streamlit, jehož jsem se stal milovníkem. Tak jsem v tom napsal malou appku v čistým Pythonu, co ty data jednoduše zobrazuje (protože nutit lidi z INNu ať si furt stahují csv, to analyzují v Excelu&amp;hellip; nesmysl). 65 LOC a máte docela přehledné UI. Jediné, čeho se bojím je škálování, protože při každém kliku se celá obrazovka refreshuje, což znamená, že se spustí celý kód znova. Dá se s tím bojovat cachováním, ale už teď tam narážím na problémy, které musím vyřešit při nasazení na real železe. (Edit: Přidal jsem i view mapy nad dalším datovým zdrojem).&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Byl jsem na dvou filmech. Na Supermanovi mě nejvíce potěšila &lt;a class="link" href="https://www.youtube.com/watch?v=4lYIhKhgIuY" target="_blank" rel="noopener"
+&gt;písnička&lt;/a&gt;, jinak film nebyl úplně tragický (I když Markéta nesouhlasila), ale bylo tam spoustu pokusů o vtip, co už mi jiskru v očích neudělají. Škoda. Druhý byl Bláznivá střela, a to jsem se chechtal jak hejkal. Parodie jsou velká část mého dospívání a zde se potkalo to dobré s tím špatným v takovém mixu, že výsledný beton udrží celý film. Jen skutečnost, že to je parodie na Kingsmen mě bavila ještě den potom.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If we think about technology as an existential task, it cannot be assessed within any simple moralism. The concept of existential technologies that this essay proposes would operate across vast temporal scales and elude familiar ethical categories. Rather than moving us toward a better world in any straightforward sense, they would generate alienating or turbulent changes at the limits of our comprehension. With its sustained interest in evolutionary theory and long-term prognostication and its clear-eyed understanding of agency and control sharpened by the brutal twentieth-century history of Eastern Europe, Summa Technologiae becomes a compelling lens for thinking through this idea&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;mdash; &lt;a class="link" href="https://existentialtech.antikythera.org" target="_blank" rel="noopener"
+&gt;Existential Technologies by Bogna Konior with Noviki Studio, DOI 10.1162/ANTI.5CZV&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Našel jsem starou vizualizaci, co jsem neklikal v flourish, která mapuje jak se vyvíjela místa na táborské radnici. To byly časy, kdy jsem přemýšlel jak vizualizovat politická data a cpal to do každého předmětu, jak mi to chybí!&lt;/p&gt;
+&lt;div class="flourish-embed flourish-parliament" data-src="visualisation/1761986"&gt;&lt;script src="https://public.flourish.studio/resources/embed.js"&gt;&lt;/script&gt;&lt;noscript&gt;&lt;img src="https://public.flourish.studio/visualisation/1761986/thumbnail" width="100%" alt="parliament visualization" /&gt;&lt;/noscript&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;Poslední programovací projekt byl nástin &lt;a class="link" href="https://github.com/ridlees/email-courses" target="_blank" rel="noopener"
+&gt;emailového kurzu&lt;/a&gt;, což je jednoduchý skript, co posílá v pravidelných vlnách emaily s definovanými kroky (jeden týden pošle 1., druhý týden pošle 2.) V budoucnu udělám kurz o něčem z mých studií, zadarmo, samozřejmě. Zatím přemýšlím nad úvodem do republikanismu či něčem z nových medií (například malý kurz o mediální archeologii).&lt;/p&gt;</description></item></channel></rss>

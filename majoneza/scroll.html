@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Receipt Timeline</title>
+
+<style>
+  body {
+    margin: 0;
+    background: #0b0b0b;
+    overflow: hidden;
+    font-family: system-ui, sans-serif;
+  }
+
+  .timeline {
+    display: flex;
+    height: 100vh;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+
+  .slide {
+    min-width: 100vw;
+    height: 100vh;
+    scroll-snap-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0.25;
+    transform: scale(0.9);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+
+  .slide.active {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .receipt {
+    max-width: 92%;
+    max-height: 85vh;
+    object-fit: contain;
+
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.75);
+
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+  }
+
+  .receipt.zoomed {
+    transform: scale(1.8);
+    cursor: zoom-out;
+  }
+
+  #progress {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    color: #aaa;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .timeline::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* NAV BUTTONS */
+  .nav-btn {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: white;
+
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .nav-btn.left {
+    left: 15px;
+  }
+
+  .nav-btn.right {
+    right: 15px;
+  }
+
+  .nav-btn.disabled {
+    opacity: 0.2;
+    pointer-events: none;
+  }
+
+  .nav-btn:active {
+    transform: translateY(-50%) scale(0.95);
+  }
+
+</style>
+</head>
+
+<body>
+
+<div id="progress">1 / 1</div>
+<div class="timeline" id="timeline"></div>
+
+<button id="prevBtn" class="nav-btn left">‹</button>
+<button id="nextBtn" class="nav-btn right">›</button>
+
+<script>
+  const TOTAL_IMAGES = 57;
+
+  const timeline = document.getElementById('timeline');
+  const progress = document.getElementById('progress');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+
+  function createSlide(src) {
+    const slide = document.createElement('div');
+    slide.className = 'slide';
+
+    const img = document.createElement('img');
+    img.src = src;
+    img.loading = "lazy";
+    img.className = 'receipt';
+
+    img.addEventListener('click', () => {
+      img.classList.toggle('zoomed');
+    });
+
+    slide.appendChild(img);
+    return slide;
+  }
+
+  function generateImages() {
+    const images = [];
+    for (let i = 1; i <= TOTAL_IMAGES; i++) {
+      const num = String(i).padStart(5, '0');
+      images.push(`receipts/receipt${num}.png`);
+    }
+    return images;
+  }
+
+  function scrollSlide(direction) {
+    timeline.scrollBy({
+      left: direction * window.innerWidth,
+      behavior: 'smooth'
+    });
+  }
+
+  prevBtn.addEventListener('click', () => scrollSlide(-1));
+  nextBtn.addEventListener('click', () => scrollSlide(1));
+
+  function initTimeline(images) {
+    images.forEach(src => {
+      timeline.appendChild(createSlide(src));
+    });
+
+    const slides = document.querySelectorAll('.slide');
+
+    function update() {
+      const index = Math.round(timeline.scrollLeft / window.innerWidth);
+
+      slides.forEach((s, i) => {
+        s.classList.toggle('active', i === index);
+      });
+
+      progress.textContent = `${index + 1} / ${slides.length}`;
+
+      // disable buttons at edges
+      prevBtn.classList.toggle('disabled', index === 0);
+      nextBtn.classList.toggle('disabled', index === slides.length - 1);
+    }
+
+    timeline.addEventListener('scroll', update);
+    update();
+
+    window.addEventListener('keydown', e => {
+      if (e.key === 'ArrowRight') scrollSlide(1);
+      if (e.key === 'ArrowLeft') scrollSlide(-1);
+    });
+
+    let isScrolling = false;
+    timeline.addEventListener('wheel', (e) => {
+      if (isScrolling) return;
+
+      isScrolling = true;
+      const direction = e.deltaY > 0 ? 1 : -1;
+
+      scrollSlide(direction);
+
+      setTimeout(() => isScrolling = false, 500);
+    }, { passive: true });
+  }
+
+  const images = generateImages();
+  initTimeline(images);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,6816 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_35c04b446c1368952ae1c6523613320e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_35c04b446c1368952ae1c6523613320e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_35c04b446c1368952ae1c6523613320e = L.map(
+                "map_35c04b446c1368952ae1c6523613320e",
+                {
+                    center: [50.08, 14.42],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a09b34c573a49b0d0abe3eb86f16852a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a09b34c573a49b0d0abe3eb86f16852a.addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            var marker_fc9e9db4b8a49dd3e899aaa15578b5c9 = L.marker(
+                [50.034416944444445, 14.487842222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_fc9e9db4b8a49dd3e899aaa15578b5c9.bindTooltip(
+                `<div>
+                     Agentura ochrany přírody a krajiny ČR - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6a912e36bb6e9f7a61eee81a6611b7dc = L.marker(
+                [50.0784875, 14.425393055555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_6a912e36bb6e9f7a61eee81a6611b7dc.bindTooltip(
+                `<div>
+                     Akademické gymnázium a Jazyková škola s právem státní jazykové zkoušky, školy hlavního města Prahy - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_624f752111ecafcf5e5c85498f731733 = L.marker(
+                [50.088175, 14.402125],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_624f752111ecafcf5e5c85498f731733.bindTooltip(
+                `<div>
+                     Akademie múzických umění v Praze - Knihovny AMU
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_95068c3151c6f363285483271d604c1c = L.marker(
+                [50.10270833333333, 14.424],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_95068c3151c6f363285483271d604c1c.bindTooltip(
+                `<div>
+                     Akademie výtvarných umění v Praze - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3d4033028183441bb179cd9717a5a4e0 = L.marker(
+                [50.0553325, 14.438384166666667],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_3d4033028183441bb179cd9717a5a4e0.bindTooltip(
+                `<div>
+                     Albatros Media, a.s. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d84ca8b777f068d3e3376b37de21a87e = L.marker(
+                [50.0754875, 14.438941944444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d84ca8b777f068d3e3376b37de21a87e.bindTooltip(
+                `<div>
+                     AMARO, s.r.o. - Časopisy pro elektroniky a radioamatéry
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f69fc60920adfc83b9f9b80eb65e36d8 = L.marker(
+                [50.111827777777776, 14.472999444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f69fc60920adfc83b9f9b80eb65e36d8.bindTooltip(
+                `<div>
+                     AMBIS vysoká škola, a.s - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_388f1d55e3b426e79f32c989084b86d9 = L.marker(
+                [50.08719805555556, 14.402043055555556],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_388f1d55e3b426e79f32c989084b86d9.bindTooltip(
+                `<div>
+                     Americké centrum - Velvyslanectví USA - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f4a435c07c2664a9448f8c22912db75d = L.marker(
+                [50.089957500000004, 14.409754722222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f4a435c07c2664a9448f8c22912db75d.bindTooltip(
+                `<div>
+                     Anglo-americká vysoká škola - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f40bbe15bf2a294e870e62903b0da775 = L.marker(
+                [50.102269166666666, 14.387193055555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f40bbe15bf2a294e870e62903b0da775.bindTooltip(
+                `<div>
+                     Arcibiskupský seminář Praha - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_80b97261d839de7574504cd951d2ed48 = L.marker(
+                [50.090291666666666, 14.409380555555556],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_80b97261d839de7574504cd951d2ed48.bindTooltip(
+                `<div>
+                     Archeologický ústav AV ČR, Praha, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_650a1edabac79d050dc06c4bb6ea38e4 = L.marker(
+                [50.079820000000005, 14.414567222222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_650a1edabac79d050dc06c4bb6ea38e4.bindTooltip(
+                `<div>
+                     Archiv bezpečnostních složek - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_94be672f17422fa997cd3c7afde5f746 = L.marker(
+                [50.03981388888889, 14.495033333333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_94be672f17422fa997cd3c7afde5f746.bindTooltip(
+                `<div>
+                     Archiv hlavního města Prahy - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3820653f3f4be13d6664d399cb0b6f33 = L.marker(
+                [50.076192777777784, 14.449590277777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_3820653f3f4be13d6664d399cb0b6f33.bindTooltip(
+                `<div>
+                     ART & DESIGN INSTITUT, s.r.o. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8f3beb7d8e0a4862418900beb6e3f4c5 = L.marker(
+                [50.08548277777778, 14.451663888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8f3beb7d8e0a4862418900beb6e3f4c5.bindTooltip(
+                `<div>
+                     ATS-TELCOM PRAHA, a.s. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b5e51d8e4e6c04794b6b1f1c82ffe049 = L.marker(
+                [50.076730000000005, 14.454034722222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b5e51d8e4e6c04794b6b1f1c82ffe049.bindTooltip(
+                `<div>
+                     Bärenreiter Praha s.r.o. - Půjčovna notových materiálů
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d7d6add49fc66336666ef81219e92761 = L.marker(
+                [50.08589722222222, 14.358552777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d7d6add49fc66336666ef81219e92761.bindTooltip(
+                `<div>
+                     Benediktinské arciopatství svatého Vojtěcha a svaté Markéty - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d2694313d43bc569f7d6e424a9602f2e = L.marker(
+                [50.12198333333333, 14.412452777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d2694313d43bc569f7d6e424a9602f2e.bindTooltip(
+                `<div>
+                     Botanická zahrada hl. m. Prahy - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_151ba663f1b1accc690ad40072559cb6 = L.marker(
+                [50.08893055555556, 14.433407222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_151ba663f1b1accc690ad40072559cb6.bindTooltip(
+                `<div>
+                     CEFRES - Francouzský ústav pro výzkum ve společenských vědách - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d3743c52c391486ed74ea3bf693c922d = L.marker(
+                [50.10082555555556, 14.397284444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d3743c52c391486ed74ea3bf693c922d.bindTooltip(
+                `<div>
+                     Centrum pro dokumentaci majetkových převodů kulturních statků obětí II. světové války o.p.s.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7f5eec042bcbc6bf15a35fae18496d69 = L.marker(
+                [50.09838111111112, 14.432663055555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7f5eec042bcbc6bf15a35fae18496d69.bindTooltip(
+                `<div>
+                     Centrum pro současné umění Praha, o.p.s. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c46f12b1b2dc9ceffdf90ff00a207c79 = L.marker(
+                [50.11047694444444, 14.448096666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_c46f12b1b2dc9ceffdf90ff00a207c79.bindTooltip(
+                `<div>
+                     Centrum pro studium vysokého školství, v. v. i.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8ab3af3f3b5cb860f871b1abb09abf51 = L.marker(
+                [50.08387777777778, 14.458625],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8ab3af3f3b5cb860f871b1abb09abf51.bindTooltip(
+                `<div>
+                     Centrum sociálních služeb Praha - Krizové centrum RIAPS - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0db85666b561817a1938ffe38e7df8a7 = L.marker(
+                [50.08323333333334, 14.429038888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0db85666b561817a1938ffe38e7df8a7.bindTooltip(
+                `<div>
+                     CERGE-EI knihovna Jana Kmenty
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c9406a5c256ac780e08232d6986f0fbf = L.marker(
+                [50.053756944444444, 14.454271666666665],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_c9406a5c256ac780e08232d6986f0fbf.bindTooltip(
+                `<div>
+                     Cesta domů, z.ú. - Knihovna Cesty domů
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ceba60e69ac7a20f8d4ce84b3d03a06a = L.marker(
+                [50.09783055555556, 14.397202777777776],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ceba60e69ac7a20f8d4ce84b3d03a06a.bindTooltip(
+                `<div>
+                     Církev československá husitská - Úřad Ústřední rady - Ústřední archiv a muzeum
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_78883278d3c2996207c436b93fe13a64 = L.marker(
+                [50.08159611111112, 14.416845833333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_78883278d3c2996207c436b93fe13a64.bindTooltip(
+                `<div>
+                     Česká advokátní komora - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bd2a72da0ef0be9554018a20161d5905 = L.marker(
+                [50.09085833333334, 14.435777777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_bd2a72da0ef0be9554018a20161d5905.bindTooltip(
+                `<div>
+                     Česká agentura pro standardizaci, státní příspěvková organizace - Zákaznické centrum - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b9bd1ad8b9859dbd252ef971f7b37735 = L.marker(
+                [50.07146388888889, 14.420863888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b9bd1ad8b9859dbd252ef971f7b37735.bindTooltip(
+                `<div>
+                     Česká botanická společnost - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_76a17a42d80393cfb6f5d00ddaf66dc1 = L.marker(
+                [50.09017194444445, 14.415209166666667],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_76a17a42d80393cfb6f5d00ddaf66dc1.bindTooltip(
+                `<div>
+                     Česká filharmonie/ Galerie Rudolfinum
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c622ac70e87db6e38e641358ae65fee9 = L.marker(
+                [50.091722222222224, 14.409786111111112],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_c622ac70e87db6e38e641358ae65fee9.bindTooltip(
+                `<div>
+                     Česká geologická služba - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0d0ef0888dec247739ea7d382f06261a = L.marker(
+                [50.08589444444445, 14.429047222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0d0ef0888dec247739ea7d382f06261a.bindTooltip(
+                `<div>
+                     Česká národní banka - odborná knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_51a1fc000a20e5fbebda05d18a63ea5a = L.marker(
+                [50.08882555555556, 14.405173055555556],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_51a1fc000a20e5fbebda05d18a63ea5a.bindTooltip(
+                `<div>
+                     Česká Provincie řádu sv. Augustina - Farnost sv. Tomáše v Praze na Malé Straně - Augustiniánská knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6a590c5c923a241f93ec75460f198368 = L.marker(
+                [50.088825, 14.405172222222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_6a590c5c923a241f93ec75460f198368.bindTooltip(
+                `<div>
+                     Česká provincie řádu svatého Augustina - Farnost sv. Tomáše v Praze na Malé Straně - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cb7980241fa9bd57aa6bb1e59d1f5c4c = L.marker(
+                [50.072275000000005, 14.42431111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_cb7980241fa9bd57aa6bb1e59d1f5c4c.bindTooltip(
+                `<div>
+                     Česká společnost entomologická - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_878925d22e5ef838b5877f4850e933ac = L.marker(
+                [50.08541666666667, 14.413294444444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_878925d22e5ef838b5877f4850e933ac.bindTooltip(
+                `<div>
+                     Česká společnost průmyslové chemie
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d11bd6ef1a822e689ae6ee67d5d2173d = L.marker(
+                [50.05132805555555, 14.427945555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d11bd6ef1a822e689ae6ee67d5d2173d.bindTooltip(
+                `<div>
+                     Česká televize - Studijní knihovna - APF (Archiv a programové fondy)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3ca2665fbdbb88c389d2970df62e0b50 = L.marker(
+                [50.071464722222224, 14.4208625],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_3ca2665fbdbb88c389d2970df62e0b50.bindTooltip(
+                `<div>
+                     Česká vědecká společnost pro mykologii, z.s. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b4dc8065cef071bbeadac04fe3bbfa9b = L.marker(
+                [50.12998888888889, 14.373791666666667],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b4dc8065cef071bbeadac04fe3bbfa9b.bindTooltip(
+                `<div>
+                     Česká zemědělská univerzita v Praze - Knihovna ČZU
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_53d9b82981f04c6dbfc0517e09a745ea = L.marker(
+                [50.072275000000005, 14.42431111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_53d9b82981f04c6dbfc0517e09a745ea.bindTooltip(
+                `<div>
+                     Česká zoologická společnost - Knihovna českých a zahraničních zoologických časopisů
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f925f2ce006764aa14cfddf6463a0c5a = L.marker(
+                [50.043433888888885, 14.487882777777777],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f925f2ce006764aa14cfddf6463a0c5a.bindTooltip(
+                `<div>
+                     Českomoravská myslivecká jednota, z.s.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6d16fafe2c8e1aa2ae7e743b70901c6a = L.marker(
+                [50.07400277777778, 14.403544444444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_6d16fafe2c8e1aa2ae7e743b70901c6a.bindTooltip(
+                `<div>
+                     Český helsinský výbor - Dokumentační a informační středisko - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_506f6964cd42c693b97fa12137fa7838 = L.marker(
+                [50.078588888888895, 14.4345],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_506f6964cd42c693b97fa12137fa7838.bindTooltip(
+                `<div>
+                     Český rozhlas - Rešeršní oddělení a knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ceddb28c4e8d968711c035ac1910b858 = L.marker(
+                [50.07466666666667, 14.485341666666665],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ceddb28c4e8d968711c035ac1910b858.bindTooltip(
+                `<div>
+                     Český rybářský svaz, z. s. - sekretariát Rady ČRS - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_09782e80c6e403159d6ff052def626b9 = L.marker(
+                [50.07005277777778, 14.507713888888889],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_09782e80c6e403159d6ff052def626b9.bindTooltip(
+                `<div>
+                     Český statistický úřad - Oddělení podpory uživatelů - Ústřední statistická knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_72cea198edf17a8988076e5365ed03cc = L.marker(
+                [50.07850277777778, 14.417641666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_72cea198edf17a8988076e5365ed03cc.bindTooltip(
+                `<div>
+                     Český svaz včelařů, z.s. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2c19557543b8997b7bf0f2572fc9e04b = L.marker(
+                [50.12521944444445, 14.45553611111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2c19557543b8997b7bf0f2572fc9e04b.bindTooltip(
+                `<div>
+                     Český úřad zeměměřický a katastrální - Odborná knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3818abe711e3ed5e062cbf2f1c9d01b6 = L.marker(
+                [50.08459166666667, 14.455119444444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_3818abe711e3ed5e062cbf2f1c9d01b6.bindTooltip(
+                `<div>
+                     Český zahrádkářský svaz, z.s. - ústředí - odborné oddělení
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_19976adf99e696f241a8cc86b16b9813 = L.marker(
+                [50.073688888888896, 14.428980555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_19976adf99e696f241a8cc86b16b9813.bindTooltip(
+                `<div>
+                     ČKAIT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4e2e4861278513e65cd58317d3c65ec7 = L.marker(
+                [50.071938333333335, 14.433865833333334],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_4e2e4861278513e65cd58317d3c65ec7.bindTooltip(
+                `<div>
+                     Člověk v tísni o. p. s. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_346fb018b2f291034be260b210b836c6 = L.marker(
+                [50.10391111111111, 14.390655555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_346fb018b2f291034be260b210b836c6.bindTooltip(
+                `<div>
+                     ČVUT v Praze - Ústřední knihovna ČVUT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b0acf77b13a689de1c14b78e793ce0ec = L.marker(
+                [50.08213277777778, 14.392616944444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b0acf77b13a689de1c14b78e793ce0ec.bindTooltip(
+                `<div>
+                     ČVUT v Praze - Ústřední knihovna ČVUT - Knihovna Archivu ČVUT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9fe9da7d6f25717ec2481aab12b7694d = L.marker(
+                [50.06750277777778, 14.424077777777777],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9fe9da7d6f25717ec2481aab12b7694d.bindTooltip(
+                `<div>
+                     ČVUT v Praze - Ústřední knihovna ČVUT - Lokální knihovna na Fakultě dopravní
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_17ebc4b5e7070a209a6aac9aeaf9f7f6 = L.marker(
+                [50.09103888888889, 14.416308333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_17ebc4b5e7070a209a6aac9aeaf9f7f6.bindTooltip(
+                `<div>
+                     ČVUT v Praze - Ústřední knihovna ČVUT - Lokální knihovna na Fakultě jaderné a fyzikálně inženýrské
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7ff6b14b467f55a0c62293b64830f1b8 = L.marker(
+                [50.08722222222222, 14.424772222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7ff6b14b467f55a0c62293b64830f1b8.bindTooltip(
+                `<div>
+                     Divadelní ústav - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_96587ae85b5c8964a83417f10976b3dc = L.marker(
+                [50.064915, 14.442515277777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_96587ae85b5c8964a83417f10976b3dc.bindTooltip(
+                `<div>
+                     Dokumentační centrum Cirqueon - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d4ede45d57b3866da9894ea0853c6388 = L.marker(
+                [50.07609444444445, 14.430905555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d4ede45d57b3866da9894ea0853c6388.bindTooltip(
+                `<div>
+                     Dům národnostních menšin - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4e12be152242e2e959b638b3c484e854 = L.marker(
+                [50.03788333333333, 14.41211388888889],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_4e12be152242e2e959b638b3c484e854.bindTooltip(
+                `<div>
+                     DUNCAN CENTRE - Konzervatoř - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bb98101d49adc2d129291856bc4c45ac = L.marker(
+                [50.117783333333335, 14.434869444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_bb98101d49adc2d129291856bc4c45ac.bindTooltip(
+                `<div>
+                     Elektrotechnický zkušební ústav, s.p. - Státní zkušebna 201 - TEI - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ef1fc11c2cf6f8ba9ffe6f962d52cfaf = L.marker(
+                [50.08153888888889, 14.415972222222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ef1fc11c2cf6f8ba9ffe6f962d52cfaf.bindTooltip(
+                `<div>
+                     Endokrinologický ústav - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7a1d2396d0e4bf0e54af734ba697d7ad = L.marker(
+                [50.08893055555556, 14.433405555555556],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7a1d2396d0e4bf0e54af734ba697d7ad.bindTooltip(
+                `<div>
+                     Etnologický ústav AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8c6b5894afde5a25da440c17d33eb927 = L.marker(
+                [50.10746388888889, 14.592644444444446],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8c6b5894afde5a25da440c17d33eb927.bindTooltip(
+                `<div>
+                     Evangelikální teologický seminář - Vyšší odborná škola teologická a sociální - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_65978db6d65552350b76d169073d22a5 = L.marker(
+                [50.07479166666667, 14.354319444444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_65978db6d65552350b76d169073d22a5.bindTooltip(
+                `<div>
+                     Fakultní nemocnice Motol a Homolka - Lékařská knihovna (pracoviště Homolka)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1ee1c2cef11be2c3810be97fb98f63f3 = L.marker(
+                [50.075276388888895, 14.343866944444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_1ee1c2cef11be2c3810be97fb98f63f3.bindTooltip(
+                `<div>
+                     Fakultní nemocnice v Motole - Samostatné oddělení knihovny
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0337ec9a0b1b5ec6e48789cede53ca4a = L.marker(
+                [50.08416666666667, 14.418655555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0337ec9a0b1b5ec6e48789cede53ca4a.bindTooltip(
+                `<div>
+                     Filosofický ústav AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_628d032a881d2fdf635a6cceda846530 = L.marker(
+                [50.07884444444445, 14.425116666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_628d032a881d2fdf635a6cceda846530.bindTooltip(
+                `<div>
+                     Francouzský institut - Mediatéka
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_96ff09ded35c3ac06bce1e5f30e7e38c = L.marker(
+                [50.09458333333333, 14.384455555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_96ff09ded35c3ac06bce1e5f30e7e38c.bindTooltip(
+                `<div>
+                     Fyzikální ústav AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9b723bab93fa6ff0d72065a86a4d6527 = L.marker(
+                [50.12394722222222, 14.468947222222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9b723bab93fa6ff0d72065a86a4d6527.bindTooltip(
+                `<div>
+                     Fyzikální ústav AV ČR, v. v. i. - Středisko vědeckých informací
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c50297b8553a84128e139f242e663697 = L.marker(
+                [50.01849166666666, 14.467719444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_c50297b8553a84128e139f242e663697.bindTooltip(
+                `<div>
+                     Fyziologický ústav AV ČR, v. v. i. - Středisko vědeckých informací
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8788c67cbb9a3b835be4ba1b079af83d = L.marker(
+                [50.068615, 14.384902222222221],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8788c67cbb9a3b835be4ba1b079af83d.bindTooltip(
+                `<div>
+                     Galén, spol. s r.o.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_48acbdd43fcaae57d502c5a1e40afeb4 = L.marker(
+                [50.04088055555555, 14.476080555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_48acbdd43fcaae57d502c5a1e40afeb4.bindTooltip(
+                `<div>
+                     Geofyzikální ústav AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_eeba4b23dc3ea23e1eefc0d2d1880eee = L.marker(
+                [50.12691111111111, 14.381980555555556],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_eeba4b23dc3ea23e1eefc0d2d1880eee.bindTooltip(
+                `<div>
+                     Geologický ústav AV ČR, v. v. i. - Sekce vědeckých informací a knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_23319d962dc130bb5b64f3597c011953 = L.marker(
+                [50.07950833333334, 14.41413611111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_23319d962dc130bb5b64f3597c011953.bindTooltip(
+                `<div>
+                     Goethe-Institut Praha - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_626ff590524c6f45aa7a26d45d9acc20 = L.marker(
+                [50.070973888888894, 14.399364166666667],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_626ff590524c6f45aa7a26d45d9acc20.bindTooltip(
+                `<div>
+                     Gymnázium, Praha 5, Na Zatlance 11 - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4934be7f234a3ff7a3b399c78a12984d = L.marker(
+                [50.120530555555554, 14.505502777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_4934be7f234a3ff7a3b399c78a12984d.bindTooltip(
+                `<div>
+                     Historický ústav AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_46a3efccc645cfae0722078f272a7f6b = L.marker(
+                [50.120530555555554, 14.505502777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_46a3efccc645cfae0722078f272a7f6b.bindTooltip(
+                `<div>
+                     Historický ústav AV ČR, v. v. i. - Sekce historické bibliografie
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ddfdad9378b4e3982b09aa5db5fd8156 = L.marker(
+                [50.08753888888889, 14.408397222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ddfdad9378b4e3982b09aa5db5fd8156.bindTooltip(
+                `<div>
+                     Hórnikova lužickosrbská knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7d64509fe21f5a53f7c7e5ecf4ac5957 = L.marker(
+                [50.08218333333334, 14.405633333333334],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7d64509fe21f5a53f7c7e5ecf4ac5957.bindTooltip(
+                `<div>
+                     Hudební informační středisko, o.p.s. - Dokumentace a archiv
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_55145241107adcf83b5e685e85cf23d6 = L.marker(
+                [50.00284722222222, 14.405097222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_55145241107adcf83b5e685e85cf23d6.bindTooltip(
+                `<div>
+                     Husova knihovna v Modřanech, příspěvková organizace
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a984afe830e9a63bace77e905b9bb161 = L.marker(
+                [50.088142500000004, 14.460886944444443],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_a984afe830e9a63bace77e905b9bb161.bindTooltip(
+                `<div>
+                     Husův institut teologických studií
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5341a99ffd90ddb6a44bad1d68ac02b8 = L.marker(
+                [50.08352027777778, 14.398235833333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5341a99ffd90ddb6a44bad1d68ac02b8.bindTooltip(
+                `<div>
+                     Hvězdárna a planetárium hl.m.Prahy - Štefánikova hvězdárna - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_61c2c01f601b89b26b274be52313c9d5 = L.marker(
+                [50.06858888888889, 14.527944444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_61c2c01f601b89b26b274be52313c9d5.bindTooltip(
+                `<div>
+                     IMMUNOTECH, s.r.o. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ad96203eaa3dea03303b19982fcf2d3d = L.marker(
+                [50.08092777777778, 14.422265833333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ad96203eaa3dea03303b19982fcf2d3d.bindTooltip(
+                `<div>
+                     Informační centrum o NATO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_28c6998a13ca4b5421e8bd872744e219 = L.marker(
+                [50.08577583333334, 14.422893888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_28c6998a13ca4b5421e8bd872744e219.bindTooltip(
+                `<div>
+                     Informační centrum OSN - Referenční knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3a21079d9c7fb6aba264ac93c1ee9cd0 = L.marker(
+                [50.04613888888889, 14.311994444444446],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_3a21079d9c7fb6aba264ac93c1ee9cd0.bindTooltip(
+                `<div>
+                     Informační centrum rodičů a přátel sluchově postižených, z.s. - Specializovaná knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d3681f4399182837f5e24a40a3dfe17a = L.marker(
+                [50.07607777777778, 14.425225],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d3681f4399182837f5e24a40a3dfe17a.bindTooltip(
+                `<div>
+                     Institut Cervantes v Praze - Knihovna Carlose Fuentese
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8015e793e9c26e7912ad35114068c0c6 = L.marker(
+                [50.02278611111111, 14.463005555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8015e793e9c26e7912ad35114068c0c6.bindTooltip(
+                `<div>
+                     Institut klinické a experimentální medicíny - Odbor informatiky - Vědecká lékařská knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_48e5e3b5d2112b19ddc96a3787eb5091 = L.marker(
+                [50.07324444444445, 14.41758611111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_48e5e3b5d2112b19ddc96a3787eb5091.bindTooltip(
+                `<div>
+                     Institut plánování a rozvoje hlavního města Prahy - Technická knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_af66b4d5a9a4a22745dfd3bcee20f553 = L.marker(
+                [50.04450388888889, 14.450751666666665],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_af66b4d5a9a4a22745dfd3bcee20f553.bindTooltip(
+                `<div>
+                     Institut postgraduálního vzdělávání ve zdravotnictví - Oddělení vědeckých informací
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fdd55cb996405fd35316e108abab5718 = L.marker(
+                [50.088591666666666, 14.419116666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_fdd55cb996405fd35316e108abab5718.bindTooltip(
+                `<div>
+                     Institut Terezínské iniciativy - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_979b7f04c69ab20e2ec9a6d51ebe0495 = L.marker(
+                [50.074758333333335, 14.422866666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_979b7f04c69ab20e2ec9a6d51ebe0495.bindTooltip(
+                `<div>
+                     Jabok - Vyšší odborná škola sociálně pedagogická a teologická
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_98168481438fd7256a888b8693e4b33d = L.marker(
+                [50.140882222222224, 14.428385277777776],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_98168481438fd7256a888b8693e4b33d.bindTooltip(
+                `<div>
+                     Junák - český skaut - Skautský institut, z. s. - Ústřední skautská knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2ec1955052b28022de54914dc3846cdf = L.marker(
+                [50.08893055555556, 14.433405555555556],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2ec1955052b28022de54914dc3846cdf.bindTooltip(
+                `<div>
+                     Kabinet pro klasická studia FLÚ AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a0ea09bf17b247fb78f24a0df732476e = L.marker(
+                [50.08142777777778, 14.413855555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_a0ea09bf17b247fb78f24a0df732476e.bindTooltip(
+                `<div>
+                     Kancelář AV ČR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_587163e01f346d09347b1acdbfe798a0 = L.marker(
+                [50.090401944444444, 14.399911944444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_587163e01f346d09347b1acdbfe798a0.bindTooltip(
+                `<div>
+                     Kancelář prezidenta České republiky - Odbor spisové a archivní služby - Archivy PH a KPR - Odborná knihovna APH a AKPR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_99db459d9b66f18b6aa1ea2a964d7d25 = L.marker(
+                [50.089556388888894, 14.398668333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_99db459d9b66f18b6aa1ea2a964d7d25.bindTooltip(
+                `<div>
+                     Kancelář prezidenta republiky - Odbor komunikace - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3315ef4f18c9a6e992fe71c9cefba144 = L.marker(
+                [50.089911111111114, 14.391072222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_3315ef4f18c9a6e992fe71c9cefba144.bindTooltip(
+                `<div>
+                     Kapucínská provinční knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c05f49abb75e06628ff1a9c930c78ce9 = L.marker(
+                [50.07925138888889, 14.418292222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_c05f49abb75e06628ff1a9c930c78ce9.bindTooltip(
+                `<div>
+                     Katolický domov studujících - domov mládeže a školní jídelna - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0a265ec3859b1b15d91fd9795c34a293 = L.marker(
+                [50.07951944444445, 14.427944444444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0a265ec3859b1b15d91fd9795c34a293.bindTooltip(
+                `<div>
+                     Knihovna a tiskárna pro nevidomé K. E. Macana
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0315c47e4a8f424a80a057dab5030b75 = L.marker(
+                [50.07546944444445, 14.421747222222221],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0315c47e4a8f424a80a057dab5030b75.bindTooltip(
+                `<div>
+                     Knihovna Afrického informačního centra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_37bc4fa4629eb5fb6e4597bc036ec502 = L.marker(
+                [50.07606666666667, 14.438608333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_37bc4fa4629eb5fb6e4597bc036ec502.bindTooltip(
+                `<div>
+                     Knihovna Antonína Švehly
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_61e662def4b1613eaa91dfe7b5c676c8 = L.marker(
+                [50.06709888888889, 14.424078888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_61e662def4b1613eaa91dfe7b5c676c8.bindTooltip(
+                `<div>
+                     Knihovna ARCHIP
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0754d9e2573780d6261161f9d6e6f13f = L.marker(
+                [50.08517777777778, 14.414925],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0754d9e2573780d6261161f9d6e6f13f.bindTooltip(
+                `<div>
+                     Knihovna Archivu Národního divadla
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3519276180758ba64a6841da753dc8c9 = L.marker(
+                [50.08142777777778, 14.413855555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_3519276180758ba64a6841da753dc8c9.bindTooltip(
+                `<div>
+                     Knihovna AV ČR, v. v. i.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7e2abcd6367017ab7fd6c94492c3cad5 = L.marker(
+                [50.07215055555556, 14.417194166666667],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7e2abcd6367017ab7fd6c94492c3cad5.bindTooltip(
+                `<div>
+                     Knihovna Benediktinského opatství Emauzy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b9b693dcb6b9a55c37840387883437c1 = L.marker(
+                [50.07166666666667, 14.405555555555557],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b9b693dcb6b9a55c37840387883437c1.bindTooltip(
+                `<div>
+                     Knihovna České společnosti ornitologické
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1ea80115f3f4f4373c219b70c42aedc4 = L.marker(
+                [49.98808888888889, 14.404469444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_1ea80115f3f4f4373c219b70c42aedc4.bindTooltip(
+                `<div>
+                     Knihovna Českého hydrometeorologického ústavu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aeeadb5100c21a0063459764e9bfa908 = L.marker(
+                [50.076972222222224, 14.414558055555556],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_aeeadb5100c21a0063459764e9bfa908.bindTooltip(
+                `<div>
+                     Knihovna Jiřiny Šiklové
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8d67e86492aed43e02b76a264dcb3b72 = L.marker(
+                [50.07609694444445, 14.430905],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8d67e86492aed43e02b76a264dcb3b72.bindTooltip(
+                `<div>
+                     Knihovna Klubu slovenské kultury
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e585636dc6d0bdf2822cf50d805a99b8 = L.marker(
+                [50.08593888888889, 14.429825],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e585636dc6d0bdf2822cf50d805a99b8.bindTooltip(
+                `<div>
+                     Knihovna Libri prohibiti
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f262e7c5ff8cabe7fb59c0bd48750cbc = L.marker(
+                [50.09073416666667, 14.364777499999999],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f262e7c5ff8cabe7fb59c0bd48750cbc.bindTooltip(
+                `<div>
+                     Knihovna Martina Marcina
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2a44045ece2f35ab1ef28b6d2de34c2f = L.marker(
+                [50.11839166666667, 14.463141666666665],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2a44045ece2f35ab1ef28b6d2de34c2f.bindTooltip(
+                `<div>
+                     Knihovna Masarykova ústavu a Archivu AV ČR, v. v. i. - Knihovna vědeckého útvaru Archiv
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_22700c93689e291490afe313113ee468 = L.marker(
+                [50.11839166666667, 14.463141666666665],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_22700c93689e291490afe313113ee468.bindTooltip(
+                `<div>
+                     Knihovna Masarykova ústavu a Archivu AV ČR, v. v. i. - Knihovna vědeckého útvaru Masarykův ústav AV ČR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d5c07add6edac0546f6667b4369bb380 = L.marker(
+                [50.07750277777778, 14.425513888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d5c07add6edac0546f6667b4369bb380.bindTooltip(
+                `<div>
+                     Knihovna Matematického ústavu AV ČR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_827aa53dff13e0a6e46703f9c36907bb = L.marker(
+                [50.16449166666666, 14.486069444444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_827aa53dff13e0a6e46703f9c36907bb.bindTooltip(
+                `<div>
+                     Knihovna Městské části Praha-Březiněves
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e2913df7eb3ba5b7471f1c648eb54ba2 = L.marker(
+                [50.08829166666667, 14.401372222222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e2913df7eb3ba5b7471f1c648eb54ba2.bindTooltip(
+                `<div>
+                     Knihovna mezinárodních vztahů Otto Picka
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0e0588829d2196fbe9e4e88cd9508c4e = L.marker(
+                [50.009476944444444, 14.423770833333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0e0588829d2196fbe9e4e88cd9508c4e.bindTooltip(
+                `<div>
+                     Knihovna Montessori ČR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_acf1f7fe818c39b7c82f6da9c9e44ec1 = L.marker(
+                [50.06920277777778, 14.428508333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_acf1f7fe818c39b7c82f6da9c9e44ec1.bindTooltip(
+                `<div>
+                     Knihovna Muzea Policie České Republiky
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_45bfefbae2c2df581b04455221c70b4b = L.marker(
+                [50.07711944444445, 14.44415],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_45bfefbae2c2df581b04455221c70b4b.bindTooltip(
+                `<div>
+                     Knihovna na Vinohradech samostatná příspěvková organizace s právní subjektivitou
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0ca592dc231f7363a0146657c252ad58 = L.marker(
+                [50.07579833333334, 14.42254111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0ca592dc231f7363a0146657c252ad58.bindTooltip(
+                `<div>
+                     Knihovna Pražského literárního domu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0cee6615cdd0d4a55c872174c6f66d8d = L.marker(
+                [50.011275, 14.626308333333334],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0cee6615cdd0d4a55c872174c6f66d8d.bindTooltip(
+                `<div>
+                     Knihovna s infocentrem Praha-Kolovraty
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2e3640c3b3d741a912997a51dc61e04d = L.marker(
+                [50.08416666666667, 14.418655555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2e3640c3b3d741a912997a51dc61e04d.bindTooltip(
+                `<div>
+                     Knihovna Sociologického ústavu Akademie věd ČR, v.v.i.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6c790f56e8ac1952c1cda1a2f97fcc1d = L.marker(
+                [50.08993055555556, 14.416305555555557],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_6c790f56e8ac1952c1cda1a2f97fcc1d.bindTooltip(
+                `<div>
+                     Knihovna Uměleckoprůmyslového musea v Praze
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3d0862d66f1064606ec67f6e0d4f386e = L.marker(
+                [50.080757777777784, 14.417283055555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_3d0862d66f1064606ec67f6e0d4f386e.bindTooltip(
+                `<div>
+                     Knihovna Václava Havla, nadační fond
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4cce3be84b981d43b0efbad1ecd9d3cb = L.marker(
+                [50.136408333333335, 14.510575],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_4cce3be84b981d43b0efbad1ecd9d3cb.bindTooltip(
+                `<div>
+                     Knihovna Václava Šorela
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8b36f683fb4c5cd586c9c5adbf9bd279 = L.marker(
+                [50.07889444444445, 14.405058333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8b36f683fb4c5cd586c9c5adbf9bd279.bindTooltip(
+                `<div>
+                     Krajský soud v Praze - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_83869f96fa73de6a93f409a654568efd = L.marker(
+                [50.08611388888889, 14.388774999999999],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_83869f96fa73de6a93f409a654568efd.bindTooltip(
+                `<div>
+                     Královská kanonie premonstrátů na Strahově - Strahovská knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fd0385bea099556e7c959ad2342e61cd = L.marker(
+                [50.01258, 14.401227222222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_fd0385bea099556e7c959ad2342e61cd.bindTooltip(
+                `<div>
+                     Lékařská knihovna Medindex
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f7de4958cfb898cb1779f39d15cd20f8 = L.marker(
+                [50.087498611111116, 14.431462777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f7de4958cfb898cb1779f39d15cd20f8.bindTooltip(
+                `<div>
+                     Masarykova demokratická akademie
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_26381b175d2bdf049f215eb48db6216f = L.marker(
+                [50.052895, 14.452867777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_26381b175d2bdf049f215eb48db6216f.bindTooltip(
+                `<div>
+                     MEDISTYL, s.r.o. - Středoevropské informační středisko
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e78c4b0356340c0dd5543e990c619f51 = L.marker(
+                [50.066525, 14.500395277777777],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e78c4b0356340c0dd5543e990c619f51.bindTooltip(
+                `<div>
+                     MENHART, s.r.o.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f45f5a5a0b29a64fcef09a94e2c519bb = L.marker(
+                [50.08045277777778, 14.424272222222221],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f45f5a5a0b29a64fcef09a94e2c519bb.bindTooltip(
+                `<div>
+                     Městská divadla pražská - divadlo ABC - Malá scéna divadla ABC - divadlo Rokoko - divadlo Komedie
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b1f64f221f0ebce37cd52be749f2867e = L.marker(
+                [50.03259444444444, 14.598294444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b1f64f221f0ebce37cd52be749f2867e.bindTooltip(
+                `<div>
+                     Městská knihovna Městské části Praha Uhříněves
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_43f3db28f851de6c63736d42d234ee74 = L.marker(
+                [50.087395, 14.417399166666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_43f3db28f851de6c63736d42d234ee74.bindTooltip(
+                `<div>
+                     Městská knihovna v Praze
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_47d5bba36b60f8a80223f5d59f7f88d8 = L.marker(
+                [50.069500000000005, 14.497844444444443],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_47d5bba36b60f8a80223f5d59f7f88d8.bindTooltip(
+                `<div>
+                     Metropolitní univerzita Praha, o.p.s. - Odborná knihovna Jiřího Hájka
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3e66d6f354912940c1974bba11b3fa4e = L.marker(
+                [50.0871, 14.424205555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_3e66d6f354912940c1974bba11b3fa4e.bindTooltip(
+                `<div>
+                     Mezinárodní sinologické centrum Chiang Ching-Kuovy nadace při Karlově univerzitě - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f2229b3b754b9e8ed723eb0efa91a90d = L.marker(
+                [50.089150000000004, 14.407191666666668],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f2229b3b754b9e8ed723eb0efa91a90d.bindTooltip(
+                `<div>
+                     Ministerstvo financí ČR - Odborná knihovna MF
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_49897c4d88d416970d5c28e6494a03d5 = L.marker(
+                [50.085461111111115, 14.405822222222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_49897c4d88d416970d5c28e6494a03d5.bindTooltip(
+                `<div>
+                     Ministerstvo kultury ČR - Odbor umění, knihoven, kulturních a kreativních odvětví
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d5328ef468a45ab4df2c222f6e9614ee = L.marker(
+                [50.086835, 14.384693055555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d5328ef468a45ab4df2c222f6e9614ee.bindTooltip(
+                `<div>
+                     Ministerstvo obrany ČR - Vojenské zařízení 5847
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9e9c893516cc80169ee1b536957c63c7 = L.marker(
+                [50.08822222222222, 14.421116666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9e9c893516cc80169ee1b536957c63c7.bindTooltip(
+                `<div>
+                     Ministerstvo pro místní rozvoj ČR - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c537b50b990d2d5ab44fb11a8dfdc1c4 = L.marker(
+                [50.09300555555556, 14.425819444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_c537b50b990d2d5ab44fb11a8dfdc1c4.bindTooltip(
+                `<div>
+                     Ministerstvo průmyslu a obchodu ČR - technická knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_881ca5495f9a4c6abb1aa4cc9d298335 = L.marker(
+                [50.072179722222224, 14.464913333333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_881ca5495f9a4c6abb1aa4cc9d298335.bindTooltip(
+                `<div>
+                     Ministerstvo spravedlnosti ČR - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8f1e6b6b867901d6810f7c96d7b34d74 = L.marker(
+                [50.03629027777777, 14.488277777777776],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8f1e6b6b867901d6810f7c96d7b34d74.bindTooltip(
+                `<div>
+                     Ministerstvo vnitra ČR - Hasičský záchranný sbor ČR - Generální ředitelství - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f722619569e6540260de0fb3f2453bad = L.marker(
+                [50.08876666666667, 14.390711111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f722619569e6540260de0fb3f2453bad.bindTooltip(
+                `<div>
+                     Ministerstvo zahraničních věcí ČR - Odbor administrativy a zpracování informací - Ústřední vědecká knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ce5baf7d618cf2beeeb81d3e4a5b682f = L.marker(
+                [50.00262222222222, 14.352919444444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ce5baf7d618cf2beeeb81d3e4a5b682f.bindTooltip(
+                `<div>
+                     Místní knihovna Lochkov
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e97191d7afa20731d02350573f25a3db = L.marker(
+                [50.03020611111111, 14.30906],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e97191d7afa20731d02350573f25a3db.bindTooltip(
+                `<div>
+                     Místní knihovna Praha 5 - Řeporyje
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2bc8c51aa590c5df164b338d47febfd7 = L.marker(
+                [50.15212222222222, 14.521616666666667],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2bc8c51aa590c5df164b338d47febfd7.bindTooltip(
+                `<div>
+                     Místní knihovna Praha-Čakovice
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_93056b1ddcce0b842f5b5cbec4b4d2df = L.marker(
+                [50.03639166666667, 14.555241666666667],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_93056b1ddcce0b842f5b5cbec4b4d2df.bindTooltip(
+                `<div>
+                     Místní knihovna Praha - Petrovice
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_901d5a7c438cd0bc2031e950438c8325 = L.marker(
+                [50.12730555555556, 14.573994444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_901d5a7c438cd0bc2031e950438c8325.bindTooltip(
+                `<div>
+                     Místní knihovna Praha-Satalice
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2957c0fbbe050fd8a715d2678792f18e = L.marker(
+                [49.981455555555556, 14.361222222222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2957c0fbbe050fd8a715d2678792f18e.bindTooltip(
+                `<div>
+                     Místní knihovna Radotín
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_40323d9e8f910ecedf3d86fb26d15ac8 = L.marker(
+                [50.16281027777778, 14.522929722222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_40323d9e8f910ecedf3d86fb26d15ac8.bindTooltip(
+                `<div>
+                     Místní knihovna Třeboradice
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0b534a96c39293c7a275964e2d09d8da = L.marker(
+                [50.08220277777778, 14.618061111111112],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0b534a96c39293c7a275964e2d09d8da.bindTooltip(
+                `<div>
+                     Místní knihovna v Běchovicích
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f1a2c6743417d864369fb32c3d6adbbe = L.marker(
+                [50.09513888888889, 14.668658333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f1a2c6743417d864369fb32c3d6adbbe.bindTooltip(
+                `<div>
+                     Místní knihovna v Klánovicích
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fe5b2f4db7e3b8cf2bd7bf20a0b9f5f8 = L.marker(
+                [50.06511111111111, 14.30175],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_fe5b2f4db7e3b8cf2bd7bf20a0b9f5f8.bindTooltip(
+                `<div>
+                     Místní knihovna v Praze 17 - Řepy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7b1c224a16b793c21c5864a310220f5f = L.marker(
+                [50.01348888888889, 14.604458333333334],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7b1c224a16b793c21c5864a310220f5f.bindTooltip(
+                `<div>
+                     Místní knihovna v Praze - Benicích
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bfb037c687bf9b5e406a8b9896eb90bb = L.marker(
+                [50.036430555555555, 14.635102777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_bfb037c687bf9b5e406a8b9896eb90bb.bindTooltip(
+                `<div>
+                     Místní knihovna v Praze - Královicích
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_23c29b6c77d8f7909edf87931b5a7441 = L.marker(
+                [50.072158333333334, 14.551330555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_23c29b6c77d8f7909edf87931b5a7441.bindTooltip(
+                `<div>
+                     Místní knihovna v Praze - Štěrboholech
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aaceadfff6a3224c92f3c7c04bb26022 = L.marker(
+                [50.11721027777778, 14.297900277777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_aaceadfff6a3224c92f3c7c04bb26022.bindTooltip(
+                `<div>
+                     Místní lidová knihovna Přední Kopanina
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2894ae32775dc0eebe3fa4d3f92a8721 = L.marker(
+                [50.13988611111111, 14.378725000000001],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2894ae32775dc0eebe3fa4d3f92a8721.bindTooltip(
+                `<div>
+                     Místní veřejná knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_604371715110f70bde645eda54974e34 = L.marker(
+                [50.07270833333334, 14.667241666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_604371715110f70bde645eda54974e34.bindTooltip(
+                `<div>
+                     Místní veřejná knihovna Městské části Praha 21
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_53f5f53184d1c40cc37662bb3ed3cfe0 = L.marker(
+                [50.11407222222223, 14.607327777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_53f5f53184d1c40cc37662bb3ed3cfe0.bindTooltip(
+                `<div>
+                     Místní veřejná knihovna, Praha 9-Horní Počernice
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4bfa0decbcb9a0c59e2c3920e64532c4 = L.marker(
+                [50.063113055555554, 14.595931111111112],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_4bfa0decbcb9a0c59e2c3920e64532c4.bindTooltip(
+                `<div>
+                     Místní veřejná knihovna v Praze 10 - Dubči
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_440b1a80b8295f92c79593a6f4d7418e = L.marker(
+                [50.03661805555555, 14.506136944444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_440b1a80b8295f92c79593a6f4d7418e.bindTooltip(
+                `<div>
+                     Místní veřejná knihovna v Praze 11 - Chodově
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_68101d3d5d6d51ddbd292aec19be7097 = L.marker(
+                [50.14521388888889, 14.443041666666668],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_68101d3d5d6d51ddbd292aec19be7097.bindTooltip(
+                `<div>
+                     Místní veřejná knihovna v Praze - Dolních Chabrech
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aed96e340af2158856e3cd179f367f4b = L.marker(
+                [50.01164444444444, 14.483377777777777],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_aed96e340af2158856e3cd179f367f4b.bindTooltip(
+                `<div>
+                     Místní veřejná knihovna v Praze-Kunraticích
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e298d1cd836a4f6ae49d4cedab7ea594 = L.marker(
+                [49.96013611111111, 14.359892777777777],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e298d1cd836a4f6ae49d4cedab7ea594.bindTooltip(
+                `<div>
+                     Místní veřejná knihovna v Praze - Lipencích
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_96eada92de37e0934f98535901ea9686 = L.marker(
+                [50.01749722222222, 14.652402777777779],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_96eada92de37e0934f98535901ea9686.bindTooltip(
+                `<div>
+                     Místní veřejná knihovna v Praze - Nedvězí
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9c261ceb47bd34605f8edbb25320ad39 = L.marker(
+                [50.0132, 14.513522222222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9c261ceb47bd34605f8edbb25320ad39.bindTooltip(
+                `<div>
+                     Místní veřejná knihovna v Praze - Šeberově
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6ad4f47f92dfd2cb7b20c7f9409bb619 = L.marker(
+                [49.97576388888889, 14.396080555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_6ad4f47f92dfd2cb7b20c7f9409bb619.bindTooltip(
+                `<div>
+                     Místní veřejná knihovna v Praze - Zbraslavi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_30912d5270f942643258dc13ff45e1db = L.marker(
+                [50.07638166666667, 14.414790833333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_30912d5270f942643258dc13ff45e1db.bindTooltip(
+                `<div>
+                     Multikulturní centrum Praha - Informační centrum a knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8b8b76ad2b85a5f3a007f28e43d12108 = L.marker(
+                [50.102983333333334, 14.403719444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8b8b76ad2b85a5f3a007f28e43d12108.bindTooltip(
+                `<div>
+                     Muzikologická knihovna Ústavu dějin umění AV ČR, v. v. i.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_acfbec9330ee70ede6e71d5d92edd56b = L.marker(
+                [50.12694722222222, 14.4554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_acfbec9330ee70ede6e71d5d92edd56b.bindTooltip(
+                `<div>
+                     Nadace Bohuslava Martinů - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7e8e295cbc32d027cf92e85d097dab71 = L.marker(
+                [50.12023083333333, 14.460993888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7e8e295cbc32d027cf92e85d097dab71.bindTooltip(
+                `<div>
+                     Nadace pro dějiny kultury ve střední Evropě - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d06d7b94343822a05b03ed8e55863d6c = L.marker(
+                [50.08239166666667, 14.427980555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d06d7b94343822a05b03ed8e55863d6c.bindTooltip(
+                `<div>
+                     Nadace pro rozvoj architektury a stavitelství - Stavební knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_27fc266d667f12ebf89bfab5e4b6e3a6 = L.marker(
+                [50.08712777777778, 14.423335],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_27fc266d667f12ebf89bfab5e4b6e3a6.bindTooltip(
+                `<div>
+                     Nadační fond Stadler-Trier - Knihovna Jana Stadlera
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_39e729da8a9c329efa85f2c280f4a0cf = L.marker(
+                [50.04281388888889, 14.488299999999999],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_39e729da8a9c329efa85f2c280f4a0cf.bindTooltip(
+                `<div>
+                     Nakladatelství ALTER, s.r.o.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5b1a82a12a71b7dd5c119e47d280d9c4 = L.marker(
+                [50.03944722222222, 14.494191666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5b1a82a12a71b7dd5c119e47d280d9c4.bindTooltip(
+                `<div>
+                     Národní archiv - Badatelna a knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bf02239ebe50859f1c2e244461353d15 = L.marker(
+                [50.08655, 14.302733333333334],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_bf02239ebe50859f1c2e244461353d15.bindTooltip(
+                `<div>
+                     Národní centrum zemědělského a potravinářského výzkumu - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9aa86a265af2b2c8ce380f964bbeff5d = L.marker(
+                [50.07001916666667, 14.5335075],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9aa86a265af2b2c8ce380f964bbeff5d.bindTooltip(
+                `<div>
+                     Národní centrum zemědělského a potravinářského výzkumu, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1da015271e99f676832c35d824119cb9 = L.marker(
+                [50.08307222222223, 14.41756111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_1da015271e99f676832c35d824119cb9.bindTooltip(
+                `<div>
+                     Národní filmový archiv - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5a4f92f35518e0e0a86066d614749ae1 = L.marker(
+                [50.09060277777778, 14.396647222222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5a4f92f35518e0e0a86066d614749ae1.bindTooltip(
+                `<div>
+                     Národní galerie v Praze - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_38263e8dcd9d51a32fe85a1fcf101e16 = L.marker(
+                [50.07149611111112, 14.430010833333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_38263e8dcd9d51a32fe85a1fcf101e16.bindTooltip(
+                `<div>
+                     Národní institut pro kulturu - Knihovna NIK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9e3f50466515c2ed20667fa0e579c132 = L.marker(
+                [50.086422222222225, 14.415725],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9e3f50466515c2ed20667fa0e579c132.bindTooltip(
+                `<div>
+                     Národní knihovna České republiky
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_85f6997ddd9f5cf297ab1052cbcef889 = L.marker(
+                [50.06083222222222, 14.531394166666667],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_85f6997ddd9f5cf297ab1052cbcef889.bindTooltip(
+                `<div>
+                     Národní knihovna České republiky - CASLIN - Souborný katalog ČR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fbf06892a01d4d65666059984100af05 = L.marker(
+                [50.06083222222222, 14.531394166666667],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_fbf06892a01d4d65666059984100af05.bindTooltip(
+                `<div>
+                     Národní knihovna České republiky - CASLIN - Souborný katalog ČR - (služební sigla)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_94404da35cba3fa62e624b756929753a = L.marker(
+                [50.06115833333333, 14.53071388888889],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_94404da35cba3fa62e624b756929753a.bindTooltip(
+                `<div>
+                     Národní knihovna České republiky - Centrální depozitář
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4b8eabd6ead13d2c4314023e374da41e = L.marker(
+                [50.086422222222225, 14.415725],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_4b8eabd6ead13d2c4314023e374da41e.bindTooltip(
+                `<div>
+                     Národní knihovna České republiky - Historické a hudební fondy - Hudební oddělení
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e7204a38ee5f762786b7cae42a06d60e = L.marker(
+                [50.086422222222225, 14.415725],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e7204a38ee5f762786b7cae42a06d60e.bindTooltip(
+                `<div>
+                     Národní knihovna České republiky - Historické a hudební fondy - Oddělení rukopisů a starých tisků
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0c03fc7f3679b9c5dd1d971a96d5f7d8 = L.marker(
+                [50.086422222222225, 14.415725],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0c03fc7f3679b9c5dd1d971a96d5f7d8.bindTooltip(
+                `<div>
+                     Národní knihovna České republiky - Knihovní fondy a služby - Odbor služeb
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_709556eaf48a2ede97d571599b51779a = L.marker(
+                [50.086422222222225, 14.415725],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_709556eaf48a2ede97d571599b51779a.bindTooltip(
+                `<div>
+                     Národní knihovna České republiky - Knihovnický institut - Knihovna knihovnické literatury
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b58d9f74a08994bb024100da6e3e12e1 = L.marker(
+                [50.086422222222225, 14.415725],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b58d9f74a08994bb024100da6e3e12e1.bindTooltip(
+                `<div>
+                     Národní knihovna České republiky - Slovanská knihovna - oddělení služeb
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d30f9c411bf7f8fd534b07c1fbb0d81e = L.marker(
+                [50.074894444444446, 14.429369444444443],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d30f9c411bf7f8fd534b07c1fbb0d81e.bindTooltip(
+                `<div>
+                     Národní lékařská knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_028d7f740bb56a39f33b119b4016b552 = L.marker(
+                [50.073038888888895, 14.415363888888889],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_028d7f740bb56a39f33b119b4016b552.bindTooltip(
+                `<div>
+                     Národní lékařská knihovna - oddělení vědeckých informací při Ministerstvu zdravotnictví
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d74038d14def2a0585b93242c22cf502 = L.marker(
+                [50.08494805555556, 14.404536111111112],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d74038d14def2a0585b93242c22cf502.bindTooltip(
+                `<div>
+                     Národní muzeum - České muzeum hudby - Hudebněhistorické oddělení
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_40aa5b585c687d629837ff9ba2bd08dd = L.marker(
+                [50.07369027777778, 14.426925277777777],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_40aa5b585c687d629837ff9ba2bd08dd.bindTooltip(
+                `<div>
+                     Národní muzeum - České muzeum hudby - Muzeum Antonína Dvořáka
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0d279ec5e1821818774ec130f52c9fff = L.marker(
+                [50.107866666666666, 14.437827777777779],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0d279ec5e1821818774ec130f52c9fff.bindTooltip(
+                `<div>
+                     Národní muzeum - Historické muzeum - Archiv Národního muzea
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_591809d6caa7bb19515679a27803685f = L.marker(
+                [50.07989944444445, 14.431710277777777],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_591809d6caa7bb19515679a27803685f.bindTooltip(
+                `<div>
+                     Národní muzeum - Historické muzeum - Oddělení dějin tělesné výchovy a sportu - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f2989a8f5234bd15a185ad9d0dceacee = L.marker(
+                [50.07989888888889, 14.431709999999999],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f2989a8f5234bd15a185ad9d0dceacee.bindTooltip(
+                `<div>
+                     Národní muzeum - Knihovna Národního muzea
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2198658d1fc6dd70eb2771708b19984e = L.marker(
+                [50.10454888888889, 14.414277222222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2198658d1fc6dd70eb2771708b19984e.bindTooltip(
+                `<div>
+                     Národní muzeum - Knihovna Národního muzea - Oddělení časopisů
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_89ac0b6981bcbd7387a7eda4fded6dcc = L.marker(
+                [50.07917777777778, 14.430556388888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_89ac0b6981bcbd7387a7eda4fded6dcc.bindTooltip(
+                `<div>
+                     Národní muzeum - Knihovna Národního muzea - Oddělení rukopisů a starých tisků
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2faf83b7bb2d4aee6fe8305e53683fa3 = L.marker(
+                [50.07917777777778, 14.430556388888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2faf83b7bb2d4aee6fe8305e53683fa3.bindTooltip(
+                `<div>
+                     Národní muzeum - Knihovna Národního muzea - oddělení zámeckých knihoven
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7f0df8b05daeb7d667b43e1a755b5be6 = L.marker(
+                [50.08403888888889, 14.416608333333334],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7f0df8b05daeb7d667b43e1a755b5be6.bindTooltip(
+                `<div>
+                     Národní muzeum - Náprstkovo muzeum asijských, afrických a amerických kultur - Knihovna Náprstkova muzea
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_63ae925c4149270db39b55095b2c7f74 = L.marker(
+                [50.1208825, 14.628834444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_63ae925c4149270db39b55095b2c7f74.bindTooltip(
+                `<div>
+                     Národní muzeum - Přírodovědecké muzeum - Entomologické oddělení - příruční knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f0fd1be0c77ed75f1732cf3b943fffff = L.marker(
+                [50.08475333333334, 14.416490833333334],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f0fd1be0c77ed75f1732cf3b943fffff.bindTooltip(
+                `<div>
+                     Národní památkový ústav - Autority
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7c4b56c0e7f26bebed8062406d050fec = L.marker(
+                [50.090205555555556, 14.404975],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7c4b56c0e7f26bebed8062406d050fec.bindTooltip(
+                `<div>
+                     Národní památkový ústav - Historické knihovní fondy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5ae704be17588a08a6629b9bd46d9d52 = L.marker(
+                [50.08475333333334, 14.416490833333334],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5ae704be17588a08a6629b9bd46d9d52.bindTooltip(
+                `<div>
+                     Národní památkový ústav - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b689692c5cf823581b54b9f880a71e1c = L.marker(
+                [50.085858333333334, 14.455055555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b689692c5cf823581b54b9f880a71e1c.bindTooltip(
+                `<div>
+                     Národní památkový ústav - Územní odborné pracoviště středních Čech v Praze - odbor evidence, dokumentace a IS - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_882d5d6592366ade892fffc8346a2c00 = L.marker(
+                [50.08349166666667, 14.418769444444443],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_882d5d6592366ade892fffc8346a2c00.bindTooltip(
+                `<div>
+                     Národní památkový ústav - Územní odborné pracoviště v Praze - oddělení dokumentace a knihovny, odbor evidence, dokumentace a IS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6acecd565c9dd673a17d6bb52b14bf88 = L.marker(
+                [50.08399638888889, 14.432527777777777],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_6acecd565c9dd673a17d6bb52b14bf88.bindTooltip(
+                `<div>
+                     Národní pedagogické muzeum a knihovna J. A. Komenského - Pedagogická knihovna J. A. Komenského
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_57f360076dfbb702c36044e6809833bf = L.marker(
+                [50.09050555555556, 14.405197222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_57f360076dfbb702c36044e6809833bf.bindTooltip(
+                `<div>
+                     Národní pedagogické muzeum a knihovna J. A. Komenského - Pedagogické muzeum J. A. Komenského - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e41ee786fd8009e179e1dac91d430420 = L.marker(
+                [50.05285, 14.540011111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e41ee786fd8009e179e1dac91d430420.bindTooltip(
+                `<div>
+                     Národní pedagogický institut České republiky - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a783875bafa6ef55bc2106aa7c816fb3 = L.marker(
+                [50.10391111111111, 14.390655555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_a783875bafa6ef55bc2106aa7c816fb3.bindTooltip(
+                `<div>
+                     Národní technická knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8f85a69005a23a4e7cc89f27e3feb4f1 = L.marker(
+                [50.09705277777778, 14.424094444444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8f85a69005a23a4e7cc89f27e3feb4f1.bindTooltip(
+                `<div>
+                     Národní technické muzeum - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5bd02a9f41566f4294403891752f8d49 = L.marker(
+                [50.10705055555556, 14.450259166666665],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5bd02a9f41566f4294403891752f8d49.bindTooltip(
+                `<div>
+                     Nejvyšší kontrolní úřad - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_971703d8c87d9b1d9258907490d6c31f = L.marker(
+                [50.086561111111116, 14.419136111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_971703d8c87d9b1d9258907490d6c31f.bindTooltip(
+                `<div>
+                     New York University in Prague - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c1e9227d285de400bf5baa9c597881d1 = L.marker(
+                [50.144225, 14.480941666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_c1e9227d285de400bf5baa9c597881d1.bindTooltip(
+                `<div>
+                     Obecní knihovna v Ďáblicích
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9a3ef7ffcd958fe1e5880f04f519814d = L.marker(
+                [50.122572222222225, 14.468144444444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9a3ef7ffcd958fe1e5880f04f519814d.bindTooltip(
+                `<div>
+                     Orientální ústav AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4d539b0ff74c0031a2fda7db4f938bd8 = L.marker(
+                [50.042202499999995, 14.321845833333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_4d539b0ff74c0031a2fda7db4f938bd8.bindTooltip(
+                `<div>
+                     Osvobozená knihovna, z.s.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e255aa8473ae8fe18da295b27934bc2c = L.marker(
+                [50.11281555555556, 14.500569444444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e255aa8473ae8fe18da295b27934bc2c.bindTooltip(
+                `<div>
+                     Panevropská univerzita - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2c63f7d6cd018ada27ae92642a089109 = L.marker(
+                [50.08915277777778, 14.403944444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2c63f7d6cd018ada27ae92642a089109.bindTooltip(
+                `<div>
+                     Parlamentní knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5e59247acc133811eea577f18dcbd582 = L.marker(
+                [50.034369444444444, 14.508675],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5e59247acc133811eea577f18dcbd582.bindTooltip(
+                `<div>
+                     Pavel Dobrovský - BETA, s.r.o. - distribuce knih - nakladatelství
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4c228ca93af370286a619ba63b57a296 = L.marker(
+                [50.01708611111111, 14.4316],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_4c228ca93af370286a619ba63b57a296.bindTooltip(
+                `<div>
+                     Policejní akademie České republiky v Praze - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_29b3233fb1fb24a4c848ff8a29e8a9e1 = L.marker(
+                [50.09241666666667, 14.428444444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_29b3233fb1fb24a4c848ff8a29e8a9e1.bindTooltip(
+                `<div>
+                     Poštovní muzeum - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d4776fc39286e285fde53f32b3fb751c = L.marker(
+                [50.03740277777778, 14.42925],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d4776fc39286e285fde53f32b3fb751c.bindTooltip(
+                `<div>
+                     PRAGOPROJEKT, a.s. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_36b54dc0b45540c11395e5c828663d0b = L.marker(
+                [50.08755111111111, 14.417958333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_36b54dc0b45540c11395e5c828663d0b.bindTooltip(
+                `<div>
+                     Prague City Tourism a.s.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5d467b8f8754a46dbdd29fe7b6f1fda9 = L.marker(
+                [50.090541944444446, 14.405735],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5d467b8f8754a46dbdd29fe7b6f1fda9.bindTooltip(
+                `<div>
+                     Pražská konzervatoř - Specializovaná knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_77b95f52a1f6a3e701d24c2e7e16a628 = L.marker(
+                [50.03811666666667, 14.517236111111112],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_77b95f52a1f6a3e701d24c2e7e16a628.bindTooltip(
+                `<div>
+                     Pražská vysoká škola psychosociálních studií, s.r.o. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ebdb6b604299b1bd045ebc1f91c69eb4 = L.marker(
+                [50.06281944444444, 14.539025],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ebdb6b604299b1bd045ebc1f91c69eb4.bindTooltip(
+                `<div>
+                     Pražské vodovody a kanalizace, a.s. - Oddělení archivu a muzea - Archivní knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_298caacd633c6d18b0cb7e2733391ff6 = L.marker(
+                [50.04944166666667, 14.456913888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_298caacd633c6d18b0cb7e2733391ff6.bindTooltip(
+                `<div>
+                     PRO.MED.CS Praha, a.s. - Documentation ADM - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d779c690c93e99acf3857268e8a00e57 = L.marker(
+                [50.08292222222222, 14.422763888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d779c690c93e99acf3857268e8a00e57.bindTooltip(
+                `<div>
+                     Provincie bratří františkánů - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_78d45caf518281dada2e5a0b7187e922 = L.marker(
+                [50.13348611111111, 14.424222222222221],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_78d45caf518281dada2e5a0b7187e922.bindTooltip(
+                `<div>
+                     Psychiatrická nemocnice Bohnice - Lékařská knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_04292799e6e9a3e1fc2c90551ba1162c = L.marker(
+                [50.08448333333334, 14.418333333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_04292799e6e9a3e1fc2c90551ba1162c.bindTooltip(
+                `<div>
+                     Psychologický ústav AV ČR, v. v. i. - pobočka Praha - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5039943a2a7873d77d8dde918ebda184 = L.marker(
+                [50.078047222222224, 14.477694444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5039943a2a7873d77d8dde918ebda184.bindTooltip(
+                `<div>
+                     Radio Free Europe - Radio Liberty - Library
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_39a2972a1174f2b28fff1d06caf894b4 = L.marker(
+                [50.12236611111111, 14.393351944444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_39a2972a1174f2b28fff1d06caf894b4.bindTooltip(
+                `<div>
+                     Regula Pragensis - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e41e00365fef47bbf9d29837261e84d6 = L.marker(
+                [50.06778333333334, 14.421297222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e41e00365fef47bbf9d29837261e84d6.bindTooltip(
+                `<div>
+                     Revmatologický ústav - Středisko administrativy výzkumu, informací a vzdělávání
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f5351d896376b29a2bce68dd99d7775c = L.marker(
+                [50.10010555555556, 14.412413888888889],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f5351d896376b29a2bce68dd99d7775c.bindTooltip(
+                `<div>
+                     Ruské středisko vědy a kultury v Praze - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_be7feb07f166e1d1ca62c9adb2d8834c = L.marker(
+                [50.04091111111111, 14.459358333333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_be7feb07f166e1d1ca62c9adb2d8834c.bindTooltip(
+                `<div>
+                     Ředitelství silnic a dálnic
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a96ce189d3c4649b9fc79403b9b4f49f = L.marker(
+                [50.09786666666667, 14.400611111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_a96ce189d3c4649b9fc79403b9b4f49f.bindTooltip(
+                `<div>
+                     Skandinávský dům, z. s. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d02298c1cedf560e83edc6fb58a5baeb = L.marker(
+                [50.08735, 14.416783333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d02298c1cedf560e83edc6fb58a5baeb.bindTooltip(
+                `<div>
+                     Slovanský ústav AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cfcdfc3f06bd3f8fe66dbee6748d3808 = L.marker(
+                [50.08020527777778, 14.4584575],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_cfcdfc3f06bd3f8fe66dbee6748d3808.bindTooltip(
+                `<div>
+                     Společnost pro církevní právo, z. s. - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9cd1f48b99b8b6f885357a6e7a01e69d = L.marker(
+                [50.08916611111111, 14.368934722222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9cd1f48b99b8b6f885357a6e7a01e69d.bindTooltip(
+                `<div>
+                     Starokatolická knihovna a archiv Josefa Königa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8607f614f12381a6c3f6a6162b8676c8 = L.marker(
+                [50.03944722222222, 14.494191666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8607f614f12381a6c3f6a6162b8676c8.bindTooltip(
+                `<div>
+                     Státní oblastní archiv v Praze - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ae79464aa1d0b77085a6d21f8e75982a = L.marker(
+                [50.076011111111114, 14.472922222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ae79464aa1d0b77085a6d21f8e75982a.bindTooltip(
+                `<div>
+                     Státní ústav pro kontrolu léčiv - Tiskové a informační oddělení SÚKL - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f86d4dbb6b473a83b29f9263a121e4ce = L.marker(
+                [50.06196944444444, 14.452124999999999],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f86d4dbb6b473a83b29f9263a121e4ce.bindTooltip(
+                `<div>
+                     Státní ústav radiační ochrany, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_37696aa5238b1be2f6e78171f19a8e29 = L.marker(
+                [50.12873888888889, 14.380708333333335],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_37696aa5238b1be2f6e78171f19a8e29.bindTooltip(
+                `<div>
+                     Státní veterinární ústav Praha - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ecd080e75905ff11680d5c80fa21967e = L.marker(
+                [50.076011111111114, 14.472922222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ecd080e75905ff11680d5c80fa21967e.bindTooltip(
+                `<div>
+                     Státní zdravotní ústav - Středisko vědeckých informací - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cf860fda3b90b6d080f668b98f630ef5 = L.marker(
+                [50.062152777777776, 14.437383333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_cf860fda3b90b6d080f668b98f630ef5.bindTooltip(
+                `<div>
+                     Sterplan a.s.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bf412c6b5af4ac49585a44796553b234 = L.marker(
+                [50.08142777777778, 14.413855555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_bf412c6b5af4ac49585a44796553b234.bindTooltip(
+                `<div>
+                     Středisko společných činností AV ČR, v. v. i.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c323c5f0f5782c99f54c9cb7d9816df2 = L.marker(
+                [50.11565, 14.464483333333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_c323c5f0f5782c99f54c9cb7d9816df2.bindTooltip(
+                `<div>
+                     Středisko vědeckých informací Fakultní nemocnice Bulovka - Lékařská knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_800bb9d5ab92a0150388bc95199a0bc6 = L.marker(
+                [50.08356388888889, 14.414961111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_800bb9d5ab92a0150388bc95199a0bc6.bindTooltip(
+                `<div>
+                     Střední průmyslová škola strojnická, škola hlavního města Prahy - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7acc9a4c13f67d2db1551381bbfaf57b = L.marker(
+                [50.07398888888889, 14.47893611111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7acc9a4c13f67d2db1551381bbfaf57b.bindTooltip(
+                `<div>
+                     Střední zdravotnická škola - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_39769214324de853205ba919c855c3e1 = L.marker(
+                [50.09258333333334, 14.378452777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_39769214324de853205ba919c855c3e1.bindTooltip(
+                `<div>
+                     Studijní a dokumentační centrum Adolfa Loose - Studijní a dokumentační centrum Norbertov - Odborná knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_696d182dd1a6d3f636b603ff6ab586e1 = L.marker(
+                [50.16257888888889, 14.740356666666665],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_696d182dd1a6d3f636b603ff6ab586e1.bindTooltip(
+                `<div>
+                     SVÚM, a.s. - Technická knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4b1218b9e7b3669d44a1a0f98c52fe64 = L.marker(
+                [50.07786666666667, 14.40398888888889],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_4b1218b9e7b3669d44a1a0f98c52fe64.bindTooltip(
+                `<div>
+                     Švandovo divadlo na Smíchově - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_609040216b317023ee86aa9cae3ee51e = L.marker(
+                [50.07924722222223, 14.428158333333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_609040216b317023ee86aa9cae3ee51e.bindTooltip(
+                `<div>
+                     Tyfloservis, o.p.s. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ea6cf0b2e04cd4413e6afb6ee00c4480 = L.marker(
+                [50.07378888888889, 14.34243888888889],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ea6cf0b2e04cd4413e6afb6ee00c4480.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta a Fakultní nemocnice v Motole - Klinika otorhinolaryngologie a chirurgie hlavy a krku
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_078c4f9c2509c35360aaef73c1ff8e7d = L.marker(
+                [50.07378888888889, 14.34243888888889],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_078c4f9c2509c35360aaef73c1ff8e7d.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1.lékařská fakulta a Fakultní nemocnice v Motole - Ortopedická klinika
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_71b03272100609a140df9fea661d15ed = L.marker(
+                [50.06845555555556, 14.423072222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_71b03272100609a140df9fea661d15ed.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1.lékařská fakulta a Všeobecná fakultní nemocnice - Farmakologický ústav - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_317391cc3137cd51336f66262d9c3d30 = L.marker(
+                [50.07350277777778, 14.42025],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_317391cc3137cd51336f66262d9c3d30.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1.lékařská fakulta a Všeobecná fakultní nemocnice - I.chirurgická klinika - břišní, hrudní a úrazová chirurgie - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8ca3447a3e230875df9bd337ff431174 = L.marker(
+                [50.07350277777778, 14.42025],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8ca3447a3e230875df9bd337ff431174.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta a Všeobecná fakultní nemocnice - II.chirurgická klinika kardiovaskulární chirurgie - Lékařská knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_347ab4bc8b799489eeeb146b89845770 = L.marker(
+                [50.07350277777778, 14.42025],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_347ab4bc8b799489eeeb146b89845770.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta a Všeobecná fakultní nemocnice - II. interní klinika - Klinika kardiologie a angiologie - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9f2c46c3ecdfc373fff16ea8ee32d1a1 = L.marker(
+                [50.07350277777778, 14.42025],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9f2c46c3ecdfc373fff16ea8ee32d1a1.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta a Všeobecná fakultní nemocnice - IV. interní klinika - Klinika gastroenterologie a hepatologie - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8e3e0d597dd1b72268bf570f17d0dfa9 = L.marker(
+                [50.07138888888889, 14.426575],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8e3e0d597dd1b72268bf570f17d0dfa9.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta a Všeobecná fakultní nemocnice - Klinika gynekologie, porodnictví a neonatologie - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f8fa3c9668605cdca8f606fc53e42b05 = L.marker(
+                [50.07405833333333, 14.424947222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f8fa3c9668605cdca8f606fc53e42b05.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta a Všeobecná fakultní nemocnice - Neurologická klinika - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_307217d956d7c876ad33d329fe7c164e = L.marker(
+                [50.07350277777778, 14.42025],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_307217d956d7c876ad33d329fe7c164e.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta a Všeobecná fakultní nemocnice - Oční klinika - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1c31d019aecdadf33f47c28b3a932b60 = L.marker(
+                [50.07350277777778, 14.42025],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_1c31d019aecdadf33f47c28b3a932b60.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta a Všeobecná fakultní nemocnice - Onkologická klinika - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c69b16e154a79be3749b1d5435cd0dd8 = L.marker(
+                [50.072100000000006, 14.427458333333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_c69b16e154a79be3749b1d5435cd0dd8.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta a Všeobecná fakultní nemocnice - Psychiatrická klinika - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5ff5d4d1a3ffeeb6a80c6e7b36dfaffc = L.marker(
+                [50.07350277777778, 14.42025],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5ff5d4d1a3ffeeb6a80c6e7b36dfaffc.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1.lékařská fakulta a Všeobecná fakultní nemocnice - Radiodiagnostická klinika - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_332548b95cbdbc9aa36f3b73cc78de18 = L.marker(
+                [50.074669722222225, 14.426513333333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_332548b95cbdbc9aa36f3b73cc78de18.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta a Všeobecná fakultní nemocnice - Stomatologická klinika - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6410a53079603d717a458a63358d665a = L.marker(
+                [50.07642916666667, 14.421145555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_6410a53079603d717a458a63358d665a.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1.lékařská fakulta a Všeobecná fakultní nemocnice - Stomatologická klinika - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d58946d85dad38090c9e076a557048a0 = L.marker(
+                [50.06984166666667, 14.428669444444443],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d58946d85dad38090c9e076a557048a0.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta a Všeobecná fakultní nemocnice - Ústav dědičných metabolických poruch - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f01723365946125c872527ee16667994 = L.marker(
+                [50.069725000000005, 14.425408333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f01723365946125c872527ee16667994.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta a Všeobecná fakultní nemocnice - Ústav patologie - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f43d188111bcf29383a03e77c1c9f259 = L.marker(
+                [50.069833333333335, 14.42862361111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f43d188111bcf29383a03e77c1c9f259.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta a Všeobecná fakultní nemocnice v Praze - Ústav soudního lékařství a toxikologie - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1f8c72ba52197348242062e092cc34bc = L.marker(
+                [50.07355833333334, 14.420952777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_1f8c72ba52197348242062e092cc34bc.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1.lékařská fakulta - Anatomický ústav - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_15cda3253472261af97f44d6ecee07f6 = L.marker(
+                [50.069247222222224, 14.424294444444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_15cda3253472261af97f44d6ecee07f6.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1.lékařská fakulta - Fyziologický ústav - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d4e40fd51f1afba06df87a310971a0fb = L.marker(
+                [50.06899166666667, 14.424425],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d4e40fd51f1afba06df87a310971a0fb.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta - Klinika rehabilitačního lékařství - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_878c55ab5a4f43821bb3ec10a292381a = L.marker(
+                [50.07148333333333, 14.428233333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_878c55ab5a4f43821bb3ec10a292381a.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta - Urologická klinika - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aa4cf3e102d1c43c31fd50c4aadb1192 = L.marker(
+                [50.074333333333335, 14.423422222222221],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_aa4cf3e102d1c43c31fd50c4aadb1192.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta - Ústav biofyziky a informatiky - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_da4e1924de87bb64c8ccfd799a428bbb = L.marker(
+                [50.07372222222222, 14.423341666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_da4e1924de87bb64c8ccfd799a428bbb.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta - Ústav biochemie a experimentální onkologie - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_66d9677c92b6bfb81beb35656fce3e97 = L.marker(
+                [50.06845555555556, 14.423072222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_66d9677c92b6bfb81beb35656fce3e97.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta - Ústav biologie a lékařské genetiky - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8b3df492d0012e65fef0085015536340 = L.marker(
+                [50.06845555555556, 14.423072222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8b3df492d0012e65fef0085015536340.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1.lékařská fakulta - Ústav histologie a embryologie - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e0bec3c2684e65e6a1b82b378329eb89 = L.marker(
+                [50.074669444444446, 14.426513888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e0bec3c2684e65e6a1b82b378329eb89.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta - Ústav lékařské biochemie a laboratorní diagnostiky - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_56c071bda2ab97832f5f5162e5a797ce = L.marker(
+                [50.07372222222222, 14.423341666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_56c071bda2ab97832f5f5162e5a797ce.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1.lékařská fakulta - Ústav patologické fyziologie - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1e873e1bbc5d40e23da353e38952f599 = L.marker(
+                [50.07314166666667, 14.418841666666665],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_1e873e1bbc5d40e23da353e38952f599.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1.lékařská fakulta - Ústav pro humanitní studia v lékařství - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_70098e3f6835f9821b5787e33e93b2d4 = L.marker(
+                [50.07363361111111, 14.423219722222221],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_70098e3f6835f9821b5787e33e93b2d4.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 1. lékařská fakulta - Ústav vědeckých informací
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3d40a4ddc5ec1f381fde5dea9bca99f0 = L.marker(
+                [50.075276388888895, 14.343866944444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_3d40a4ddc5ec1f381fde5dea9bca99f0.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 2. lékařská fakulta - Ústav vědeckých informací
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b9c2e2d51d61b67079f4077f67a15c7f = L.marker(
+                [50.07434444444445, 14.473883333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b9c2e2d51d61b67079f4077f67a15c7f.bindTooltip(
+                `<div>
+                     Univerzita Karlova - 3. lékařská fakulta - Středisko vědeckých informací
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_da4eaea52d10c9b6502831cedc955147 = L.marker(
+                [50.09388666666667, 14.341358333333334],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_da4eaea52d10c9b6502831cedc955147.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Centrum pro otázky životního prostředí - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2be17b45f43b83334f6532e9ab908b89 = L.marker(
+                [50.08416666666667, 14.418655555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2be17b45f43b83334f6532e9ab908b89.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Centrum pro teoretická studia - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6e1f3098c11c0de03388d79824d851e0 = L.marker(
+                [50.07886944444445, 14.418080555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_6e1f3098c11c0de03388d79824d851e0.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Evangelická teologická fakulta - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e769656e0faf74fe08abd8b1c914164b = L.marker(
+                [50.11593138888889, 14.4421575],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e769656e0faf74fe08abd8b1c914164b.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Fakulta humanitních studií - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_44b1a3dae710ed48c32d67fcbf212acf = L.marker(
+                [50.0541625, 14.368817777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_44b1a3dae710ed48c32d67fcbf212acf.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Fakulta sociálních věd - Centrum vědeckých informací
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b074ffd156b86ae288660a92d22e84b5 = L.marker(
+                [50.09305833333334, 14.334741666666668],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b074ffd156b86ae288660a92d22e84b5.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Fakulta tělesné výchovy a sportu - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bca96d6bd2f4561bfab270beb97da532 = L.marker(
+                [50.0871, 14.424205555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_bca96d6bd2f4561bfab270beb97da532.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Český egyptologický ústav - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_17ee49a4e50744c9761981b56cacdd37 = L.marker(
+                [50.088975000000005, 14.415861111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_17ee49a4e50744c9761981b56cacdd37.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Fonetický ústav - knihovna - Knihovna fonetiky
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0a9d8cb2777c57b4303e97b03aba0769 = L.marker(
+                [50.088975000000005, 14.415861111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0a9d8cb2777c57b4303e97b03aba0769.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Historický kabinet - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e83198e5da1478c0d1aaace58627cd79 = L.marker(
+                [50.0871, 14.424205555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e83198e5da1478c0d1aaace58627cd79.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Katedra estetiky - Knihovna estetiky
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_940777ebb8d8cee6db07d09602766a19 = L.marker(
+                [50.088975000000005, 14.415861111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_940777ebb8d8cee6db07d09602766a19.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Knihovna anglistiky a romanistiky
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_254fd0932bc8d0f30d64a6e26da0d05b = L.marker(
+                [50.0871, 14.424205555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_254fd0932bc8d0f30d64a6e26da0d05b.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Knihovna Blízkého východu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ac195ffe2b035d558d730e313d27b1b0 = L.marker(
+                [50.0871, 14.424205555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ac195ffe2b035d558d730e313d27b1b0.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Knihovna Celetná
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b9fe8e9f82861b2aad6b23c72d063a02 = L.marker(
+                [50.0871, 14.424205555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b9fe8e9f82861b2aad6b23c72d063a02.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Knihovna Dálného východu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_25a876aca9d096c75c598283cf3cf97b = L.marker(
+                [50.088975000000005, 14.415861111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_25a876aca9d096c75c598283cf3cf97b.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Knihovna FF UK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_96d486fe3b4a67ed0974a068954bd135 = L.marker(
+                [50.087225000000004, 14.429805555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_96d486fe3b4a67ed0974a068954bd135.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Knihovna Šporkova paláce - Knihovna iberoamerikanistiky
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_333ef7ee27a0bf946bf3b8d19a00c09b = L.marker(
+                [50.0871, 14.424205555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_333ef7ee27a0bf946bf3b8d19a00c09b.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Knihovna Ústavu etnologie
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b92a5cb3076e96f23492cac8752eb1e9 = L.marker(
+                [50.088975000000005, 14.415861111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b92a5cb3076e96f23492cac8752eb1e9.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Knihovna Ústavu filosofie a religionistiky
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_001076d01d9c9d77ab24e56542c90311 = L.marker(
+                [50.0871, 14.424205555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_001076d01d9c9d77ab24e56542c90311.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Knihovna Ústavu řeckých a latinských studií
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ba4b97330aa2bdf89a1e29b9d175d102 = L.marker(
+                [50.0871, 14.424205555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ba4b97330aa2bdf89a1e29b9d175d102.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Knihovna Ústavu starého Předního východu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0112150b2aaa5ebd3906275fbedb45d1 = L.marker(
+                [50.0871, 14.424205555555554],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0112150b2aaa5ebd3906275fbedb45d1.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Filozofická fakulta - Ústav pro archeologii - Knihovna Ústavu pro archeologii
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_976fe065b0d4b420d79fe8104bb464b0 = L.marker(
+                [50.045030555555556, 14.441697222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_976fe065b0d4b420d79fe8104bb464b0.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Husitská teologická fakulta - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_87643f1538b9a12029ea0629e383f287 = L.marker(
+                [50.08721888888889, 14.424024166666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_87643f1538b9a12029ea0629e383f287.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Informační, poradenské a sociální centrum
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_386d8ffbd106448ff865020da05bd2ce = L.marker(
+                [50.102269444444445, 14.387191666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_386d8ffbd106448ff865020da05bd2ce.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Katolická teologická fakulta - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_efd0f69212f6ff5b53274719ffc68394 = L.marker(
+                [50.088344444444445, 14.403202777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_efd0f69212f6ff5b53274719ffc68394.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Matematicko-fyzikální fakulta - Knihovna MFF - odd. informatické
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ebda2250bf6dc3694a2a5e4ee36fbdc5 = L.marker(
+                [50.093975, 14.450541666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ebda2250bf6dc3694a2a5e4ee36fbdc5.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Matematicko-fyzikální fakulta - Knihovna MFF - odd. matematické
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ee5b6a4d4365f7e7832c718a206202d6 = L.marker(
+                [50.06955000000001, 14.428436111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ee5b6a4d4365f7e7832c718a206202d6.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Matematicko-fyzikální fakulta - Knihovna MFF UK - oddělení fyzikální
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ebe2e05c56225030e8be60facb0f825f = L.marker(
+                [50.07963055555556, 14.420266666666667],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ebe2e05c56225030e8be60facb0f825f.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Pedagogická fakulta - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_12837ee58e06082c4d92bcab8c31add8 = L.marker(
+                [50.09171388888889, 14.417491666666667],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_12837ee58e06082c4d92bcab8c31add8.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Právnická fakulta - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_56cc8a77f2b36015a192cc83cbf73347 = L.marker(
+                [50.072275000000005, 14.42431111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_56cc8a77f2b36015a192cc83cbf73347.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Přírodovědecká fakulta - Biologická knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ef46ac3494ae60cc3b8434f25845177c = L.marker(
+                [50.06889166666667, 14.424486111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ef46ac3494ae60cc3b8434f25845177c.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Přírodovědecká fakulta - Knihovna geografie
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e90c2afabcce0c9928a72c264380e40c = L.marker(
+                [50.06889166666667, 14.424486111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e90c2afabcce0c9928a72c264380e40c.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Přírodovědecká fakulta - Knihovna geologie
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_936bbda55a66313634fb883d967f7847 = L.marker(
+                [50.068286111111114, 14.424841666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_936bbda55a66313634fb883d967f7847.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Přírodovědecká fakulta - Knihovna chemie
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0179d012076b72b9a7b16bfa37bd1c6f = L.marker(
+                [50.07146388888889, 14.420863888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0179d012076b72b9a7b16bfa37bd1c6f.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Přírodovědecká fakulta - Knihovna katedry botaniky
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9d6f1dc7585fbf0646671b4df877bcb6 = L.marker(
+                [50.072275000000005, 14.42431111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9d6f1dc7585fbf0646671b4df877bcb6.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Přírodovědecká fakulta - Knihovna katedry filosofie a dějin přírodních věd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_98d509483faab750bc023c8c8cd81e76 = L.marker(
+                [50.07146388888889, 14.420863888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_98d509483faab750bc023c8c8cd81e76.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Přírodovědecká fakulta - Knihovna Ústavu pro životní prostředí
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_75e1cefe5bd8864a31a7d49750840a5e = L.marker(
+                [50.06889166666667, 14.424486111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_75e1cefe5bd8864a31a7d49750840a5e.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Přírodovědecká fakulta - Mapová sbírka
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7b49815c8d35aac7ea3cb780c8f909a8 = L.marker(
+                [50.06889166666667, 14.424486111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7b49815c8d35aac7ea3cb780c8f909a8.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Přírodovědecká fakulta - Oddělení podpory vědy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f2fa892796874187807e434060ebcbd6 = L.marker(
+                [50.07223472222223, 14.42606611111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f2fa892796874187807e434060ebcbd6.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Urologická klinika 1. LF UK a VFN - Sexuologický ústav - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5a4ec6dc422355a999d51ea5cc24f4a7 = L.marker(
+                [50.08638611111111, 14.423947222222221],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5a4ec6dc422355a999d51ea5cc24f4a7.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Ústav dějin UK a archiv UK - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_749606292a83aa208eb1951ab458dc7b = L.marker(
+                [50.094206944444444, 14.34179861111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_749606292a83aa208eb1951ab458dc7b.bindTooltip(
+                `<div>
+                     Univerzita Karlova - Ústřední knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dafa31e5285b95c62a78e08f42561f39 = L.marker(
+                [50.099696944444446, 14.432475],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_dafa31e5285b95c62a78e08f42561f39.bindTooltip(
+                `<div>
+                     Úřad pro ochranu osobních údajů - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b586152dc30efd97cc5b2201cde36b81 = L.marker(
+                [50.10771944444445, 14.400755555555556],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b586152dc30efd97cc5b2201cde36b81.bindTooltip(
+                `<div>
+                     Úřad průmyslového vlastnictví - odbor patentových informací
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5acd245b608e993cc2e560136b52bab4 = L.marker(
+                [50.09235833333334, 14.4117],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5acd245b608e993cc2e560136b52bab4.bindTooltip(
+                `<div>
+                     Úřad vlády České republiky - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7568b2fe26da8b8255cb30f9681a9801 = L.marker(
+                [50.08448333333334, 14.418333333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7568b2fe26da8b8255cb30f9681a9801.bindTooltip(
+                `<div>
+                     Ústav dějin umění AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2d2455514cf06729240d74f474c33e04 = L.marker(
+                [50.12714722222222, 14.38421111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2d2455514cf06729240d74f474c33e04.bindTooltip(
+                `<div>
+                     Ústav experimentální botaniky AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_63a50873c639442afb37910fe06777be = L.marker(
+                [50.01849166666666, 14.467719444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_63a50873c639442afb37910fe06777be.bindTooltip(
+                `<div>
+                     Ústav experimentální medicíny AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9a732c3ed2d39ee942a1adbef53334b1 = L.marker(
+                [50.13090833333333, 14.453399999999998],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9a732c3ed2d39ee942a1adbef53334b1.bindTooltip(
+                `<div>
+                     Ústav fotoniky a elektroniky AV ČR, v. v. i. - Středisko vědeckých informací
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cad29113c80ef456aab11759d5a9a223 = L.marker(
+                [50.123266666666666, 14.465291666666666],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_cad29113c80ef456aab11759d5a9a223.bindTooltip(
+                `<div>
+                     Ústav fyzikální chemie J. Heyrovského AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_77f03c21ec563b10f65a683f6ecced00 = L.marker(
+                [50.04088055555555, 14.476080555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_77f03c21ec563b10f65a683f6ecced00.bindTooltip(
+                `<div>
+                     Ústav fyziky atmosféry AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d1b14c053f26673fce7aaacac55413d0 = L.marker(
+                [50.12331666666667, 14.464097222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d1b14c053f26673fce7aaacac55413d0.bindTooltip(
+                `<div>
+                     Ústav fyziky plazmatu AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0d3db4a144c062e1e74949ce4601fa79 = L.marker(
+                [50.07352222222222, 14.42024722222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0d3db4a144c062e1e74949ce4601fa79.bindTooltip(
+                `<div>
+                     Ústav hematologie a krevní transfuze - Středisko vědeckých lékařských informací
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4e80b97883035857e573ff463cee69ac = L.marker(
+                [50.127626944444444, 14.385144166666667],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_4e80b97883035857e573ff463cee69ac.bindTooltip(
+                `<div>
+                     Ústav chemických procesů AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a8a83113bed6fffa60ca1eef5b768b7a = L.marker(
+                [50.122572222222225, 14.468144444444444],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_a8a83113bed6fffa60ca1eef5b768b7a.bindTooltip(
+                `<div>
+                     Ústav informatiky AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_70e31cbe9785692a8d86fef729254457 = L.marker(
+                [50.098058333333334, 14.394163888888889],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_70e31cbe9785692a8d86fef729254457.bindTooltip(
+                `<div>
+                     Ústav leteckého zdravotnictví Praha - vědecká studijní knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_474906c6bc7a52b96428d2e5140a6a91 = L.marker(
+                [50.08663333333334, 14.338605555555556],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_474906c6bc7a52b96428d2e5140a6a91.bindTooltip(
+                `<div>
+                     Ústav makromolekulární chemie AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_70f180aaacdff6d12e76f9160f1f7dcd = L.marker(
+                [50.10565555555556, 14.391391666666665],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_70f180aaacdff6d12e76f9160f1f7dcd.bindTooltip(
+                `<div>
+                     Ústav organické chemie a biochemie AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5020cbfa4e12d9f54cd52b70033b65b6 = L.marker(
+                [50.08893055555556, 14.433405555555556],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5020cbfa4e12d9f54cd52b70033b65b6.bindTooltip(
+                `<div>
+                     Ústav pro českou literaturu AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0f423355fe72a23d3279efcf423b3cef = L.marker(
+                [50.116083333333336, 14.391055555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0f423355fe72a23d3279efcf423b3cef.bindTooltip(
+                `<div>
+                     Ústav pro hydrodynamiku AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2156a88536ee032e233617b913c9ce1d = L.marker(
+                [50.12271944444444, 14.467938333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2156a88536ee032e233617b913c9ce1d.bindTooltip(
+                `<div>
+                     Ústav pro jazyk český AV ČR, v. v. i. - Kabinet studia jazyků - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1e342a79b9d4b4b4bb23777dbd4afed2 = L.marker(
+                [50.08735, 14.416783333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_1e342a79b9d4b4b4bb23777dbd4afed2.bindTooltip(
+                `<div>
+                     Ústav pro jazyk český AV ČR, v. v. i. - oddělení OVI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3e9d30715bf280a75ccb8e7cc1e3c881 = L.marker(
+                [50.06224444444444, 14.419333333333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_3e9d30715bf280a75ccb8e7cc1e3c881.bindTooltip(
+                `<div>
+                     Ústav pro péči o matku a dítě - Lékařská knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_09d4997a01ba8e379675c42d9fcf8c62 = L.marker(
+                [50.08683055555556, 14.400061111111112],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_09d4997a01ba8e379675c42d9fcf8c62.bindTooltip(
+                `<div>
+                     Ústav pro soudobé dějiny AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d64df29e47e69f7ec5daafbc5ea227e6 = L.marker(
+                [50.089710000000004, 14.433941944444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d64df29e47e69f7ec5daafbc5ea227e6.bindTooltip(
+                `<div>
+                     Ústav pro studium totalitních režimů - Knihovna Jána Langoše
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_390c0f5272403c12e84ec5d2f9fa735d = L.marker(
+                [50.082075, 14.418097222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_390c0f5272403c12e84ec5d2f9fa735d.bindTooltip(
+                `<div>
+                     Ústav státu a práva AV ČR, v. v. i. - Středisko vědeckých informací - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_11476632c5a5fa3e9961b7c668ecb056 = L.marker(
+                [50.11806111111111, 14.463727777777777],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_11476632c5a5fa3e9961b7c668ecb056.bindTooltip(
+                `<div>
+                     Ústav struktury a mechaniky hornin AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dae5bf1ed6e8272f76b06a6c10f9cdfa = L.marker(
+                [50.120530555555554, 14.505502777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_dae5bf1ed6e8272f76b06a6c10f9cdfa.bindTooltip(
+                `<div>
+                     Ústav teoretické a aplikované mechaniky AV ČR, v. v. i. - Odborná knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a3114bea3bab6787dcaae9fb2183e405 = L.marker(
+                [50.12274722222222, 14.470086111111112],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_a3114bea3bab6787dcaae9fb2183e405.bindTooltip(
+                `<div>
+                     Ústav teorie informace a automatizace AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fd3a860994bfaa2461cbcb5291ca2e54 = L.marker(
+                [50.124408333333335, 14.46562222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_fd3a860994bfaa2461cbcb5291ca2e54.bindTooltip(
+                `<div>
+                     Ústav termomechaniky AV ČR, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_83cc4852d4ad91541f3a90e2f8e24358 = L.marker(
+                [50.073038888888895, 14.415363888888889],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_83cc4852d4ad91541f3a90e2f8e24358.bindTooltip(
+                `<div>
+                     Ústav zdravotnických informací a statistiky ČR - Odbor informačních technologií - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5ecec235ad0dcf0b30186ef3e06f6079 = L.marker(
+                [50.01849166666666, 14.467719444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5ecec235ad0dcf0b30186ef3e06f6079.bindTooltip(
+                `<div>
+                     Ústav živočišné fyziologie a genetiky AV ČR, v. v. i. - Sekce Praha - Středisko vědeckých informací - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d1014594da6a5695b40c9f4812c10398 = L.marker(
+                [50.090580555555555, 14.363458333333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_d1014594da6a5695b40c9f4812c10398.bindTooltip(
+                `<div>
+                     Ústřední vojenská nemocnice - Vojenská fakultní nemocnice Praha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_012e5c0caf160552ee3d96055713cbf5 = L.marker(
+                [50.019194444444445, 14.354288888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_012e5c0caf160552ee3d96055713cbf5.bindTooltip(
+                `<div>
+                     Veřejná knihovna Slivenec
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a68138d566d7128da6304ea5b89e330e = L.marker(
+                [50.04051277777778, 14.55355888888889],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_a68138d566d7128da6304ea5b89e330e.bindTooltip(
+                `<div>
+                     Veteránská knihovna Spolku Vlčí Máky
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_72398ef118dd9fd3741f9a51a35b4ef8 = L.marker(
+                [50.10380555555556, 14.400305555555557],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_72398ef118dd9fd3741f9a51a35b4ef8.bindTooltip(
+                `<div>
+                     Vojenský historický ústav Praha - Odbor historicko dokumentační - Oddělení vojenských knihoven
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_144dc59c75a2af373af5a1ab13c600ab = L.marker(
+                [50.126125, 14.532302777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_144dc59c75a2af373af5a1ab13c600ab.bindTooltip(
+                `<div>
+                     Vojenský technický ústav, s. p. - odštěpný závod VTÚLaPVO - Technická knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9c6695cc8aeb867ca9c83dd517f50685 = L.marker(
+                [50.05771111111111, 14.437152777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9c6695cc8aeb867ca9c83dd517f50685.bindTooltip(
+                `<div>
+                     Vrchní státní zastupitelství v Praze - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f623f4f155a988272a0f9e6e2c0bf68f = L.marker(
+                [50.08441666666667, 14.44115],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_f623f4f155a988272a0f9e6e2c0bf68f.bindTooltip(
+                `<div>
+                     Vysoká škola ekonomická v Praze - Centrum informačních a knihovnických služeb
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ed385720a5abd69b8ebc1433acb6fa6c = L.marker(
+                [50.06999722222223, 14.408725],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ed385720a5abd69b8ebc1433acb6fa6c.bindTooltip(
+                `<div>
+                     Vysoká škola finanční a správní, a. s. - Odborná knihovna prof. Mojmíra Helíska
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fcad204cd00c00e04f2ad5c860b01385 = L.marker(
+                [50.103836944444446, 14.390548055555556],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_fcad204cd00c00e04f2ad5c860b01385.bindTooltip(
+                `<div>
+                     Vysoká škola chemicko-technologická v Praze - Centrum informačních služeb
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4158fece21dabdf14eff6f4b5b0de751 = L.marker(
+                [50.058093888888884, 14.432479722222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_4158fece21dabdf14eff6f4b5b0de751.bindTooltip(
+                `<div>
+                     Vysoká škola kreativní komunikace - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7b3e7a8e6bc302942815cfe289e4253a = L.marker(
+                [50.088633333333334, 14.414969444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7b3e7a8e6bc302942815cfe289e4253a.bindTooltip(
+                `<div>
+                     Vysoká škola uměleckoprůmyslová v Praze - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9b564b9b13ed146bfdcb540cb589c18e = L.marker(
+                [50.07150277777778, 14.395320555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9b564b9b13ed146bfdcb540cb589c18e.bindTooltip(
+                `<div>
+                     Vysoká škola zdravotnická, o. p. s. - Středisko vědeckých informací VŠZ,o. p. s. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_584edb38051b250819003719db6a506b = L.marker(
+                [50.08957222222222, 14.425383333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_584edb38051b250819003719db6a506b.bindTooltip(
+                `<div>
+                     Vyšší odborná škola a Střední průmyslová škola dopravní - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0d5e934a5a918880190e75e140a6a45e = L.marker(
+                [50.04509722222222, 14.441747222222222],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_0d5e934a5a918880190e75e140a6a45e.bindTooltip(
+                `<div>
+                     Vyšší odborná škola informačních studií a Střední škola elektrotechniky, multimédií a informatiky - Studijní a informační centrum - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1b5d4ed6d747fae5ce7d2a6e276e9f9c = L.marker(
+                [50.107663888888894, 14.440608333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_1b5d4ed6d747fae5ce7d2a6e276e9f9c.bindTooltip(
+                `<div>
+                     Vyšší odborná škola oděvního návrhářství a Střední průmyslová škola oděvní Praha 7 - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5937eaf456855c6d507bb8d8e3ae3403 = L.marker(
+                [50.091300000000004, 14.420202777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_5937eaf456855c6d507bb8d8e3ae3403.bindTooltip(
+                `<div>
+                     Vyšší odborná škola stavební a Střední průmyslová škola stavební - Školní studijní informační centrum - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e808c1d3aadaa505809e33f00b04f083 = L.marker(
+                [50.099938611111114, 14.386935833333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_e808c1d3aadaa505809e33f00b04f083.bindTooltip(
+                `<div>
+                     Vyšší odborná škola, střední odborná škola pedagogická a Gymnázium Evropská 33 - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_43cae3bd09e44fbfeb63c19f1cf61d75 = L.marker(
+                [50.08448888888889, 14.431647222222221],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_43cae3bd09e44fbfeb63c19f1cf61d75.bindTooltip(
+                `<div>
+                     Vyšší odborná škola textilních řemesel a Střední umělecká škola textilních řemesel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8cbe339a3f7e3308d926db452969be1e = L.marker(
+                [50.08218333333334, 14.456758333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8cbe339a3f7e3308d926db452969be1e.bindTooltip(
+                `<div>
+                     Vyšší odborná škola uměleckoprůmyslová a Střední uměleckoprůmyslová škola - informační středisko
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c128eb7695b87fc77105b87bc586f611 = L.marker(
+                [50.08808888888889, 14.414292222222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_c128eb7695b87fc77105b87bc586f611.bindTooltip(
+                `<div>
+                     Vyšší odborná škola zdravotnická a Střední zdravotnická škola v Praze 1, Alšovo nábřeží 6 - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ff0cdb0186337546a9efac402ba4ba4b = L.marker(
+                [50.084741666666666, 14.432561111111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_ff0cdb0186337546a9efac402ba4ba4b.bindTooltip(
+                `<div>
+                     Výzkumný institut práce a sociálních věcí, v.v.i. - Publikační oddělení a knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2b8ed5707a00417d5be5f5894c1253ae = L.marker(
+                [50.000908333333335, 14.329033333333333],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_2b8ed5707a00417d5be5f5894c1253ae.bindTooltip(
+                `<div>
+                     Výzkumný ústav maltovin Praha, s.r.o. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4a0e4f71e01046f3773c6db2777460db = L.marker(
+                [49.97000416666667, 14.382720277777779],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_4a0e4f71e01046f3773c6db2777460db.bindTooltip(
+                `<div>
+                     Výzkumný ústav monitoringu a ochrany půdy, v. v. i. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_83f9c5a009804f743b0f11a602229ba1 = L.marker(
+                [50.075358333333334, 14.423824999999999],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_83f9c5a009804f743b0f11a602229ba1.bindTooltip(
+                `<div>
+                     Výzkumný ústav pivovarský a sladařský, a.s. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_98a8b2850630a5d6d7187891347ce2c3 = L.marker(
+                [50.111961111111114, 14.3936],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_98a8b2850630a5d6d7187891347ce2c3.bindTooltip(
+                `<div>
+                     Výzkumný ústav vodohospodářský T.G.Masaryka, v. v. i.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a6f144fbda59a0fd689a27b9124c6d39 = L.marker(
+                [50.08655, 14.302733333333334],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_a6f144fbda59a0fd689a27b9124c6d39.bindTooltip(
+                `<div>
+                     Výzkumný ústav zemědělské techniky, v. v. i. - Referát projektové podpory
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8221ecdcdc10c7bbfec8d2523daf81b5 = L.marker(
+                [50.02822777777778, 14.429794444444443],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_8221ecdcdc10c7bbfec8d2523daf81b5.bindTooltip(
+                `<div>
+                     Výzkumný Ústav Železniční, a.s. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_41cedd4d2c780a4b1efaed9752589556 = L.marker(
+                [50.032869444444444, 14.597188888888889],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_41cedd4d2c780a4b1efaed9752589556.bindTooltip(
+                `<div>
+                     Výzkumný ústav živočišné výroby, v. v. i. - Dokumentace a knihovna - knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_19f83c39fe393853a21f0456b72cb474 = L.marker(
+                [50.06211666666666, 14.638183333333332],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_19f83c39fe393853a21f0456b72cb474.bindTooltip(
+                `<div>
+                     Základní knihovna MČ Praha-Koloděje
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_390f4b8bf7c9bff6a28faa343165c926 = L.marker(
+                [50.10495, 14.376088888888889],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_390f4b8bf7c9bff6a28faa343165c926.bindTooltip(
+                `<div>
+                     Základní škola Hanspaulka - školní knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_720b0933c902acff2f363552131f1041 = L.marker(
+                [50.043, 14.447169444444445],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_720b0933c902acff2f363552131f1041.bindTooltip(
+                `<div>
+                     Základní škola Poláčková - školní knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b6b3a1a17379f31bfd8de4689d6c833e = L.marker(
+                [50.12521944444445, 14.45553611111111],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_b6b3a1a17379f31bfd8de4689d6c833e.bindTooltip(
+                `<div>
+                     Zeměměřický úřad - Ústřední archiv zeměměřictví a katastru
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9b89cbdd120a05ea8727dfcb1f66dbbe = L.marker(
+                [50.06052222222222, 14.544827777777778],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_9b89cbdd120a05ea8727dfcb1f66dbbe.bindTooltip(
+                `<div>
+                     ZENTIVA, k.s. - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6a29aa3daafb610a65e11ef20754c6ce = L.marker(
+                [50.1175, 14.412172222222223],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_6a29aa3daafb610a65e11ef20754c6ce.bindTooltip(
+                `<div>
+                     Zoo Praha - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_324c9f607a9aa77ab28c97b57617282b = L.marker(
+                [50.011355555555554, 14.479780555555555],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_324c9f607a9aa77ab28c97b57617282b.bindTooltip(
+                `<div>
+                     ZŠ Kunratice - Školní knihovna a studijní centrum
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fe86f72c49751556a8470dc7bcf15b2e = L.marker(
+                [50.088591111111114, 14.419118055555556],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_fe86f72c49751556a8470dc7bcf15b2e.bindTooltip(
+                `<div>
+                     Židovská obec v Praze - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7dcb84ad2aaec8f132b70e953780b99f = L.marker(
+                [50.09034722222223, 14.421113888888888],
+                {
+}
+            ).addTo(map_35c04b446c1368952ae1c6523613320e);
+        
+    
+            marker_7dcb84ad2aaec8f132b70e953780b99f.bindTooltip(
+                `<div>
+                     Židovské muzeum v Praze - Knihovna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

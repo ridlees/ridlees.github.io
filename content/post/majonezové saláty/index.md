@@ -8,11 +8,11 @@ tags:
 weight: 1
 ---
 
-## Majonezové saláty
+## Majonézové saláty
 
 Před dvěma týdny jsem si v pracovní kantýně dal něco, co se jmenovalo Rumcajzův salát. Kombinace točeňáku, majonézy a tuším, že papriky mě mírně překvapila. Znal jsem do této doby totiž jen bramborový salát, případně vlaššák či pochoutkáč (a kdybyste mi dali revolver k hlavě, tak booom, rozdil nepoznám).
 
-A tak vcelku logicky vznikla otázka – Jaké druhy majonézaových salátů známe a jakto, že slovem salát myslíme majonézaovou, s prominutím, kejdu? Pojďme si nejprve namazat krajíc.
+A tak vcelku logicky vznikla otázka – Jaké druhy majonézových salátů známe a jakto, že slovem salát myslíme majonézovou, s prominutím, kejdu? Pojďme si nejprve namazat krajíc.
 
 <iframe
   src="/majoneza/mazacka.html"
@@ -40,13 +40,13 @@ Locika je rod rostlin, dle Královské botanické zahrady se jedná o domorodou 
 Tudíž, středověké české země neznaly salát v tom vyznamu, jak ho dnes najdeme v nejednom food courtu. Tento význam, z latinského 
 sal (protoindoevropsky – sal), salis, tedy sůl se začal tento termin použivat pro zeleninu, která byla osolena (salata -> herba salata) nejspíše [Garumem](https://www.hellenic.org.au/post/garum-a-roman-fishy-business). 
 
-Čeština tento smysl salátu začne použivat spíše až v 19. století, protože Jungmannův slovník (1838) termín Salát (Salátek, Saláteček) chápe jako převzeninu z italského salata [Toto jsem řešil s PhDr. Sochorem, nejspíše se bude jednat o Benátštinu], značí zeleninové pokrmi z soli a octa, nebo každé jídlo s olejem a octem připravené, zvláště je-li studené bez další upravy. Zmiňuje slanečkový, sardelový, hlávkový, bramborový, okurkový, chmelový. Povšimněme si, že zde již je zminěn bramborový salát, který v této době značil spíše brambory s octem (*HANSGIRGOVÁ, Františka. Nová česká kuchařka, aneb, Navedení ku připravování všelikých pokrmů, hodících se pro skrovnou i skvostnější domácnost. V Praze: I.L. Kober, 1866, s. 148. Dostupné také z: https://ndk.cz/uuid/uuid:2dedbde6-555b-41d6-b07d-7c3eecc9da05*). majonéza se dle stejné kuchařky použivala s rybami. Podobně salát chápe i *HINDHEDE, Mikkel a Josef KAFKA. Reformní kuchařka. Praha: Šimáček, 1911, s. 187. Dostupné také z: https://ndk.cz/uuid/uuid:36566570-c47c-11e7-8170-005056822549* a dokonce i sama Rettigová nemluví o majonézaovém salatu, viz *RETTIGOVÁ, Magdalena Dobromila, Ida CALIGARIS a Eliška NEUBAUEROVÁ. Velká kuchařka: podrobné navedení k upravování všech druhů pokrmů a nápojů. Praha: Kober, 1912, s. 107. Dostupné také z: https://ndk.cz/uuid/uuid:6a5cb160-2933-11e7-a38c-005056827e51*. Majonéza, psáno mayonnaisa, se přidává k studeným pokrmům (ryby, kuře, racci).
+Čeština tento smysl salátu začne použivat spíše až v 19. století, protože Jungmannův slovník (1838) termín Salát (Salátek, Saláteček) chápe jako převzeninu z italského salata [Toto jsem řešil s PhDr. Sochorem, nejspíše se bude jednat o Benátštinu], značí zeleninové pokrmi z soli a octa, nebo každé jídlo s olejem a octem připravené, zvláště je-li studené bez další upravy. Zmiňuje slanečkový, sardelový, hlávkový, bramborový, okurkový, chmelový. Povšimněme si, že zde již je zminěn bramborový salát, který v této době značil spíše brambory s octem (*HANSGIRGOVÁ, Františka. Nová česká kuchařka, aneb, Navedení ku připravování všelikých pokrmů, hodících se pro skrovnou i skvostnější domácnost. V Praze: I.L. Kober, 1866, s. 148. Dostupné také z: https://ndk.cz/uuid/uuid:2dedbde6-555b-41d6-b07d-7c3eecc9da05*). majonéza se dle stejné kuchařky použivala s rybami. Podobně salát chápe i *HINDHEDE, Mikkel a Josef KAFKA. Reformní kuchařka. Praha: Šimáček, 1911, s. 187. Dostupné také z: https://ndk.cz/uuid/uuid:36566570-c47c-11e7-8170-005056822549* a dokonce i sama Rettigová nemluví o majonézovém salatu, viz *RETTIGOVÁ, Magdalena Dobromila, Ida CALIGARIS a Eliška NEUBAUEROVÁ. Velká kuchařka: podrobné navedení k upravování všech druhů pokrmů a nápojů. Praha: Kober, 1912, s. 107. Dostupné také z: https://ndk.cz/uuid/uuid:6a5cb160-2933-11e7-a38c-005056827e51*. Majonéza, psáno mayonnaisa, se přidává k studeným pokrmům (ryby, kuře, racci).
 
-První zmíňku, co jsem zatím dohledal (stále hledám), tak je z roku 1897. Jedná se o bramborový salát s majonézou, či případně zelinový salat s majonézaou z *Kuchařská kniha: sbírka vyzkoušených jídelních předpisů. V Praze: F. Šimáček, 1897, s. 403. Dostupné také z: https://ndk.cz/uuid/uuid:294b8130-ed8b-11e6-8d33-005056825209*. Zde už máme i návrh argumentační linky, která ukazuje, proč salát je salát. majonéza je zde psána jako olejová omáčka, tedy naprosto přesně splňuje podmínky stanovené Jungmannem. To nám potvrzuje i doktorka Michailidu z VŠCHT, která dodává, že majonéza je opravdu aspoň z 50 % olej.
+První zmíňku, co jsem zatím dohledal (stále hledám), tak je z roku 1897. Jedná se o bramborový salát s majonézou, či případně zelinový salat s majonézou z *Kuchařská kniha: sbírka vyzkoušených jídelních předpisů. V Praze: F. Šimáček, 1897, s. 403. Dostupné také z: https://ndk.cz/uuid/uuid:294b8130-ed8b-11e6-8d33-005056825209*. Zde už máme i návrh argumentační linky, která ukazuje, proč salát je salát. majonéza je zde psána jako olejová omáčka, tedy naprosto přesně splňuje podmínky stanovené Jungmannem. To nám potvrzuje i doktorka Michailidu z VŠCHT, která dodává, že majonéza je opravdu aspoň z 50 % olej.
 
 O trochu později se sektáváme s tím, že samotné majonézay jsou brány jako příloha k salátum, viz *POSNEROVÁ, Iška. Kuchařská příručka pro rodinu o třech i více členech: praktické rady pro mladé hospodyňky se zřetelem na dnešní poměry prodejné. Praha: A. Neubert, 1916, s. 64. Dostupné také z: https://ndk.cz/uuid/uuid:ed901c33-c746-4796-8fce-a6af5d07c652*. A dokonce vyhlášená restaurace u Šroubka (restaurační zařízení Karla Šroubka na Václavském náměstí, Praha) zmiňuje francouzskou majonézau v bramborovém salátu – *ŠROUBEK, Karel. Jak se vaří u Šroubka: Sbírka kuchařských receptů nejoblíbenějších jídel, střídavě denně upravovaných. Praha: nákl. vl., 1912, s. 101. Dostupné také z: https://ndk.cz/uuid/uuid:d9ba12cb-9338-4382-8c36-a16699174e1d*.
 
-Tedy, od přelomu 20. století si již češi (minimálně pražané) pochutnávají na majonézovém bramborovém salátu. Co se týká vlašského salátu tak i zde můžeme mapovat, kde se objevuje. Dobrým zdrojem je kuchařka zaměřující se čistě na saláty (*SOUKUP, Václav. Saláty a jejich úprava: vyzkoušená příruční kniha pro každou hospodyni, kuchařku, majitele jídelen a restaurací, pojednávající o. Praha: Hejda a Tuček, [1904], s. 65. Dostupné také z: https://ndk.cz/uuid/uuid:2b460599-8464-43c4-8a55-da3effd6b8a1*), kde je vlašský salát definován jako lanýžovo-artyčokový salátek s přelivem z vajíček s olejem, což Bc. Martin Bláha, mediální teoretik, spojuje s faux majonézaou v této době trendující na tiktoku. Výhodou je její nižší tučnost, dodává Bláha.
+Tedy, od přelomu 20. století si již češi (minimálně pražané) pochutnávají na majonézovém bramborovém salátu. Co se týká vlašského salátu tak i zde můžeme mapovat, kde se objevuje. Dobrým zdrojem je kuchařka zaměřující se čistě na saláty (*SOUKUP, Václav. Saláty a jejich úprava: vyzkoušená příruční kniha pro každou hospodyni, kuchařku, majitele jídelen a restaurací, pojednávající o. Praha: Hejda a Tuček, [1904], s. 65. Dostupné také z: https://ndk.cz/uuid/uuid:2b460599-8464-43c4-8a55-da3effd6b8a1*), kde je vlašský salát definován jako lanýžovo-artyčokový salátek s přelivem z vajíček s olejem, což Bc. Martin Bláha, mediální teoretik, spojuje s faux majonézou v této době trendující na tiktoku. Výhodou je její nižší tučnost, dodává Bláha.
 
 V zdravotní kuchařce se o vlašském salátu taktéž zmiňují, nicméně jej nedoporučují nemocným a neobsahuje majonézau. Stojí totiž na horčičném základu. Místo toho se zde dozvíme poučku, která se každému tvůrci salátu hodí, tedy:„»Dej soli jako moudrý, octa jako lakomec, oleje jako marnotratník a míchej jako blázen!«" z *J.K. a Josef WIEL. Zdravotní kuchařka jakožto doplněk každé jiné kuchařské knihy, čili, Poučení o hodnotě potravin, o jejich stravitelnosti .... Praha: Cyrillo-Methodějská knihtiskárna a nakladatelství V. Kotrba, 1896, s. 83. Dostupné také z: https://ndk.cz/uuid/uuid:624219f0-f4a1-11e6-bf7e-005056825209* 
 
@@ -54,12 +54,12 @@ Poslední zajimavou zmíňku o vlašském salátu (ve snaze najít první verze)
 
 ------------
 
-Našli jsme si v starých spisech, že už začátku 20. století máme majonézové saláty. A jaké máme, ptá se to dítě ve mě? Podíváním se do archivu máme 2 dobré zdroje pro saláty s majonézaou. První je *JANKŮ-SANDTNEROVÁ, Marie. Zeleniny a saláty. V Praze: Československá grafická Unie, 1934. Dostupné také z: https://ndk.cz/uuid/uuid:2d70fdf7-ba91-482b-9f0e-79d8734fcf23*. Druhá jsou socialistické normy, tedy konkrétně *SYROVÁTKOVÁ, R.. Normy studených jídel: úsekové normy pro výrobu studených jídel v závodech veřejného stravování a v lahůdkářských výrobnách maloobchodu potrav. zbožím. Praha: Vydavatelství obchodu, 1965, s. Dostupné také z: https://ndk.cz/uuid/uuid:4bde95b0-5b96-11e7-95d2-005056825209* Máme tak 30 let rozdíl mezi našimi datovými zdroji. 
+Našli jsme si v starých spisech, že už začátku 20. století máme majonézové saláty. A jaké máme, ptá se to dítě ve mě? Podíváním se do archivu máme 2 dobré zdroje pro saláty s majonézou. První je *JANKŮ-SANDTNEROVÁ, Marie. Zeleniny a saláty. V Praze: Československá grafická Unie, 1934. Dostupné také z: https://ndk.cz/uuid/uuid:2d70fdf7-ba91-482b-9f0e-79d8734fcf23*. Druhá jsou socialistické normy, tedy konkrétně *SYROVÁTKOVÁ, R.. Normy studených jídel: úsekové normy pro výrobu studených jídel v závodech veřejného stravování a v lahůdkářských výrobnách maloobchodu potrav. zbožím. Praha: Vydavatelství obchodu, 1965, s. Dostupné také z: https://ndk.cz/uuid/uuid:4bde95b0-5b96-11e7-95d2-005056825209* Máme tak 30 let rozdíl mezi našimi datovými zdroji. 
 
 V *Zeleniny a saláty* najdeme:
 
-1. **Pažitkovou majonézau** (Pažítková majonéza: vařené prelisované žloutky smícháme se syrovými žloutky, přidáme sůl a stále míchajíce přikapáváme olej. Když se majonéza spojuje do hroudy, okyselíme ji (stále mí- chajíce šlehači metlou) citrónovou šťavou, octem, přidáme sekanou čerstvou pažitku a tlučený bílý pepř.)
-2. **Bramborový salát s majonézaou** (Bramborový salát s majonézou Ve slupce uvařené oloupané brambory nakrájíme na kostečky a pokropíme stejnoměrně citrónovou šťavou a necháme odleželi 10 minut. Oloupané jablko, kyselou okurku a cibuli jemně usekáme a zamícháme do brambor. Promíchané brambory podle chuti osolíme a opepříme. Zvlášť si připravíme takto majonézu: do mísy dáme čerstvé žloutky, osolíme je a dobře utřeme. Poté stále míchajíce metlou na sníh přikapáváme čerstvý olivový olej tak dlouho, až se nám majonéza kolem metly spojuje do hrudky, načež stále míchajíce přikapeme citrónovou šťávu. Do rozetřené majonézy přikapáváme znovu olej tak dlouho, až se nám opět majonéza spojuje. Do husté majonézy přikapeme stále míchajíce ocet, cukr, tlučený pepř, an- glickou omáčku a jemnou hořčici. Část hotové majonézy zamícháme do připravených brambor, promíchaný salát upravíme na skle- něnou mísu a polijeme ostatní majonézou. Salát necháme ve studenú 6 hodin uleželi. Před podáváním jej ozdobíme zelenou ka- deřavou petrželkou, citronem a vejci, ředkvičkami a hlávkovým salátem.)
+1. **Pažitkovou majonézu** (Pažítková majonéza: vařené prelisované žloutky smícháme se syrovými žloutky, přidáme sůl a stále míchajíce přikapáváme olej. Když se majonéza spojuje do hroudy, okyselíme ji (stále mí- chajíce šlehači metlou) citrónovou šťavou, octem, přidáme sekanou čerstvou pažitku a tlučený bílý pepř.)
+2. **Bramborový salát s majonézou** (Bramborový salát s majonézou Ve slupce uvařené oloupané brambory nakrájíme na kostečky a pokropíme stejnoměrně citrónovou šťavou a necháme odleželi 10 minut. Oloupané jablko, kyselou okurku a cibuli jemně usekáme a zamícháme do brambor. Promíchané brambory podle chuti osolíme a opepříme. Zvlášť si připravíme takto majonézu: do mísy dáme čerstvé žloutky, osolíme je a dobře utřeme. Poté stále míchajíce metlou na sníh přikapáváme čerstvý olivový olej tak dlouho, až se nám majonéza kolem metly spojuje do hrudky, načež stále míchajíce přikapeme citrónovou šťávu. Do rozetřené majonézy přikapáváme znovu olej tak dlouho, až se nám opět majonéza spojuje. Do husté majonézy přikapeme stále míchajíce ocet, cukr, tlučený pepř, an- glickou omáčku a jemnou hořčici. Část hotové majonézy zamícháme do připravených brambor, promíchaný salát upravíme na skle- něnou mísu a polijeme ostatní majonézou. Salát necháme ve studenú 6 hodin uleželi. Před podáváním jej ozdobíme zelenou ka- deřavou petrželkou, citronem a vejci, ředkvičkami a hlávkovým salátem.)
 3. **Celerový salát s ořechy** (Celerový salát s ořechy Oloupaný syrový celer ustrouháme, smícháme jej s oloupanými drobně nakrájenými jablky a hrubě sekanými vlašskými ořechy. Připravený celer s ovocem promícháme octem, olejem, solí a pepřem a podáváme. Nebo celer s ovocem zamícháme do připravené majonézy a upravíme na skleněnou mísu, ozdobíme hláv- kovým salátem a nakrájeným citronem)
 4. **Čekankový salát** (Čekankový salát II. Vyprané, na nudličky nakrájené, vymoěené, osušené lístky ěekanky promícháme na míse s upravenou majonézou. Povrch salátu posypeme vařeným, sekaným, uzeným jazykem neb šunkou a podáváme.)
 5. **Rajský salát II.** (Opraná kulatá rajská jablíčka prolijeme na sítě nejdříve vařící vodou, poté studenou vodou, načež je oloupáme. Ostrým nožem neb zvláštním zubatým nožem nakrájíme kolečka, složíme je na mísu, promícháme málo solí, pepřem, sekanou cibulkou, strou- hanými lískovými neb burskými oříšky. Poté si připravíme takto salátovou směs: olej, citrónovou šťávu, cukr, sůl a strouhaný křen dobře metlou na sníh ušleháme a nalijeme na připravená rajská jablíčka. Místo směsi můžeme rajská jablíčka politi majonézou)
@@ -73,7 +73,7 @@ V *Zeleniny a saláty* najdeme:
 
 ----------
 
-V *Normách* už je situace o dost bohatší. Zjevně mezi 30 lety vzniklo nemalé množství majonézaových pokrmů, neboť zde najdeme následující (ignorujeme produkty s majonézaou, co nejsou salát [tedy různá vejce a takové pochutiny], opakující se recepty či chlebíčky nebo jednohubky):
+V *Normách* už je situace o dost bohatší. Zjevně mezi 30 lety vzniklo nemalé množství majonézových pokrmů, neboť zde najdeme následující (ignorujeme produkty s majonézou, co nejsou salát [tedy různá vejce a takové pochutiny], opakující se recepty či chlebíčky nebo jednohubky):
 
 * **Majonéza**
 * **Vařené majonéza** - kvůli strachu ze salmonely
@@ -86,7 +86,7 @@ a teď konečně k salátům:
 1. Speciální vlašský salát
 2. Vlašský salát
 3. Francouzský salát
-4. Bramborový salát s majonézaou
+4. Bramborový salát s majonézou
 5. Vajíčkový salát
 6. Rybí salát z čerstvých ryb
 7. Třeboňský salát
@@ -100,7 +100,7 @@ a teď konečně k salátům:
 15. Salát z uzenáčů
 16. Krabí salát
 17. Italský salát
-18. Sójový salát s majonezou
+18. Sójový salát s majonézou
 19. Sójový salát se zeleninou
 20. Salát z lososa s majonézou
 21. Masový salát
@@ -145,7 +145,7 @@ Fíííha, to bylo majonézy. A teď jdu dojíst ten krajíc nahoře. Dobrou chu
 
 ## 1. Postskript k majonézovým salátum
 
-O pár dní později, přibližně o týden, zasedám v gruzínské kavárně *matoka k svému laptopu a píšu následující řádky. Pokusil jsem se spojit s obchodními řetězci ohledně majonezových salátů. První mi odpověděl Lidl, který má v nabídce následující saláty obsahující majonézu.
+O pár dní později, přibližně o týden, zasedám v gruzínské kavárně *matoka k svému laptopu a píšu následující řádky. Pokusil jsem se spojit s obchodními řetězci ohledně majonézových salátů. První mi odpověděl Lidl, který má v nabídce následující saláty obsahující majonézu.
 
 * Norský salát s krabí příchutí
 * Pařížský
@@ -225,5 +225,64 @@ O točeňáku, který jsme často do salátu dávali, zde není ani zmíňka! A 
 Podívame-li se na graf, kdy se jednotlivé normy ustanovily, tak vidíme, že nejvíce jich bylo ustanoveno v roce 2015, poslední pak rok 2021.
 ![](chart.png)
 
-Cechovní normy taktéž označují i výrobky, které je splňují, což je pro naše účely 11 produktů. 5 jich má jihomoravská společnost DELIMAX a.s., 6 moravskoslezská GASTRO-MENU EXPRESS a.s..  Jedná se o: [Rybí salát s majonézou - GRAN MARE z 4.12.2019](https://www.cechovninormy.cz/index.php/vyrobky/1118-rybi-salat-s-majonezou-gran-mare), [Šunkové závitky s pařížským salátem v aspiku - KARLOVA KORUNA z 16.4.2020](https://www.cechovninormy.cz/index.php/vyrobky/1262-sunkove-zavitky-s-parizskym-salatem-v-aspiku-karlova-koruna), [Mexický salát – Chef select z 21.4.2020](https://www.cechovninormy.cz/index.php/vyrobky/1263-mexicky-salat-chef-select), [Mexický salát – Chef select 400 g z 21.4.2020](https://www.cechovninormy.cz/index.php/vyrobky/1265-mexicky-salat-chef-select-400-g). [Rybí salát v majonéze z 10.6.2022](https://www.cechovninormy.cz/index.php/vyrobky/3103-rybi-salat-v-majoneze) pro DELIMAX. A [Camping salát Karlova Koruna z 2.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4698-camping-salat-karlova-koruna), [Mexický salát Karlova Koruna z 2.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4699-mexicky-salat-karlova-koruna), [Bramborový salát (K-Jarmark) (CZE) z 2.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4700-bramborovy-salat-k-jarmark-cze), [Vlašský salát (K-Jarmark) (CZE) z 2.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4701-vlassky-salat-k-jarmark-cze), [Pařížský salát (K-Jarmark) 150 g (CZE) z 5.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4706-parizsky-salat-k-jarmark-150-g-cze) a [Vlašský salát Karlova Koruna z 5.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4707-vlassky-salat-karlova-koruna).
+Cechovní normy taktéž označují i výrobky, které je splňují, což je pro naše účely 11 produktů. 5 jich má jihomoravská společnost DELIMAX a.s., 6 moravskoslezská GASTRO-MENU EXPRESS a.s..  Jedná se o: [Rybí salát s majonézou - GRAN MARE z 4.12.2019](https://www.cechovninormy.cz/index.php/vyrobky/1118-rybi-salat-s-majonezou-gran-mare), [Šunkové závitky s pařížským salátem v aspiku - KARLOVA KORUNA z 16.4.2020](https://www.cechovninormy.cz/index.php/vyrobky/1262-sunkove-zavitky-s-parizskym-salatem-v-aspiku-karlova-koruna), [Mexický salát – Chef select z 21.4.2020](https://www.cechovninormy.cz/index.php/vyrobky/1263-mexicky-salat-chef-select), [Mexický salát – Chef select 400 g z 21.4.2020](https://www.cechovninormy.cz/index.php/vyrobky/1265-mexicky-salat-chef-select-400-g). [Rybí salát v majonéze z 10.6.2022](https://www.cechovninormy.cz/index.php/vyrobky/3103-rybi-salat-v-majoneze) pro DELIMAX. A [Camping salát Karlova Koruna z 2.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4698-camping-salat-karlova-koruna), [Mexický salát Karlova Koruna z 2.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4699-mexicky-salat-karlova-koruna), [Bramborový salát (K-Jarmark) (CZE) z 2.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4700-bramborovy-salat-k-jarmark-cze), [Vlašský salát (K-Jarmark) (CZE) z 2.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4701-vlassky-salat-k-jarmark-cze), [Pařížský salát (K-Jarmark) 150 g (CZE) z 5.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4706-parizsky-salat-k-jarmark-150-g-cze) a [Vlašský salát Karlova Koruna z 5.8.2024](https://www.cechovninormy.cz/index.php/vyrobky/4707-vlassky-salat-karlova-koruna) od GASTRO-MENU EXPRESS.
 
+## 2. Postskript k majonézovým salátum
+
+Čas běží, když se člověk dobře baví. A my tu máme další postskript. Tentokrát se podíváme na mezinárodní vliv na majonézové saláty. Za tuto inspiraci vděčím Kláře Filipové. Tak pojdme na to.
+
+Nepřekvapivě v dobách 19. století, do kterých se naše pátrání několikrát opřelo jak já do dveří po bojarém víkendu, bylo na území východní Evropy hlavním hráčem Ruské carství. V něm nacházíme salát vytvořený belgicko-francouzským kuchařem Lucienem Olivierem narozením v Moskvě. V ní v restauraci do češtiny překládané jako *Ermitáž* v 60. letech 19. století stvořil takzvaný [Olivierův salát](https://cs.wikipedia.org/wiki/Salát_Olivier) (Goldstein, 2022:7). 
+
+Salát se těšil velké popularitě, až takové, že Ivan Ivanov, kuchař v *Ermitáži* se pokusil recept ukrást. Vytvořil tak pro restauraci Moskva (o které předpokládám, že byla v Moskvě, takže Moskva – Moskva) vlastní verzi – Столичный (anglicky překládán jako metropolitan/capital, do češtiny můžeme použít "hlavněměstový" či chceme-li si pohrát s jazykem, tak "kapitalový"). Od Olivierova se liší použitým masem. V Kapitálovém salátu (hihi) je nejčastěji kuřecí maso, ať už vařené nebo uzené. Podoba Olivierova salátu se lišila – nejspíše se cyklicky střídala v raccích, uzené kachně, telecí jazyk a další luxusněji chápané zdroje proteinů (což není uplně pravda, protože Goldstein tvrdí, že první olivierův salát byl z kuřecího. Později byl vylepšen a zhoršen v kapitalový, viz: Goldstein, 2O12:28)
+
+Dle Wikipedie byl první recept z roku (31. Března) 1894 v *Наша пища*. Bohužel se mi tento plátek nepodařilo najít v žádném archivu, což bude proto, že neumím rusky. Povšimněme si, že mnou první nalezený recept v české koltině je z roku 1897, tedy 3. roky poté. Proto mohu říci, že text ve Vlastě o tom, jak legionáři dovezli bramborový salát je možná tak hezký příběh, ale spíše nepravdivý ([Zdroj](https://www.vlasta.cz/clanek/bramborovy-salat-20211218.html)). Nicméně, tento článek i zmiňuje, že inspirací pro salát byla ruská smetánka, co všechno míchala dohromady (to se zdá o trošku přesvědčivější příběh, vycházeje-li z českých realii a toho, že u nás majonéza byla příloha k rakům a rybám.) 
+
+Knižní zmíňka je dle wikipedie z *Руководство к изучению основ кулинарного искусства* od P. Aleksandrova z roku 1897 (tedy stejný rok, co máme bramborový salát my). Nicméně ve vydání z roku 1897 pro kličová slova *салат Оливье* jsem nic nenašel. Pro komparativní gastrologii (obor co jsem teď založil) bychom si měli dát recepty vedle sebe. *Kuchařská kniha: sbírka vyzkoušených jídelních předpisů* nám dává dvě verze – jeden bramborový salát ala Rettigová a jeden s majonéžou, který je bez masa. Na ruských stránkách jsem ještě našel zmíňku, že:
+> V předrevolučních dobách (před rokem 1917) byl salát Olivier zaznamenán pouze ve dvou kuchařkách. První recept byl publikován v knize P. P. Alexandrovové „Руководство к изучению основ кулинарного искусства“ (Návod ke studiu základů kulinářského umění) z roku 1897. Druhý se objevil v knize K. K. Morochovceva „Полный подарок молодым хозяйкам“ (Kompletní dárek mladým hospodyňkám) z roku 1904.
+Zajímavé je, že v obou případech se salát připravuje se stejnou hlavní ingrediencí. Pamatujete na verše Vladimira Majakovského napsané v roce 1917: „Jez ananasy, jeřábky žvýkej, tvůj poslední den přichází, buržuji!“? Zdá se, že na přelomu století byli ananas a jeřábci symboly mizejícího blahobytu. Právě maso z jeřábků (divokých ptáků) a račí ocásky byly hlavními ingrediencemi předrevolučního salátu Olivier. [Hvězda novoročního stolu. Úžasná historie salátu Olivier](https://adm-krestcy.gosuslugi.ru/dlya-zhiteley/novosti-i-reportazhi/novosti_919.html)
+
+Dále tento zdroj přepisuje příběh o Ivanovi, viz:
+
+> Pryč s buržoazními ingrediencemi
+Na začátku 30. let 20. století jistý Ivan Michajlovič Ivanov, šéfkuchař restaurace „Moskva“, který v mládí pracoval jako učedník u samotného Oliviera, zrekonstruoval klasický recept podle paměti. Nahradil však ideologicky nevhodného jeřábka dělnicko-rolnickým kuřetem a ze salátu odstranil kapary a nakládanou zeleninu (pikuly). Tak se salát Olivier proměnil v salát „Stoličný“. Pamětníci, kteří ochutnali obě varianty, však tvrdili, že chuť pokrmů byla podobná.
+Stravovací komplex, který byl součástí hotelu „Moskva“ (zjednodušeně restaurace „Moskva“), zahájil provoz v roce 1937. Když otevřeme slavnou „Knihu o chutné a zdravé stravě“ z roku 1939, salát „Stoličný“ tam nenajdeme – je tam pouze salát ze zvěřiny. V učebnici „Kulinářství“ z roku 1955 už jsou „Stoličné“ saláty dva – s kuřecím masem a s bílou rybou. V polovině 60. let se objevuje salát „Moskevský“, kde je kuřecí maso nahrazeno doktorským salámem.
+Od té doby se Olivier pevně usadil na seznamu nejoblíbenějších salátů Rusů. Je to jídlo, kterým obvykle začíná každá sváteční hostina. I když se dnes připravuje na různé způsoby – s drůbeží, masem, rybami, salámem, a dokonce i s mořskými plody – podstata se nemění: salát Olivier byl na svátečním stole vždy vítaným pokrmem a takovým zůstává dodnes. (Tamtéž)
+
+Češi o salátu Olivier věděli minimálně již v 1922, neboť Národní listy ho zmiňují v Různých zprávách, moskevské menu – *Národní listy. Praha: Julius Grégr, 21.6.1922, 62(167), s. 4. ISSN 1214-1240. Dostupné také z: https://ndk.cz/uuid/uuid:ee6983f0-691d-11e7-b92d-005056827e51*
+
+Recept dle Goldstein vypadá následovně:
+
+* 450 g vařeného kuřecího masa, nakrájeného na kousky velikosti sousta (1 pound)
+* 900 g varných brambor / typ A nebo B (cca 4 střední kusy) (2 pounds)
+* 3 velké mrkve, oškrábané
+* 1 ½ hrnku mraženého hrášku
+* 2 kyselkavá jablka, zbavená jádřinců, ale neoloupaná
+* 2 celé jarní cibulky (naťová cibulka)
+* 3 velké kyselé okurky (nakládačky)
+* 1 hrnek oloupané a na kostičky nakrájené okurky (hadovky)
+* 3 vejce natvrdo, oloupaná a nasekaná
+* ¼ hrnku nasekaného čerstvého kopru
+* ¼ hrnku nasekané čerstvé petrželky
+* 4 lžíce bílého vinného octa
+* 1 hrnek majonézy
+* ½ hrnku zakysané smetany
+* Sůl a čerstvě mletý bílý pepř na dochucení
+
+Z toho vidíme, že s naším salátem jsou některé ingredience společné, ale o přímou shodu nevidíme.
+
+Olivierův salát se šiřil (a nebo možná vznikal přirozeně) světem. Dle hledání tasteatlas můžeme mapu světa tohoto pokrmu nakreslit následovně:
+
+![](tasteatlas.png)
+
+Za zmíňku stojí Rumunsko, které do něj dává hovězí (proto je to hovězí salát) a turecko, které mu říkalo ruský salát (Rus Salatasi) ale taky jako americký salát (Amerikan Salatası).
+
+Zmíním taktéž chorvatsko, kde se mu říká Francouzský salát (možná buďto podle použití francouzské majonézy či dle národnosti Oliviera). Od kamarádky jsem sehnal přísady:
+
+* krumpir | brambory
+* kiseli krastavci | kyselé okurky
+* mrkva | mrkev
+* grasak (grašak) | hrášek
+* majoneza
+* (kuhano jaje) | vařené vejce
+
+Tím bych mezinárodní okénko prozatím uzavřel.

@@ -286,3 +286,15 @@ Zmíním taktéž chorvatsko, kde se mu říká Francouzský salát (možná bu�
 * (kuhano jaje) | vařené vejce
 
 Tím bych mezinárodní okénko prozatím uzavřel.
+
+## 3. Postskript k majonézovým salátům
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/29427040"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/29427040/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+
+Z otevřených dat ČSU [Sklizeň zemědělských plodin](https://data.gov.cz/datová-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatové-sady%2F00025593%2Fb98150eb3503a0f0751a99b9f781b1bc) a [Sklizeň zeleniny](https://data.gov.cz/datová-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatové-sady%2F00025593%2F79eea1096761baa84f3677d8e3d64fe4) a z dat cechovní normy jsem vypočítal, kolik tun salátu můžeme získat při plné utilizaci českých sklizní. Dále, využijeme-li výpočet viz výše:
+
+> Na krajíc máme 10 gramů salátu (přibližně pořádný krajíc a přibližně naloženo):
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/29427300"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/29427300/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+
+což je v nejplodnějším roce: **5227952727 krajíců v roce 2009.**

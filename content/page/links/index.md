@@ -1,10 +1,30 @@
 ---
-title: Links
+title: Recommandations
 links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: Michal Kašpárek
+    description: Užasný web užasného dataře
+    website: https://michalkasparek.cz
+  - title: Tereza Jarníková
+    description: Poznámky mé nejoblíbenější oceanografky
+    website: https://tjarnikova.github.io/cti.html
+  - title: Michael Škvrňák
+    description: Poznámky skvělého sociologa a politologa
+    website: https://skvrnami.github.io
+  - title: Kocourovo.eu
+    description: Blog kamaráda o starších technologiích
+    website: https://blog.kocourovo.eu
+  - title: Technomorous
+    description: Blog o starších technologicíh, čtenářský deník a spouta dalšího
+    website: https://technomorous.eu
+  - title: Samizdat
+    description: Lovebrand datařský práce
+    website: https://samizdat.cz
+  - title: Hořký konec okurky
+    description: Skvěle psané poznámky
+    website: https://lexovohome.org
+  - title: Jonathan Grey
+    description: Nehoráznej digital humanities frajer. Sleduji pravidelně
+    website: https://jonathangray.org
 menu:
     main: 
         weight: 4
@@ -14,20 +34,4 @@ menu:
 comments: false
 ---
 
-To use this feature, add `links` section to frontmatter.
-
-This page's frontmatter:
-
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.
+Krátký přehled věcí na internetu, které doporučuji:

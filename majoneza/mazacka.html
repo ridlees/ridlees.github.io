@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Realistic Potato Salad Spread</title>
+
+<style>
+  body {
+    height: 300vh;
+    margin: 0;
+    background: #e9e9e9;
+  }
+
+  .scene {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 350px;
+  }
+
+  .bread, .salad {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .bread {
+    z-index: 1;
+  }
+
+  .salad {
+    z-index: 2;
+    clip-path: inset(0 100% 0 0); /* hidden initially */
+    transition: clip-path 0.1s linear;
+  }
+
+  .knife {
+    position: absolute;
+    width: 180px;
+    top: 120px;
+    left: 0;
+    transform-origin: center;
+    z-index: 3;
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="scene">
+  <img src="bread.png" class="bread">
+  <img src="salad.png" class="salad" id="salad">
+  <img src="knife.png" class="knife" id="knife">
+</div>
+
+<script>
+  const salad = document.getElementById("salad");
+  const knife = document.getElementById("knife");
+
+  let current = 0;
+  let target = 0;
+
+  window.addEventListener("scroll", () => {
+    const scrollTop = window.scrollY;
+    const maxScroll = document.body.scrollHeight - window.innerHeight;
+    target = scrollTop / maxScroll;
+  });
+
+  function animate() {
+    current += (target - current) * 0.1;
+
+    const percent = (1 - current) * 100;
+    salad.style.clipPath = `inset(0 ${percent}% 0 0)`;
+
+    const maxX = 350;
+    const x = current * maxX;
+    const rotation = -20 + current * 40; 
+
+    knife.style.transform = `translateX(${x}px) rotate(${rotation}deg)`;
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+</script>
+
+</body>
+</html>

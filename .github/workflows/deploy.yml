@@ -29,6 +29,7 @@ jobs:
             - uses: actions/setup-go@v5
               with:
                   go-version: "^1.17.0"
+
             - run: go version
 
             - name: Setup Hugo v0.148.2+extended+withdeploy and Dart Sass
@@ -37,7 +38,10 @@ jobs:
                   curl -sL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_withdeploy_${HUGO_VERSION}_linux-amd64.tar.gz" -o hugo.tar.gz
                   sudo tar -xzf hugo.tar.gz -C /usr/local/bin hugo
                   rm hugo.tar.gz
-                  sudo snap install dart-sass
+                  
+                  # Install Dart Sass via npm to prevent snapd hangs
+                  sudo npm install -g sass
+                  
                   hugo version
                   sass --version
 

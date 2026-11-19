@@ -31,12 +31,15 @@ jobs:
                   go-version: "^1.17.0"
             - run: go version
 
-            - name: Setup Hugo
-              uses: peaceiris/actions-hugo@v2
-              with:
-                  hugo-version: "latest"
-                  extended: true
-                  sass-version: "latest" # <--- ADD THIS LINE
+            - name: Setup Hugo v0.148.2+extended+withdeploy and Dart Sass
+              run: |
+                  HUGO_VERSION="0.148.2"
+                  curl -sL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_withdeploy_${HUGO_VERSION}_linux-amd64.tar.gz" -o hugo.tar.gz
+                  sudo tar -xzf hugo.tar.gz -C /usr/local/bin hugo
+                  rm hugo.tar.gz
+                  sudo snap install dart-sass
+                  hugo version
+                  sass --version
 
             - name: Build
               run: hugo --minify --gc
